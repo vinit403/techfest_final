@@ -139,14 +139,14 @@ function OpenBootstrapPopup() {
                             try {
                                 $mail->SMTPDebug = 2;                                       
                                 $mail->isSMTP();                                            
-                                $mail->Host       = 'smtp.gmail.com;';                    
+                                $mail->Host       = 'email-smtp.ap-south-1.amazonaws.com';                    
                                 $mail->SMTPAuth   = true;                             
-                                $mail->Username   = 'jilsvaghasiya333@gmail.com';                 
-                                $mail->Password   = '54575457';                        
+                                $mail->Username   = 'AKIAR3NH6FDMMDNB25EB';                 
+                                $mail->Password   = 'BJM+spGKi0uSUKETgnodvcqdKzyFuZs5Q/pTHEPJyOjY';                        
                                 $mail->SMTPSecure = 'tls';                              
                                 $mail->Port       = 587;  
                               
-                                $mail->setFrom('jilsvaghasiya333@gmail.com', 'JILS VAGHASIYA');           
+                                $mail->setFrom('techpulse2022@gmail.com', 'Techpulse 2022');           
                                 $mail->addAddress($mail);
                                 $mail->addAddress($mail, $name);
                                    
