@@ -93,7 +93,7 @@
                         
                         <div class="row g-4" style="margin-top:10px">
                             <div class="col-md-12">
-                                <a href="https://www.ppsu.ac.in"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px; border-radius:10px;font-family: FontAwesome;"><span></span></a>
+                                <a href="https://www.ppsu.ac.in"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px; border-radius:10px;"><span></span></a>
                             </div>    
                         </div>
                     </div>
@@ -102,7 +102,7 @@
 							<div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
                                 <div class="de-images">
 									<!-- <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images-event/misc/clgimg2.jpeg" alt="" /> -->
-									<video class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images-event/PPSU.mp4" loop autoplay muted alt="" ></video>
+									<video class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/ppsu.mp4" loop autoplay muted alt="" ></video>
 
 								</div>
                             </div>
