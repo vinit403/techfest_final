@@ -93,15 +93,50 @@
                             $eve_register = $event."_register";
                             $sql = "INSERT INTO `$eve_register` (`user_id`) VALUES ('$user')";
                             $result = mysqli_query($connect, $sql);
+
+                            $to = $mail;
+                            $subject = "".$event." registration";
+                            $headers = "From: jilsvaghasiya333@gmail.com";
+                            $body = "You have successfully registered in event ".$event.". Thank You.";
+
+                            mail($to, $subject, $body, $headers);
+
                             header("location: ../success.php");
 
                         }
                         else
                         {
-                            echo '<script type ="text/JavaScript">
-                            alert("You are already in this event")
-                            window.location = "../index.php"
-                           </script>'; 
+                            echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Customer Details Form</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        You already Participated in this event!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    window.onload = function () {
+        OpenBootstrapPopup();
+    };
+    function OpenBootstrapPopup() {
+        $("#simpleModal").modal("show");
+    }
+</script>'; 
                         }
                     }
                 }
