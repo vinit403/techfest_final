@@ -86,8 +86,8 @@
                                                     <ul>
                                                         <li><i class="icon_check_alt2"></i>2 Event </li>
                                                         <li><i class="icon_check_alt2"></i>Certificates</li>
-                                                        <li><i class="icon_check_alt2"></i>Stand-up (Anubhav Singh Bassi)</li>
-                                                        <li><i class="icon_check_alt2"></i>DJ-Night (Sunburn)</li>
+                                                        <li><i class="icon_check_alt2"></i>Stand-up </li>
+                                                        <li><i class="icon_check_alt2"></i>DJ-Night </li>
                                                     </ul>
                                                     <a href="pay_pages/pay_for_package.php" class="btn btn-custom text-white">Purchase</a>
                                                     <p style="color: white;font-size: 10px;">* per ticket, only one person is allowed.</p>
@@ -107,8 +107,8 @@
                                                         <li><i class="icon_check_alt2"></i>4 Event</li>
                                                         <li><i class="icon_check_alt2"></i>1 Workshop</li>
                                                         <li><i class="icon_check_alt2"></i>Certificates</li>
-                                                        <li><i class="icon_check_alt2"></i>Stand-up (Anubhav Singh Bassi)</li>
-                                                        <li><i class="icon_check_alt2"></i>DJ-Night (Sunburn)</li>
+                                                        <li><i class="icon_check_alt2"></i>Stand-up </li>
+                                                        <li><i class="icon_check_alt2"></i>DJ-Night </li>
                                                     </ul>
                                                     <a href="pay_pages/pay_for_premium_package.php" class="btn btn-custom text-white">Purchase</a>
                                                     <p style="color: white;font-size: 10px;">* per ticket, only one person is allowed.</p>

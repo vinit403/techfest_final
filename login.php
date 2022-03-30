@@ -81,6 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $passcode = str_replace("\'", " ", "$passcode");
     $passcode = str_replace("\"", " ", "$passcode");
 
+    $passcode = crypt($passcode);
 
     include "database_connection.php";
     $sql = "SELECT * FROM `user` WHERE user_id = '$user_name'";

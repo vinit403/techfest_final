@@ -65,12 +65,14 @@
 
 
         <!-- section begin -->
-        <section id="section-sponsors ftco-section" data-bgimage="url(images-event/bg/3.png) fixed center no-repeat" >
+        <section id="section-sponsors ftco-section" >
                 <div class="wm wm-border dark wow fadeInDown " style="padding-top:50px;">Contact</div>
                 <div class="container row justify-content-center">
                 <div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
 					<h2 class="heading-section" style="color: whitesmoke; ">Contact</h2>
+                    <div class="separator"><span><i class="fa fa-square"></i></span></div>
+                    <div class="spacer-single"></div>
 				</div>
 			</div>
 			<div class="row justify-content-center">
@@ -129,7 +131,7 @@
 					          </div>
 				          </div>
 				        	
-				        	<div class="dbox w-100 d-flex align-items-center">
+				        	<!-- <div class="dbox w-100 d-flex align-items-center">
 				        		<div class="icon d-flex align-items-center justify-content-center">
 				        			<span class="fa fa-paper-plane" style="padding-bottom:17px"></span>
 				        		</div>
@@ -144,7 +146,7 @@
 				        		<div class="text pl-3">
 					            <p><span>Website</span> <a href="#">yoursite.com</a></p>
 					          </div>
-				          </div>
+				          </div> -->
 			          </div>
 							</div>
 						</div>

@@ -15,7 +15,7 @@ if(isset($_SESSION['logged_in']))
                     <!-- logo begin -->
                     <div id="logo">
                         <a href="index.php">
-                            <img class="logo" src="images-event/techpulse-logo.png" alt="" style="height: 50px;width: 190px;">
+                            <img class="logo" src="images-event/techpulse-logo.png" alt="" style="height: 50px;width: 190px;top: 10px;;position: absolute; left: 40px;display: block;z-index: 3002;">
                         </a>
                     </div>
 
@@ -67,7 +67,7 @@ if($flag == 1)
             <!-- logo begin -->
             <div id="logo">
                 <a href="index.php">
-                    <img class="logo" src="images-event/techpulse-logo.png" alt="" style="height: 50px;width: 190px;">
+                    <img class="logo" src="images-event/techpulse-logo.png" alt="" style="height: 50px;width: 190px;top:15px;position: absolute; left: 40px;display: block;z-index: 3002;"><br>
                 </a>
             </div>
             <!-- logo close -->
@@ -77,7 +77,7 @@ if($flag == 1)
             <!-- small button close -->
 
             <!-- mainmenu begin -->
-                <nav>
+                <nav style="padding-top:-20px">
                     <ul id="mainmenu" class="ms-2">
                         <li><a href="index.php">Home<span></span></a></li>
                         <li><a href="about_us.php">About<span></span></a></li>

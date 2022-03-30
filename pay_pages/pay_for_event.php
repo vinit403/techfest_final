@@ -67,6 +67,72 @@ if(isset($_SESSION['logged_in']))
             $mail = $_SESSION['mail'];
             $event = "Purchase event";
             $amount = 149;
+
+            $sql = "SELECT * FROM `package_purchased` WHERE user_id = '$user_name'";
+            $result = mysqli_query($connect, $sql);
+            $sql = "SELECT * FROM `premium_package_purchased` WHERE user_id='$user_name'";
+            $result2 = mysqli_query($connect, $sql);
+            $sql = "SELECT * FROM `package_purchased_on_cash` WHERE user_id='$user_name'";
+            $result3 = mysqli_query($connect, $sql);
+            $sql = "SELECT * FROM `premium_package_purchased_on_cash` WHERE user_id='$user_name'";
+            $result4 = mysqli_query($connect, $sql);
+    
+            $row3 = mysqli_num_rows($result3);
+            $row4 = mysqli_num_rows($result4);
+            $row2 = mysqli_num_rows($result2);
+            $row = mysqli_num_rows($result);
+
+            if($row == 1 || $row2 == 1 || $row3 == 1 || $row4 == 1)
+            {
+
+            }
+            else
+            {
+                echo '<script type ="text/JavaScript">
+                alert("You Have Already Purchased a package / premium package")
+               </script>'; 
+               
+               echo '  <center>
+               <div class="container my-3" style="opacity:0.9">
+                   <div class="container my-3">
+                       <h2 id="h" style="color:#8e04d9">
+                           Your Details
+                       </h2>
+                       </div>
+                   <div class="container my-3">
+                     <h3 id="h">
+                         Name : '.$name.'
+                     </h3>
+                 </div>
+                 <div class="container my-3">
+                   <h3 id="h">
+                         Mail id :'.$mail.'
+                   </h3>
+                   </div>
+                   <div class="container my-3">
+                   <h3 id="h">
+                         Phone Number :'.$phone_number.'
+                     </h3>
+                   </div>
+                   <div class="container my-3">
+                   <h3 id="h">
+                         Amount : '.$amount.'/100 
+                     </h3>
+                   </div>
+                   <div class="container my-3">
+                   <h3 id="h">
+                         Payment for : '.$event.'
+                     </h3>
+                   </div>
+                   <div class="container my-3">
+                   <h3 id="h" style="color:yellow">
+                   You Have Already Purchased a package / premium package
+                    </h3>
+                    </div>
+                   </center>';
+    
+                   exit;
+            }
     }
     else
     {

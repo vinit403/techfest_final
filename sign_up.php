@@ -75,12 +75,12 @@ $education = [];
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (empty($_POST["user_name"])) {
-        $err = "User Name is required";
+        $err = "User id is required";
     } else {
         $user_name = test_input($_POST["user_name"]);
         // check if name only contains letters and whitespace
         if (!preg_match("/^[a-zA-Z0-9]*$/", $user_name)) {
-            $err = "Only Character and white space allowed";
+            $err = "Only Character and white space allowed in user id";
         } else {
             $fnamef = 1;
         }
@@ -91,7 +91,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $name = test_input($_POST["name"]);
         // check if name only contains letters and whitespace
         if (!preg_match("/^[a-zA-Z- ]*$/", $name)) {
-            $err = "Only Character and white space allowed";
+            $err = "Only Character and white space allowed in full name";
         } else {
             $lnamef = 1;
         }
@@ -103,7 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $college_name = test_input($_POST["college_name"]);
         // check if name only contains letters and whitespace
         if (!preg_match("/^[a-zA-Z0-9 ]*$/", $college_name)) {
-            $err = "Only Character,Number,# and @ allowed";
+            $err = "Only Character,Number,# and @ allowed in college name";
         } else {
             $useridf = 1;
         }
@@ -185,6 +185,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         }
     }
+
+    $passcode = crypt($passcode);
 
     if ($flag == 0 && $fnamef == 1 && $lnamef == 1 && $useridf == 1 && $emailf == 1 && $cnof == 1 && $passwordf == 1) {
         include "database_connection.php";

@@ -102,146 +102,17 @@
         <div id="content" class="no-bottom no-top">
 
             <!-- revolution slider begin -->
-            <section id="section-hero" class="fullwidthbanner-container" aria-label="section-slider" data-bgcolor="#222222" >
-                
-                <div id="slider-revolution">
-                
-                    <ul>
-                        <li data-transition="random-premium" data-slotamount="10" data-masterspeed="200" data-thumb="">
-                            <!--  BACKGROUND IMAGE -->
-                            <div id="particles-js"></div>
-							<img alt="" class="rev-slidebg" data-bgparallax="0" src="images/main-page.jpg">
-
-
-                    </ul>
-					
-					<div style="" class="tp-static-layers">
-                            <div
-                                class="text-center tp-caption size-28 font-weight-bold text-white tp-static-layer"
-                                data-x="['center','center','center','center']"
-                                data-hoffset="['0']"
-                                data-y="['top','top','top','top']"
-                                data-voffset="['185']"
-                                data-lineheight="['90','90','90','90']"
-                                data-width="none"
-                                data-height="none"
-                                data-whitespace="nowrap"
-                                data-type="text"
-                                data-responsive_offset="on"
-                                data-startslide="0"
-                                data-endslide="3"
-                                data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                data-textAlign="['center','center','center','center']"
-                                data-paddingtop="[0,0,0,0]"
-                                data-paddingright="[0,0,0,0]"
-                                data-paddingbottom="[0,0,0,0]"
-                                data-paddingleft="[0,0,0,0]"
-                            >
-                                <!-- <span class="id-color-2" style="color: #ec167f;">14-15,April 2022</span> -->
-                            </div>
-							
-                            <!-- <div
-                                class="text-center tp-caption size-84 font-weight-bold text-white tp-static-layer"
-                                data-x="['center','center','center','center']"
-                                data-hoffset="['0']"
-                                data-y="['center','center','center','center']"
-                                data-lineheight="['90','90','90','90']"
-                                data-width="none"
-                                data-height="none"
-                                data-whitespace="nowrap"
-                                data-type="text"
-                                data-responsive_offset="on"
-                                data-startslide="0"
-                                data-endslide="3"
-                                data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                data-textAlign="['center','center','center','center']"
-                                data-paddingtop="[0,0,0,0]"
-                                data-paddingright="[0,0,0,0]"
-                                data-paddingbottom="[0,0,0,0]"
-                                data-paddingleft="[0,0,0,0]"
-                            >
-                                Tech-Pulse<br>
-								2022-23
-                            </div> -->
-							
-							
-							<!-- <div
-                                class="text-center tp-caption size-20 text-white tp-static-layer"
-                                data-x="['center','center','center','center']"
-                                data-hoffset="['0']"
-                                data-y="['top','top','top','top']"
-                                data-voffset="['430']"
-                                data-lineheight="['90','90','90','90']"
-                                data-width="none"
-                                data-height="none"
-                                data-whitespace="nowrap"
-                                data-type="text"
-                                data-responsive_offset="on"
-                                data-startslide="0"
-                                data-endslide="3"
-                                data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
-                                data-textAlign="['center','center','center','center']"
-                                data-paddingtop="[0,0,0,0]"
-                                data-paddingright="[0,0,0,0]"
-                                data-paddingbottom="[0,0,0,0]"
-                                data-paddingleft="[0,0,0,0]"
-                            >
-                                7500+ Visitors &nbsp;&nbsp;&nbsp;&nbsp; 1000+ Participants &nbsp;&nbsp;&nbsp;&nbsp; Surat,Gujarat
-                            </div> -->
-
-                            
-                            <div
-                                class="tp-caption tp-static-layer"
-                                data-x="['center','center','center','center']"
-                                data-hoffset="['0']"
-                                data-y="['top','top','top','top']"
-                                data-voffset="['506']"
-                                data-width="none"
-                                data-height="none"
-                                data-whitespace="nowrap"
-                                data-type="button"
-                                data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]'
-                                data-responsive_offset="on"
-                                data-responsive="off"
-                                data-startslide="0"
-                                data-endslide="3"
-                                data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(255, 255, 255, 0.15);bw:2px 2px 2px 2px;"}]'
-                                data-textAlign="['center','center','center','center']"
-                                data-paddingtop="[12,12,12,12]"
-                                data-paddingright="[20,20,20,20]"
-                                data-paddingbottom="[12,12,12,12]"
-                                data-paddingleft="[20,20,20,20]"
-                            >
-                        
-                            </div>
-							
-							<div
-                                class="tp-caption tp-static-layer"
-                                data-x="['center','center','center','center']"
-                                data-hoffset="['0']"
-                                data-y="['top','top','top','top']"
-                                data-voffset="['506']"
-                                data-width="none"
-                                data-height="none"
-                                data-whitespace="nowrap"
-                                data-type="button"
-                                data-actions='[{"event":"click","action":"scrollbelow","offset":"px","delay":""}]'
-                                data-responsive_offset="on"
-                                data-responsive="off"
-                                data-startslide="0"
-                                data-endslide="3"
-                                data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":500,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"},{"frame":"hover","speed":"300","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(255, 255, 255, 1.00);bg:rgba(255, 255, 255, 0.15);bw:2px 2px 2px 2px;"}]'
-                                data-textAlign="['center','center','center','center']"
-                                data-paddingtop="[12,12,12,12]"
-                                data-paddingright="[20,20,20,20]"
-                                data-paddingbottom="[12,12,12,12]"
-                                data-paddingleft="[20,20,20,20]"
-                            >
-                            </div>
-
-
-                        </div>
-                </div>
+            <section id="section-hero" class="full-height text-light" data-bgimage="url(images/main-page.jpg) fixed top center" data-stellar-background-ratio=".2">
+                <div id="particles-js"></div>
+				<div class="center-y text-center">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								
+							</div>
+						</div>
+					</div>
+				</div>
             </section>
             <!-- revolution slider close -->
 			
@@ -271,12 +142,12 @@
 
                                 It aims in exposing the budding graduates to recent and upcoming trends in various domains, challenge the young brains to solve technical problems, and interact with their peers, inspired by achievers.<br>
 
-                                Tech-Pulse is the annual science and technology fest of Gujrat hosted by P. P. Savani University (PPSU). This festival accordingly consists of various engineering, science, and technology competitions, demonstrations, and workshops. Tech-Pulse is Gujarat's biggest technical event with over 1000+ participants and 7500+ viewers.<br>
+                                Tech-Pulse is the annual science and technology fest of Gujarat hosted by P. P. Savani University (PPSU). This festival accordingly consists of various engineering, science, and technology competitions, demonstrations, and workshops. Tech-Pulse is Gujarat's biggest technical event with over 1000+ participants and 7500+ viewers.<br>
 
 
                                 It will be a 2-day voyage towards your cerebral awakening and technical excellence.<br>
 
-                                Tech-Pulse is run by students, is an enthralling kaleidoscope of internally invigorating events. <br>
+                                Tech-Pulse is handdled by students, is an enthralling kaleidoscope of internally invigorating events. <br>
                                 It has something in store for all and brings together renowned experts of various spheres of academic and the corporate industry.<br>
 
                                 So call your friends, mark your calendars, and gear up for Tech-Pulse 2022-23.
@@ -290,8 +161,8 @@
 							
 							<div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
                                 <div class="de-images">
-									<img class="di-small-2" src="images-event/misc/3.jpg" alt="" />
-									<img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images-event/misc/1.jpg" alt="" />
+									<!-- <img class="di-small-2" src="images-event/misc/3.jpg" alt="" /> -->
+									<img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images-event/misc/techpulse.jpg" alt=""  style="height:600px;width:550px">
 								</div>
                             </div>
 
@@ -319,19 +190,19 @@
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/team/Savji-Dholakiya.webp" class="img-responsive" alt="" />
+									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" />
 								</div>
 								<div class="team-desc">
-									<h3>Savaji Dholakia</h3>
+									<h3>AWS</h3>
 									<p class="lead">Business-Man</p>
 									<div class="small-border"></div>
 									<p>Savji Dhanji Dholakia is an Indian businessman. He is the founder and chairman of Hari Krishna Exports. He was awarded the Padma Shri in 2022.</p>
 
-									<div class="social">
+									<!-- <div class="social">
 										<a href="https://www.facebook.com/dholakiasavji"><i class="fa fa-facebook fa-lg"></i></a>
 										<a href="https://twitter.com/savjidholakia"><i class="fa fa-twitter fa-lg"></i></a>
 										<a href="https://www.instagram.com/savjidholakia/"><i class="fa fa-instagram fa-lg"></i></a>
-									</div>
+									</div> -->
 								</div>
 							</div>
 							<!-- team close -->
@@ -343,7 +214,7 @@
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/team/Savji-Dholakiya.webp" class="img-responsive" alt="" />
+									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" />
 								</div>
 								<div class="team-desc">
 									<h3>AR/VR/Web 3.o</h3>
@@ -351,11 +222,33 @@
 									<div class="small-border"></div>
 									<p>Savji Dhanji Dholakia is an Indian businessman. He is the founder and chairman of Hari Krishna Exports. He was awarded the Padma Shri in 2022.</p>
 
-									<div class="social">
+									<!-- <div class="social">
 										<a href="https://www.facebook.com/dholakiasavji"><i class="fa fa-facebook fa-lg"></i></a>
 										<a href="https://twitter.com/savjidholakia"><i class="fa fa-twitter fa-lg"></i></a>
 										<a href="https://www.instagram.com/savjidholakia/"><i class="fa fa-instagram fa-lg"></i></a>
-									</div>
+									</div> -->
+								</div>
+							</div>
+							<!-- team close -->
+						</div>
+
+                        <div class="col-lg-3 col-md-3">
+							<!-- team member -->
+							<div class="de-team-list">
+								<div class="team-pic">
+									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" />
+								</div>
+								<div class="team-desc">
+									<h3>AWS</h3>
+									<p class="lead">Business-Man</p>
+									<div class="small-border"></div>
+									<p>Savji Dhanji Dholakia is an Indian businessman. He is the founder and chairman of Hari Krishna Exports. He was awarded the Padma Shri in 2022.</p>
+
+									<!-- <div class="social">
+										<a href="https://www.facebook.com/dholakiasavji"><i class="fa fa-facebook fa-lg"></i></a>
+										<a href="https://twitter.com/savjidholakia"><i class="fa fa-twitter fa-lg"></i></a>
+										<a href="https://www.instagram.com/savjidholakia/"><i class="fa fa-instagram fa-lg"></i></a>
+									</div> -->
 								</div>
 							</div>
 							<!-- team close -->
@@ -368,38 +261,16 @@
 									<img src="images-event/team/Savji-Dholakiya.webp" class="img-responsive" alt="" />
 								</div>
 								<div class="team-desc">
-									<h3>IOT (Internet Of Things)</h3>
+									<h3>IOT</h3>
 									<p class="lead">Business-Man</p>
 									<div class="small-border"></div>
 									<p>Savji Dhanji Dholakia is an Indian businessman. He is the founder and chairman of Hari Krishna Exports. He was awarded the Padma Shri in 2022.</p>
 
-									<div class="social">
+									<!-- <div class="social">
 										<a href="https://www.facebook.com/dholakiasavji"><i class="fa fa-facebook fa-lg"></i></a>
 										<a href="https://twitter.com/savjidholakia"><i class="fa fa-twitter fa-lg"></i></a>
 										<a href="https://www.instagram.com/savjidholakia/"><i class="fa fa-instagram fa-lg"></i></a>
-									</div>
-								</div>
-							</div>
-							<!-- team close -->
-						</div>
-
-                        <div class="col-lg-3 col-md-3">
-							<!-- team member -->
-							<div class="de-team-list">
-								<div class="team-pic">
-									<img src="images-event/team/Savji-Dholakiya.webp" class="img-responsive" alt="" />
-								</div>
-								<div class="team-desc">
-									<h3>Savaji Dholakia</h3>
-									<p class="lead">Business-Man</p>
-									<div class="small-border"></div>
-									<p>Savji Dhanji Dholakia is an Indian businessman. He is the founder and chairman of Hari Krishna Exports. He was awarded the Padma Shri in 2022.</p>
-
-									<div class="social">
-										<a href="https://www.facebook.com/dholakiasavji"><i class="fa fa-facebook fa-lg"></i></a>
-										<a href="https://twitter.com/savjidholakia"><i class="fa fa-twitter fa-lg"></i></a>
-										<a href="https://www.instagram.com/savjidholakia/"><i class="fa fa-instagram fa-lg"></i></a>
-									</div>
+									</div> -->
 								</div>
 							</div>
 							<!-- team close -->
@@ -456,10 +327,7 @@
                                         <h3>Day <span>01</span></h3>
                                         <h4>April 14, 2022</h4>
                                     </li>
-                                    <li data-link="#section-services-tab">
-                                        <h3>Day <span>02</span></h3>
-                                        <h4>April 15, 2022</h4>
-                                    </li>
+                                   
                                     
                                 </ul>
 
@@ -470,7 +338,7 @@
                                             <div class="col-md-12">
                                                 <div class="schedule-listing">
                                                     <div class="schedule-item">
-                                                        <div class="sc-time">10:00 - 12:00 AM</div>
+                                                        <!-- <div class="sc-time">10:00 - 12:00 AM</div>
                                                         <div class="sc-pic">
                                                             <img src="" class="img-circle" alt="">
                                                         </div>
@@ -481,64 +349,16 @@
                                                         <div class="sc-info">
                                                             <h3>Introduction Creative Design</h3>
                                                             <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
-                                                        </div>
+                                                        </div> -->
+
+									                    <img src="images-event/timeline/timeline.png" class="img-responsive" alt="" />
+
+                                                        
                                                         <div class="clearfix"></div>
                                                     </div>
                                                 </div>
 
-                                                <div class="schedule-listing">
-                                                    <div class="schedule-item">
-                                                        <div class="sc-time">12:00 - 14:00 PM</div>
-                                                        <div class="sc-pic">
-                                                            <img src="" class="img-circle" alt="">
-                                                        </div>
-                                                        <div class="sc-name">
-                                                            <h4>Michael Dennis</h4>
-                                                            <span>Founder & CEO</span>
-                                                        </div>
-                                                        <div class="sc-info">
-                                                            <h3>Getting Started With Creative Design</h3>
-                                                            <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
-                                                        </div>
-                                                        <div class="clearfix"></div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="schedule-listing">
-                                                    <div class="schedule-item">
-                                                        <div class="sc-time">16:00 - 18:00 PM</div>
-                                                        <div class="sc-pic">
-                                                            <img src="" class="img-circle" alt="">
-                                                        </div>
-                                                        <div class="sc-name">
-                                                            <h4>Sarah Michelle</h4>
-                                                            <span>Founder & CEO</span>
-                                                        </div>
-                                                        <div class="sc-info">
-                                                            <h3>Prepare Your Design Concept</h3>
-                                                            <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
-                                                        </div>
-                                                        <div class="clearfix"></div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="schedule-listing">
-                                                    <div class="schedule-item">
-                                                        <div class="sc-time">20:00 - 22:00 PM</div>
-                                                        <div class="sc-pic">
-                                                            <img src="" class="img-circle" alt="">
-                                                        </div>
-                                                        <div class="sc-name">
-                                                            <h4>Katty Wilson</h4>
-                                                            <span>Founder & CEO</span>
-                                                        </div>
-                                                        <div class="sc-info">
-                                                            <h3>Creative Design Implementation Basic</h3>
-                                                            <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
-                                                        </div>
-                                                        <div class="clearfix"></div>
-                                                    </div>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>
@@ -547,76 +367,11 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="schedule-listing">
-                                                    <div class="schedule-item">
-                                                        <div class="sc-time">08:00 - 12:00 AM</div>
-                                                        <div class="sc-pic">
-                                                            <img src="" class="img-circle" alt="">
-                                                        </div>
-                                                        <div class="sc-name">
-                                                            <h4>Rose Shipp</h4>
-                                                            <span>Founder & CEO</span>
-                                                        </div>
-                                                        <div class="sc-info">
-                                                            <h3>Creative Design Implementation Basic 2</h3>
-                                                            <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
-                                                        </div>
-                                                        <div class="clearfix"></div>
-                                                    </div>
+                                                <img src="images-event/timeline/timeline-02.png" class="img-responsive" alt="" />
+
                                                 </div>
 
-                                                <div class="schedule-listing">
-                                                    <div class="schedule-item">
-                                                        <div class="sc-time">12:00 - 14:00 PM</div>
-                                                        <div class="sc-pic">
-                                                            <img src="" class="img-circle" alt="">
-                                                        </div>
-                                                        <div class="sc-name">
-                                                            <h4>Isaac Nicholas</h4>
-                                                            <span>Founder & CEO</span>
-                                                        </div>
-                                                        <div class="sc-info">
-                                                            <h3>How to Design Happiness</h3>
-                                                            <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
-                                                        </div>
-                                                        <div class="clearfix"></div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="schedule-listing">
-                                                    <div class="schedule-item">
-                                                        <div class="sc-time">16:00 - 18:00 PM</div>
-                                                        <div class="sc-pic">
-                                                            <img src="" class="img-circle" alt="">
-                                                        </div>
-                                                        <div class="sc-name">
-                                                            <h4>John Arnold</h4>
-                                                            <span>Founder & CEO</span>
-                                                        </div>
-                                                        <div class="sc-info">
-                                                            <h3>Good Storytelling For Great Design</h3>
-                                                            <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
-                                                        </div>
-                                                        <div class="clearfix"></div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="schedule-listing">
-                                                    <div class="schedule-item">
-                                                        <div class="sc-time">20:00 - 22:00 PM</div>
-                                                        <div class="sc-pic">
-                                                            <img src="" class="img-circle" alt="">
-                                                        </div>
-                                                        <div class="sc-name">
-                                                            <h4>John Smith</h4>
-                                                            <span>Founder & CEO</span>
-                                                        </div>
-                                                        <div class="sc-info">
-                                                            <h3>Unintuitive Lessons on Being a Designer</h3>
-                                                            <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
-                                                        </div>
-                                                        <div class="clearfix"></div>
-                                                    </div>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>                                    
@@ -723,13 +478,13 @@
                     <!-- gallery item -->
                     <div class="item residential">
                         <div class="picframe">
-                            <a href="images-event/portfolio/1.jpg" title="Event Photo">
+                            <a href="images-event/portfolio/img1.jpg" >
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
                                     </span>
                                 </span>
-                                <img src="images-event/portfolio/1.jpg" alt="" />
+                                <img src="images-event/portfolio/img1.jpg" alt=""  style="height:240px">
                             </a>
                         </div>
                     </div>
@@ -738,13 +493,13 @@
                     <!-- gallery item -->
                     <div class="item hospitaly">
                         <div class="picframe">
-                            <a href="images-event/portfolio/2.jpg" title="Event Photo">
+                            <a href="images-event/portfolio/img2.jpg" >
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
                                     </span>
                                 </span>
-                                <img src="images-event/portfolio/2.jpg" alt="" />
+                                <img src="images-event/portfolio/img2.jpg" alt="" />
                             </a>
                         </div>
                     </div>
@@ -753,13 +508,13 @@
                     <!-- gallery item -->
                     <div class="item hospitaly">
                         <div class="picframe">
-                            <a href="images-event/portfolio/3.jpg" title="Event Photo">
+                            <a href="images-event/portfolio/img3.jpg" >
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
                                     </span>
                                 </span>
-                                <img src="images-event/portfolio/3.jpg" alt="" />
+                                <img src="images-event/portfolio/img3.jpg" alt="" />
                             </a>
                         </div>
                     </div>
@@ -768,13 +523,13 @@
                     <!-- gallery item -->
                     <div class="item residential">
                         <div class="picframe">
-                            <a href="images-event/portfolio/4.jpg" title="Event Photo">
+                            <a href="images-event/portfolio/img4.jpg" >
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
                                     </span>
                                 </span>
-                                <img src="images-event/portfolio/4.jpg" alt="" />
+                                <img src="images-event/portfolio/img4.jpg" alt="" />
                             </a>
                         </div>
                     </div>
