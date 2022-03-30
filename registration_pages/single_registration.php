@@ -11,8 +11,9 @@
 </head>
 
 <?php
-    use PHPMailer\PHPMailer\PHPMailer;
-    use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
     session_start();
     if(isset($_SESSION['logged_in']))
     {
@@ -128,35 +129,81 @@ function OpenBootstrapPopup() {
                             // $body = "You have successfully registered in event ".$event.". Thank You.";
 
                             // mail($to, $subject, $body, $headers);
-                            require '../vendor/autoload.php';
+                            
+// Import PHPMailer classes into the global namespace
+// These must be at the top of your script, not inside a function
 
-                            require 'C:/xampp/htdocs/techfest_final/vendor/phpmailer/phpmailer/src/Exception.php';
-                            require 'C:/xampp/htdocs/techfest_final/vendor/phpmailer/phpmailer/src/PHPMailer.php';
-                            require 'C:/xampp/htdocs/techfest_final/vendor/phpmailer/phpmailer/src/SMTP.php';
 
-                            $mail = new PHPMailer(true);
+// If necessary, modify the path in the require statement below to refer to the
+// location of your Composer autoload.php file.
+require '../vendor/autoload.php';
 
-                            try {
-                                $mail->SMTPDebug = 2;                                       
-                                $mail->isSMTP();                                            
-                                $mail->Host       = 'email-smtp.ap-south-1.amazonaws.com';                    
-                                $mail->SMTPAuth   = true;                             
-                                $mail->Username   = 'AKIAR3NH6FDMMDNB25EB';                 
-                                $mail->Password   = 'BJM+spGKi0uSUKETgnodvcqdKzyFuZs5Q/pTHEPJyOjY';                        
-                                $mail->SMTPSecure = 'tls';                              
-                                $mail->Port       = 587;  
-                              
-                                $mail->setFrom('techpulse2022@gmail.com', 'Techpulse 2022');           
-                                $mail->addAddress($mail);
-                                $mail->addAddress($mail, $name);
-                                   
-                                $mail->isHTML(true);                                  
-                                $mail->Subject = $event.' registration';
-                                $mail->Body    = 'You have registered for '.$event.'.. Thank you. ';
-                                $mail->AltBody = 'Body in plain text for non-HTML mail clients';
-                                $mail->send();
-                            } catch (Exception $e) {
-                            }
+// Replace sender@example.com with your "From" address.
+// This address must be verified with Amazon SES.
+$sender = 'techpulse2022@gmail.com';
+$senderName = 'Techpluse Admin';
+
+// Replace recipient@example.com with a "To" address. If your account
+// is still in the sandbox, this address must be verified.
+$recipient = 'jilsvaghasiya333@gmail.com';
+
+// Replace smtp_username with your Amazon SES SMTP user name.
+$usernameSmtp = 'AKIAR3NH6FDMMDNB25EB';
+
+// Replace smtp_password with your Amazon SES SMTP password.
+$passwordSmtp = 'BJM+spGKi0uSUKETgnodvcqdKzyFuZs5Q/pTHEPJyOjY';
+
+// Specify a configuration set. If you do not want to use a configuration
+// set, comment or remove the next line.
+//$configurationSet = 'ConfigSet';
+
+// If you're using Amazon SES in a region other than US West (Oregon),
+// replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
+// endpoint in the appropriate region.
+$host = 'email-smtp.ap-south-1.amazonaws.com';
+$port = 587;
+
+// The subject line of the email
+$subject = 'AWS SNS Email test';
+
+// The plain-text body of the email
+$bodyText =  "okay you got it.";
+
+// The HTML-formatted body of the email
+$bodyHtml = '-- Put body html here --';
+
+$mail = new PHPMailer(true);
+
+try {
+    // Specify the SMTP settings.
+    $mail->isSMTP();
+    $mail->setFrom($sender, $senderName);
+    $mail->Username   = $usernameSmtp;
+    $mail->Password   = $passwordSmtp;
+    $mail->Host       = $host;
+    $mail->Port       = $port;
+    $mail->SMTPAuth   = true;
+    $mail->SMTPSecure = 'tls';
+  //  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
+
+    // Specify the message recipients.
+    $mail->addAddress($recipient);
+    // You can also add CC, BCC, and additional To recipients here.
+
+    // Specify the content of the message.
+    $mail->isHTML(true);
+    $mail->Subject    = $subject;
+    $mail->Body       = $bodyHtml;
+    $mail->AltBody    = $bodyText;
+    $mail->Send();
+    echo "Email sent!" , PHP_EOL;
+} 
+catch (phpmailerException $e) {
+    echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
+} catch (Exception $e) {
+    echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+}
+
 
                             header("location: ../success.php");
 
