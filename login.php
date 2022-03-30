@@ -81,8 +81,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $passcode = str_replace("\'", " ", "$passcode");
     $passcode = str_replace("\"", " ", "$passcode");
 
-    $passcode = crypt($passcode);
-
     include "database_connection.php";
     $sql = "SELECT * FROM `user` WHERE user_id = '$user_name'";
     $result = mysqli_query($connect, $sql);
@@ -90,7 +88,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($row != 0) {
         while ($r = mysqli_fetch_assoc($result)) {
             $pass = $r['password'];
-            if ($pass == $passcode) {
+            
+            if (password_verify($passcode, $pass)) {
 
                 session_start();
                 $_SESSION['logged_in'] = "true";

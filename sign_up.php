@@ -186,7 +186,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-    $passcode = crypt($passcode);
+    $passcode = password_hash($passcode, PASSWORD_DEFAULT);
 
     if ($flag == 0 && $fnamef == 1 && $lnamef == 1 && $useridf == 1 && $emailf == 1 && $cnof == 1 && $passwordf == 1) {
         include "database_connection.php";

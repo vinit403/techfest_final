@@ -11,7 +11,8 @@
 </head>
 
 <?php
-
+    use PHPMailer\PHPMailer\PHPMailer;
+    use PHPMailer\PHPMailer\Exception;
     session_start();
     if(isset($_SESSION['logged_in']))
     {
@@ -57,10 +58,37 @@
 
                     if($event_count == 0)
                     {
-                        echo '<script type ="text/JavaScript">
-                        alert("No event remaining in '.$user.'\'s wallet")
-                        window.location = "../index.php"
-                       </script>'; 
+                        echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Customer Details Form</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    No Event remaining in '.$user.'\'s wallet
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+window.onload = function () {
+    OpenBootstrapPopup();
+};
+function OpenBootstrapPopup() {
+    $("#simpleModal").modal("show");
+}
+</script>'; 
 
                     }
                     else
@@ -94,12 +122,41 @@
                             $sql = "INSERT INTO `$eve_register` (`user_id`) VALUES ('$user')";
                             $result = mysqli_query($connect, $sql);
 
-                            $to = $mail;
-                            $subject = "".$event." registration";
-                            $headers = "From: jilsvaghasiya333@gmail.com";
-                            $body = "You have successfully registered in event ".$event.". Thank You.";
+                            // $to = $mail;
+                            // $subject = "".$event." registration";
+                            // $headers = "From: jilsvaghasiya333@gmail.com";
+                            // $body = "You have successfully registered in event ".$event.". Thank You.";
 
-                            mail($to, $subject, $body, $headers);
+                            // mail($to, $subject, $body, $headers);
+                            require '../vendor/autoload.php';
+
+                            require 'C:/xampp/htdocs/techfest_final/vendor/phpmailer/phpmailer/src/Exception.php';
+                            require 'C:/xampp/htdocs/techfest_final/vendor/phpmailer/phpmailer/src/PHPMailer.php';
+                            require 'C:/xampp/htdocs/techfest_final/vendor/phpmailer/phpmailer/src/SMTP.php';
+
+                            $mail = new PHPMailer(true);
+
+                            try {
+                                $mail->SMTPDebug = 2;                                       
+                                $mail->isSMTP();                                            
+                                $mail->Host       = 'smtp.gmail.com;';                    
+                                $mail->SMTPAuth   = true;                             
+                                $mail->Username   = 'jilsvaghasiya333@gmail.com';                 
+                                $mail->Password   = '54575457';                        
+                                $mail->SMTPSecure = 'tls';                              
+                                $mail->Port       = 587;  
+                              
+                                $mail->setFrom('jilsvaghasiya333@gmail.com', 'JILS VAGHASIYA');           
+                                $mail->addAddress($mail);
+                                $mail->addAddress($mail, $name);
+                                   
+                                $mail->isHTML(true);                                  
+                                $mail->Subject = $event.' registration';
+                                $mail->Body    = 'You have registered for '.$event.'.. Thank you. ';
+                                $mail->AltBody = 'Body in plain text for non-HTML mail clients';
+                                $mail->send();
+                            } catch (Exception $e) {
+                            }
 
                             header("location: ../success.php");
 

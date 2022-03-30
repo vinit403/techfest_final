@@ -89,7 +89,8 @@ if(isset($_SESSION['logged_in']))
             else
             {
                 echo '<script type ="text/JavaScript">
-                alert("You Have Already Purchased a package / premium package")
+                alert("You have not purchased any packages for add on event
+                ")
                </script>'; 
                
                echo '  <center>
@@ -126,7 +127,7 @@ if(isset($_SESSION['logged_in']))
                    </div>
                    <div class="container my-3">
                    <h3 id="h" style="color:yellow">
-                   You Have Already Purchased a package / premium package
+                   You have not purchased any packages for add on event
                     </h3>
                     </div>
                    </center>';
