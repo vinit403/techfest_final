@@ -921,7 +921,7 @@
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">NFT</h4>
+                                    <h4 style="padding-top: 50px;">IOT</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
@@ -935,14 +935,14 @@
                                     <p class="workshop mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
-                                        <a href="registration_pages/workshop_registration.php?event=NFT_workshop">Register</a>
+                                        <a href="registration_pages/workshop_registration.php?event=IOT_workshop">Register</a>
                                     </div>
                                 </div>
                                 
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">AI/ML</h4>
+                                    <h4 style="padding-top: 50px;">Flutter</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
@@ -956,14 +956,14 @@
                                     <p class="workshop mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
-                                        <a href="registration_pages/workshop_registration.php?event=AI_ML_workshop">Register</a>
+                                        <a href="registration_pages/workshop_registration.php?event=Flutter_workshop">Register</a>
                                     </div>
                                 </div>
 
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">Block Chain</h4>
+                                    <h4 style="padding-top: 50px;">Unity</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
@@ -977,11 +977,11 @@
                                     <p class="workshop mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
-                                        <a href="registration_pages/workshop_registration.php?event=blockchain_workshop">Register</a>
+                                        <a href="registration_pages/workshop_registration.php?event=Unity_workshop">Register</a>
                                     </div>
                                 </div>
 
-                                <div class="title-page-line mt-4 mb-5"></div>
+                                <!-- <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
                                     <h4 style="padding-top: 50px;">AR/VR/Web 3.o</h4>
@@ -1000,9 +1000,9 @@
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/workshop_registration.php?event=AR_VR_workshop">Register</a>
                                     </div>
-                                </div>
+                                </div> -->
                                 
-                                <div class="title-page-line mt-4 mb-5"></div>
+                                <!-- <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
                                     <h4 style="padding-top: 50px;">Cyber Security</h4>
@@ -1021,7 +1021,7 @@
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/workshop_registration.php?event=cyber_security_workshop">Register</a>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>							

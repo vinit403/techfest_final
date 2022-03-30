@@ -349,7 +349,7 @@
                                             <div class="col-md-12">
                                                 <div class="schedule-listing">
                                                     <div class="schedule-item">
-                                                        <div class="sc-time">NFT</div>
+                                                        <div class="sc-time">Unity</div>
                                                         <div class="sc-pic">
                                                             <img src="" class="img-circle" alt="">
                                                         </div>
@@ -358,8 +358,8 @@
                                                             <span>number</span>
                                                         </div>
                                                         <div class="sc-info">
-                                                            <h3>NFT</h3>
-                                                            <p>Same like shark tank and SSIP sell will be as a shark in this field.All ideas and their solution will be from participate side.<a href="registration_pages/workshop_registration.php?event=NFT_workshop" style="text-decoration: none;"><p class="register" style="font-size: 24px;text-align: center;background: #ec167f; width: 130px;padding: 5px;" onmouseover="this.style.background='#883ff9'" onmouseout="this.style.background='#ec167f'">Register</p></a></p>
+                                                            <h3>Unity</h3>
+                                                            <p>Same like shark tank and SSIP sell will be as a shark in this field.All ideas and their solution will be from participate side.<a href="registration_pages/workshop_registration.php?event=Unity_workshop" style="text-decoration: none;"><p class="register" style="font-size: 24px;text-align: center;background: #ec167f; width: 130px;padding: 5px;" onmouseover="this.style.background='#883ff9'" onmouseout="this.style.background='#ec167f'">Register</p></a></p>
                                                         </div>
                                                         <div class="clearfix">
                                                             </div>
@@ -377,7 +377,7 @@
                                             <div class="col-md-12">
                                                 <div class="schedule-listing">
                                                     <div class="schedule-item">
-                                                        <div class="sc-time">AIM/ML</div>
+                                                        <div class="sc-time">Flutter</div>
                                                         <div class="sc-pic">
                                                             <img src="" class="img-circle" alt="">
                                                         </div>
@@ -386,8 +386,8 @@
                                                             <span>number</span>
                                                         </div>
                                                         <div class="sc-info">
-                                                            <h3>AI/ML</h3>
-                                                            <p>Artificial Intellegence and Machine Learning<a href="registration_pages/workshop_registration.php?event=AI_ML_workshop" style="text-decoration: none;"><p class="register" style="font-size: 24px;text-align: center;background: #ec167f; width: 130px;padding: 5px;" onmouseover="this.style.background='#883ff9'" onmouseout="this.style.background='#ec167f'">Register</p></a></p>
+                                                            <h3>Flutter</h3>
+                                                            <p>Artificial Intellegence and Machine Learning<a href="registration_pages/workshop_registration.php?event=Flutter_workshop" style="text-decoration: none;"><p class="register" style="font-size: 24px;text-align: center;background: #ec167f; width: 130px;padding: 5px;" onmouseover="this.style.background='#883ff9'" onmouseout="this.style.background='#ec167f'">Register</p></a></p>
                                                         </div>
                                                         <div class="clearfix">
                                                             </div>
@@ -403,7 +403,7 @@
                                             <div class="col-md-12">
                                                 <div class="schedule-listing">
                                                     <div class="schedule-item">
-                                                        <div class="sc-time">Block Chain</div>
+                                                        <div class="sc-time">IOT</div>
                                                         <div class="sc-pic">
                                                             <img src="" class="img-circle" alt="">
                                                         </div>
@@ -412,8 +412,8 @@
                                                             <span>number</span>
                                                         </div>
                                                         <div class="sc-info">
-                                                            <h3>Block Chain</h3>
-                                                            <p>Invest in fake stack and who will earn maximum will be win the competition.<a href="registration_pages/workshop_registration.php?event=blockchain_workshop" style="text-decoration: none;"><p class="register" style="font-size: 24px;text-align: center;background: #ec167f; width: 130px;padding: 5px;" onmouseover="this.style.background='#883ff9'" onmouseout="this.style.background='#ec167f'">Register</p></a></p>
+                                                            <h3>IOT</h3>
+                                                            <p>Invest in fake stack and who will earn maximum will be win the competition.<a href="registration_pages/workshop_registration.php?event=IOT_workshop" style="text-decoration: none;"><p class="register" style="font-size: 24px;text-align: center;background: #ec167f; width: 130px;padding: 5px;" onmouseover="this.style.background='#883ff9'" onmouseout="this.style.background='#ec167f'">Register</p></a></p>
                                                         </div>
                                                         <div class="clearfix">
                                                             </div>
@@ -423,7 +423,7 @@
 
                                         </div>
                                     </div>
-
+<!-- 
                                     <div id="tab5" class="tab_single_content dark">
                                         <div class="row">
                                             <div class="col-md-12">
@@ -449,9 +449,9 @@
 
                                                 
                                         </div>
-                                    </div>
+                                    </div> -->
 
-                                    <div id="tab6" class="tab_single_content dark">
+                                    <!-- <div id="tab6" class="tab_single_content dark">
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="schedule-listing">
@@ -476,7 +476,7 @@
 
                                                 
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                 </div>
 
