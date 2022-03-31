@@ -41,38 +41,54 @@ if (empty($_POST['razorpay_payment_id']) === false)
 
 if ($success === true)
 {
-    $name = $_SESSION['name'];
-    $mail = $_SESSION['mail'];
-    $phone_number = $_SESSION['phone_number'];
-    $amount = $_SESSION['amount'];
-
     $payment_id = $_POST['razorpay_payment_id'];
+    $count = $_POST['count'];
+    $amount = $_POST['amount'];
 
-    $name = str_replace("<","&lt;","$name");
-    $name = str_replace(">", "&gt;", "$name");
-    $mail = str_replace("<","&lt;","$mail");
-    $mail = str_replace(">", "&gt;", "$mail");
+    $name = $_POST['name'];
+    $mail = $_POST['mail'];
+    $phone_number = $_POST['phone_number'];
 
-        $name_member2 = $_SESSION['name_member2'];
-        $mail_member2 = $_SESSION['mail_member2'];
-        $phone_number2 = $_SESSION['phone_number2'];
+    $name_member2 = $_POST['name_member2'];
+    $mail_member2 = $_POST['mail_member2'];
+    $phone_number2 = $_POST['phone_number2'];
 
-        $name_member2 = str_replace("<","&lt;","$name_member2");
-        $name_member2 = str_replace(">", "&gt;", "$name_member2");
+    if($count == 4)
+    {
+        $name_member3 = $_POST['name_member3'];
+        $mail_member3 = $_POST['mail_member3'];
+        $phone_number3 = $_POST['phone_number3'];
 
-        $mail_member2 = str_replace("<","&lt;","$mail_member2");
-        $mail_member2 = str_replace(">", "&gt;", "$mail_member2");
+        $name_member4 = $_POST['name_member4'];
+        $mail_member4 = $_POST['mail_member4'];
+        $phone_number4 = $_POST['phone_number4'];
+    }
 
+    echo $count;
+    echo '<br>';
+    echo $amount;
 
-        $sql = "INSERT INTO `accomodation`( `name_member_1`, `mail_member_1`, `phone_member_1`, `name_member_2`,`mail_member_2`,`phone_member_2`, `payment_id`) VALUES ('$name','$mail','$phone_number','$name_member2','$mail_member2','$phone_number2','$payment_id')";
+    if($count == 2 && $amount == 400000)
+    {
+        $sql = "INSERT INTO `accomodation_person2_2days`( `name_member_1`, `mail_member_1`, `phone_member_1`, `name_member_2`,`mail_member_2`,`phone_member_2`, `payment_id`) VALUES ('$name','$mail','$phone_number','$name_member2','$mail_member2','$phone_number2','$payment_id')";
         $result = mysqli_query($connect, $sql);
+    }
+    if($count == 2 && $amount == 200000)
+    {
+        $sql = "INSERT INTO `accomodation_person2_1day`( `name_member_1`, `mail_member_1`, `phone_member_1`, `name_member_2`,`mail_member_2`,`phone_member_2`, `payment_id`) VALUES ('$name','$mail','$phone_number','$name_member2','$mail_member2','$phone_number2','$payment_id')";
+        $result = mysqli_query($connect, $sql);
+    }
+    if($count == 4 && $amount == 800000)
+    {
+        $sql = "INSERT INTO `accomodation_person4_2days`( `name_member_1`, `mail_member_1`, `phone_member_1`, `name_member_2`,`mail_member_2`,`phone_member_2`,`name_member_3`,`mail_member_3`,`phone_member_3`,`name_member_4`,`mail_member_4`,`phone_member_4` ,`payment_id`) VALUES ('$name','$mail','$phone_number','$name_member2','$mail_member2','$phone_number2','$name_member3','$mail_member3','$phone_number3','$name_member4','$mail_member4','$phone_number4','$payment_id')";
+        $result = mysqli_query($connect, $sql);
+    }
+    if($count == 4 && $amount == 400000)
+    {
+        $sql = "INSERT INTO `accomodation_person4_1day`( `name_member_1`, `mail_member_1`, `phone_member_1`, `name_member_2`,`mail_member_2`,`phone_member_2`,`name_member_3`,`mail_member_3`,`phone_member_3`,`name_member_4`,`mail_member_4`,`phone_member_4` ,`payment_id`) VALUES ('$name','$mail','$phone_number','$name_member2','$mail_member2','$phone_number2','$name_member3','$mail_member3','$phone_number3','$name_member4','$mail_member4','$phone_number4','$payment_id')";
+        $result = mysqli_query($connect, $sql);
+    }
 
-        if($result)
-        {
-            session_start();
-            session_unset();
-            session_destroy();
-        }
     header("location: ../index.php");
 }
 else

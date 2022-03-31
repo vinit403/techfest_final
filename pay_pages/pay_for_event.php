@@ -304,6 +304,7 @@ $json = json_encode($data);
   </script>
   <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
   <input type="hidden" name="shopping_order_id" value="3456">
+  
     </form>
     <div class="container my-3" style="opacity:0.9">
         <form action="../direct_event_purchased.php" method="post">
