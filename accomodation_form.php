@@ -13,8 +13,8 @@
 
 
     <!--[if lt IE 9]>
-	<script src="js/html5shiv.js"></script>
-	<![endif]-->
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
 
     <!-- CSS Files
@@ -29,13 +29,13 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="css/twentytwenty.css" type="text/css">
+    <link rel="stylesheet" href="css/twentytwenty.css" type="text/css">
 
     <!-- custom background -->
     <link rel="stylesheet" href="css/bg.css" type="text/css">
 
     <!-- color scheme -->
-	<link rel="stylesheet" href="css/colors/magenta.css" type="text/css" id="colors">
+    <link rel="stylesheet" href="css/colors/magenta.css" type="text/css" id="colors">
     <link rel="stylesheet" href="css/color.css" type="text/css">
 
     <!-- load fonts -->
@@ -48,8 +48,8 @@
     <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
     <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
     <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
-	
-	<style>
+    
+    <style>
     body {
     background-image: url('images-event/bg/main-lobby.jpeg');
     background-repeat: no-repeat;
@@ -145,7 +145,7 @@ strong {
     <div id="wrapper">
 
         <!-- header begin -->
-        <?php
+                <?php
         require "page_navbar.php";
         ?>
         <!-- header close -->
@@ -167,6 +167,7 @@ strong {
                         </strong>
                         </h3>
                         </p>
+                        <div class="dropdown">
                 </div>
                 <div>
                     <p id="p2">
@@ -184,26 +185,63 @@ strong {
                 <div class="form-group">
                     <input type="number" name="phone_number" class="form-control item" id="phone-number" placeholder="Phone Number" min="1000000000" max="9999999999" required>
                 </div>
-                <div> 
+
+                <div>
                     <p id="p2">
                         <strong style="color:red">
                             Person 2
                         </strong>
                     </p>
-                
-                    <div class="form-group">
-                        <input type="text" name="name_member2" class="form-control item" id="Full name member2" placeholder="Full name" maxlength="50" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="mail_member2" class="form-control item" id="email_member2" placeholder="Email" maxlength="50" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="number" name="phone_number2" class="form-control item" id="phone-number2" placeholder="Phone Number" min="1000000000" max="9999999999" required>
-                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control item" id="Full name" placeholder="Full name" maxlength="50" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="mail" class="form-control item" id="email" placeholder="Email" maxlength="50" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" name="phone_number" class="form-control item" id="phone-number" placeholder="Phone Number" min="1000000000" max="9999999999" required>
+                </div>
 
-                    <div class="form-group">
-                        <input type="hidden" name="amount" value="1300">
-                    </div>
+                <div>
+                    <p id="p2">
+                        <strong style="color:red">
+                            Person 3
+                        </strong>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control item" id="Full name" placeholder="Full name" maxlength="50" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="mail" class="form-control item" id="email" placeholder="Email" maxlength="50" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" name="phone_number" class="form-control item" id="phone-number" placeholder="Phone Number" min="1000000000" max="9999999999" required>
+                </div>
+
+                
+
+                <div> 
+                    <p id="p2">
+                        <strong style="color:red">
+                            Person 4
+                        </strong>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="name_member2" class="form-control item" id="Full name member2" placeholder="Full name" maxlength="50" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="mail_member2" class="form-control item" id="email_member2" placeholder="Email" maxlength="50" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" name="phone_number2" class="form-control item" id="phone-number2" placeholder="Phone Number" min="1000000000" max="9999999999" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="hidden" name="amount" value="1300">
+                </div>
                 <div class="form-group">
                     <p id="p1" style="color:white">
                     *Note: Information about the accommodation will be provided either in your email or message. 
@@ -267,13 +305,13 @@ strong {
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
-	<script src="js/enquire.min.js"></script>	
-    <script src="js/designesia.js"></script>	
-	<script src="js/jquery.event.move.js"></script>
-	<script src="js/jquery.plugin.js"></script>
+    <script src="js/enquire.min.js"></script>   
+    <script src="js/designesia.js"></script>    
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.plugin.js"></script>
     <script src="js/jquery.countdown.js"></script>
     <script src="js/countdown-custom.js"></script>
-    <script src="js/jquery.twentytwenty.js"></script>	
+    <script src="js/jquery.twentytwenty.js"></script>   
 
     <!-- RS5.0 Core JS Files -->
     <script src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
@@ -319,8 +357,8 @@ strong {
             });
         });
     </script>
-	
-	<script>
+    
+    <script>
     $(window).on("load", function(){
       $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
       $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});

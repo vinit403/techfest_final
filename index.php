@@ -103,7 +103,7 @@
 
             <!-- revolution slider begin -->
             <section id="section-hero" class="full-height text-light" data-bgimage="url(images/main-page.jpg) fixed top center" data-stellar-background-ratio=".2">
-                <div id="particles-js"></div>
+                <div id="particles-js" style="opacity:0.6"></div>
 				<div class="center-y text-center">
 					<div class="container">
 						<div class="row">
@@ -190,19 +190,14 @@
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" />
+									<img src="images-event/team/iot.jpg.webp" class="img-responsive" alt="" >
 								</div>
-								<div class="team-desc">
-									<h3>AWS</h3>
-									<p class="lead">Business-Man</p>
+								<div class="team-desc" > 
+									<h3>IOT (Internet of Things)</h3>
+									<p class="lead">14th April - 2022 (2:00  PM - 5:00 PM)</p>
 									<div class="small-border"></div>
-									<p>Savji Dhanji Dholakia is an Indian businessman. He is the founder and chairman of Hari Krishna Exports. He was awarded the Padma Shri in 2022.</p>
-
-									<!-- <div class="social">
-										<a href="https://www.facebook.com/dholakiasavji"><i class="fa fa-facebook fa-lg"></i></a>
-										<a href="https://twitter.com/savjidholakia"><i class="fa fa-twitter fa-lg"></i></a>
-										<a href="https://www.instagram.com/savjidholakia/"><i class="fa fa-instagram fa-lg"></i></a>
-									</div> -->
+                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+								
 								</div>
 							</div>
 							<!-- team close -->
@@ -214,19 +209,14 @@
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" />
+									<img src="images-event/team/Flutter-App-development.jpg" class="img-responsive" alt="" >
 								</div>
-								<div class="team-desc">
-									<h3>AR/VR/Web 3.o</h3>
-									<p class="lead">Business-Man</p>
+								<div class="team-desc" >
+									<h3>App development using Flutter Framework</h3>
+									<p class="lead">14th April - 2022 (2:00  PM - 5:00 PM)</p>
 									<div class="small-border"></div>
-									<p>Savji Dhanji Dholakia is an Indian businessman. He is the founder and chairman of Hari Krishna Exports. He was awarded the Padma Shri in 2022.</p>
-
-									<!-- <div class="social">
-										<a href="https://www.facebook.com/dholakiasavji"><i class="fa fa-facebook fa-lg"></i></a>
-										<a href="https://twitter.com/savjidholakia"><i class="fa fa-twitter fa-lg"></i></a>
-										<a href="https://www.instagram.com/savjidholakia/"><i class="fa fa-instagram fa-lg"></i></a>
-									</div> -->
+                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+					
 								</div>
 							</div>
 							<!-- team close -->
@@ -236,19 +226,14 @@
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" />
+									<img src="images-event/team/game-dev-unity.webp" class="img-responsive" alt="">
 								</div>
-								<div class="team-desc">
-									<h3>AWS</h3>
-									<p class="lead">Business-Man</p>
+								<div class="team-desc" >
+									<h3>Game development using Unity</h3>
+									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
 									<div class="small-border"></div>
-									<p>Savji Dhanji Dholakia is an Indian businessman. He is the founder and chairman of Hari Krishna Exports. He was awarded the Padma Shri in 2022.</p>
-
-									<!-- <div class="social">
-										<a href="https://www.facebook.com/dholakiasavji"><i class="fa fa-facebook fa-lg"></i></a>
-										<a href="https://twitter.com/savjidholakia"><i class="fa fa-twitter fa-lg"></i></a>
-										<a href="https://www.instagram.com/savjidholakia/"><i class="fa fa-instagram fa-lg"></i></a>
-									</div> -->
+                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+						
 								</div>
 							</div>
 							<!-- team close -->
@@ -258,49 +243,18 @@
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/team/Savji-Dholakiya.webp" class="img-responsive" alt="" />
+									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" style='background-image:fill;'>
 								</div>
-								<div class="team-desc">
-									<h3>IOT</h3>
-									<p class="lead">Business-Man</p>
+								<div class="team-desc" >
+									<h3>AWS (Amazon Web services)</h3>
+									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
 									<div class="small-border"></div>
-									<p>Savji Dhanji Dholakia is an Indian businessman. He is the founder and chairman of Hari Krishna Exports. He was awarded the Padma Shri in 2022.</p>
-
-									<!-- <div class="social">
-										<a href="https://www.facebook.com/dholakiasavji"><i class="fa fa-facebook fa-lg"></i></a>
-										<a href="https://twitter.com/savjidholakia"><i class="fa fa-twitter fa-lg"></i></a>
-										<a href="https://www.instagram.com/savjidholakia/"><i class="fa fa-instagram fa-lg"></i></a>
-									</div> -->
+                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+									
 								</div>
 							</div>
 							<!-- team close -->
 						</div>
-
-                        <div class="col-lg-3 col-md-6">
-                            <!-- team member -->
-                            <div class="de-team-list">
-                                <div class="team-pic">
-                                    <!-- <img src="" class="img-responsive" alt=""  /> -->
-                                </div>
-                                <div class="team-desc">
-                                    <!-- <h3>John Smith</h3>
-                                    <p class="lead">Expert Designer</p>
-                                    <div class="small-border"></div>
-                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-                                    <div class="social">
-                                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
-                                        <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
-                                        <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
-                                        <a href="#"><i class="fa fa-skype fa-lg"></i></a>
-                                    </div> -->
-                                </div>
-                            </div>
-                            <!-- team close -->
-                        </div>
-						
-						
-
 						<div class="clearfix"></div>
 
                     </div>
@@ -322,14 +276,7 @@
 
                         <div class="col-md-12">
                             <div class="de_tab tab_style_4 text-center">
-                                <ul class="de_nav de_nav_dark">
-                                    <li class="active" data-link="#section-services-tab">
-                                        <h3>Day <span>01</span></h3>
-                                        <h4>April 14, 2022</h4>
-                                    </li>
-                                   
-                                    
-                                </ul>
+                                
 
                                 <div class="de_tab_content text-left">
 
