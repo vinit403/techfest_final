@@ -53,6 +53,35 @@
 	<link rel="stylesheet" href="css/font-style.css" type="text/css">
 </head>
 
+
+<?php
+ if($_SERVER['REQUEST_METHOD'] == 'POST')
+ {
+     $name = $_POST['name'];
+     $email = $_POST['email'];
+     $subject = $_POST['subject'];
+     $message = $_POST['message'];
+
+     $name = str_replace("<","&lt;","$name");
+     $name= str_replace(">", "&gt;", "$name");
+
+     $email = str_replace("<","&lt;","$email");
+     $email= str_replace(">", "&gt;", "$email");
+
+     $subject = str_replace("<","&lt;","$subject");
+     $subject= str_replace(">", "&gt;", "$subject");
+
+     $message = str_replace("<","&lt;","$message");
+     $message= str_replace(">", "&gt;", "$message");
+
+     require "database_connection.php";
+
+     $sql = "INSERT INTO `contact_us` (`name`, `email`, `subject`, `message`) VALUES ('$name','$email','$subject','$message')";
+     $result = mysqli_query($connect, $sql);
+
+ }
+?>
+
 <body id="homepage">
 
     <div id="wrapper">
@@ -87,7 +116,7 @@
 				      		<div id="form-message-success" class="mb-4">
                               We are here to help you
 				      		</div>
-									<form action="index.php" method="POST" id="contactForm" name="contactForm" class="contactForm">
+									<form action="contact-us.php" method="POST" id="contactForm" name="contactForm" class="contactForm">
 										<div class="row">
 											<div class="col-md-12">
 												<div class="form-group">

@@ -208,42 +208,6 @@ strong {
                 <div class="form-group">
                     <input type="number" name="phone_number2" class="form-control item" id="phone-number" placeholder="Phone Number" min="1000000000" max="9999999999" required>
                 </div>
-
-                <div>
-                    <p id="p2">
-                        <strong style="color:red">
-                            Person 3
-                        </strong>
-                    </p>
-                </div>
-                <div class="form-group">
-                    <input type="text" name="name_member3" class="form-control item" id="Full name" placeholder="Full name" maxlength="50" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="mail_member3" class="form-control item" id="email" placeholder="Email" maxlength="50" required>
-                </div>
-                <div class="form-group">
-                    <input type="number" name="phone_number3" class="form-control item" id="phone-number" placeholder="Phone Number" min="1000000000" max="9999999999" required>
-                </div>
-
-                
-
-                <div> 
-                    <p id="p2">
-                        <strong style="color:red">
-                            Person 4
-                        </strong>
-                    </p>
-                </div>
-                <div class="form-group">
-                    <input type="text" name="name_member4" class="form-control item" id="Full name member2" placeholder="Full name" maxlength="50" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="mail_member4" class="form-control item" id="email_member2" placeholder="Email" maxlength="50" required>
-                </div>
-                <div class="form-group">
-                    <input type="number" name="phone_number4" class="form-control item" id="phone-number2" placeholder="Phone Number" min="1000000000" max="9999999999" required>
-                </div>
                 
                 <div class="form-group">
                     <h4 style="color:red">
@@ -254,21 +218,21 @@ strong {
                 </div>
                 <center>
                 <select id="selection" onchange="func()">
-                <option value="4000">One day</option>
-                <option value="8000">Two days</option>
+                <option value="2000">One day</option>
+                <option value="4000">Two days</option>
                 </select>
                 </center>
-                <input type="hidden" name="amount" id ="valu" value="4000" readonly="readonly" />
+                <input type="hidden" name="amount" id ="valu" value="2000" readonly="readonly" />
                 <script>
         function func() {
     var option = document.getElementById("selection").value;
-    if (option =='4000')
+    if (option =='2000')
+    {
+    $('#valu').val(2000);
+    }
+        if (option =='4000')
     {
     $('#valu').val(4000);
-    }
-        if (option =='8000')
-    {
-    $('#valu').val(8000);
     }
 };
 
@@ -277,7 +241,7 @@ strong {
                     <input type="hidden" name="amount" value="1300">
                 </div> -->
                 <div class="form-group">
-                    <input type="hidden" name="count" value="4">
+                    <input type="hidden" name="count" value="2">
                 </div>
                 <div class="form-group">
                     <p id="p1" style="color:white">

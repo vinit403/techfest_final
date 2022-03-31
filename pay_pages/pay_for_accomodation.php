@@ -43,51 +43,47 @@ require('../config.php');
 require('../razorpay/razorpay-php/Razorpay.php');
 session_start();
 
+function test_input($data)
+{
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
+
 if($_SERVER['REQUEST_METHOD'] == "POST")
 {
     $name = $_POST['name'];
-    $_SESSION['name'] = $name;
     $mail = $_POST['mail'];
-    $_SESSION['mail'] = $mail;
     $phone_number = $_POST['phone_number'];
-    $_SESSION['phone_number'] = $phone_number;
     $amount = $_POST["amount"];
-    $_SESSION['amount'] = $amount;
+    $count = $_POST['count'];
 
     $name_member2 = $_POST['name_member2'];
-    $_SESSION['name_member2'] = $name_member2;
     $phone_number2 = $_POST['phone_number2'];
-    $_SESSION['phone_number2'] = $phone_number2;
     $mail_member2 = $_POST['mail_member2'];
-    $_SESSION['mail_member2'] = $mail_member2;
 
-    $name = str_replace("<","&lt;","$name");
-    $name = str_replace(">", "&gt;", "$name");
+    $name = test_input($name);
+    $mail = test_input($mail);
+    $name_member2 = test_input($name_member2);
+    $mail_member2 = test_input($mail_member2);
 
-    $mail = str_replace("<","&lt;","$mail");
-    $mail = str_replace(">", "&gt;", "$mail");
+    if($count == 4)
+    {
+        $name_member3 = $_POST['name_member3'];
+        $phone_number3 = $_POST['phone_number3'];
+        $mail_member3 = $_POST['mail_member3'];
 
-    $name_member2 = str_replace("<","&lt;","$name_member2");
-    $name_member2 = str_replace(">", "&gt;", "$name_member2");
+        $name_member4 = $_POST['name_member4'];
+        $phone_number4 = $_POST['phone_number4'];
+        $mail_member4 = $_POST['mail_member4'];
 
-    $mail_member2 = str_replace("<","&lt;","$mail_member2");
-    $mail_member2 = str_replace(">","&gt;","$mail_member2");
+        $name_member3 = test_input($name_member3);
+        $mail_member3 = test_input($mail_member3);
 
-    $name = str_replace("=","&eq;","$name");
-    $name = str_replace("\'", " ", "$name");
-    $name = str_replace("\"", " ", "$name");
-
-    $name_member2 = str_replace("=","&eq;","$name_member2");
-    $name_member2 = str_replace("\'", " ", "$name_member2");
-    $name_member2 = str_replace("\"", " ", "$name_member2");
-
-    $mail = str_replace("=","&eq;","$mail");
-    $mail = str_replace("\'", " ", "$mail");
-    $mail = str_replace("\"", " ", "$mail");
-
-    $mail_member2 = str_replace("=","&eq;","$mail_member2");
-    $mail_member2 = str_replace("\'", " ", "$mail_member2");
-    $mail_member2 = str_replace("\"", " ", "$mail_member2");
+        $name_member4 = test_input($name_member4);
+        $mail_member4 = test_input($mail_member4);
+    }
 
 }
 else
@@ -222,6 +218,31 @@ $json = json_encode($data);
   </script>
   <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
   <input type="hidden" name="shopping_order_id" value="3456">
+  <input type="hidden" name="count" value="<?php echo $count ?>">
+  <input type="hidden" name="amount" value="<?php echo $amount ?>">
+
+  <input type="hidden" name="name" value="<?php echo $name ?>">
+  <input type="hidden" name="mail" value="<?php echo $mail ?>">
+  <input type="hidden" name="phone_number" value="<?php echo $phone_number ?>">
+
+  <input type="hidden" name="name_member2" value="<?php echo $name_member2 ?>">
+  <input type="hidden" name="mail_member2" value="<?php echo $mail_member2 ?>">
+  <input type="hidden" name="phone_number2" value="<?php echo $phone_number2 ?>">
+
+  <?php
+    if($count == 4)
+    {
+        echo '<input type="hidden" name="name_member3" value="'.$name_member3.'">';
+        echo '<input type="hidden" name="mail_member3" value="'.$mail_member3.'">';
+        echo '<input type="hidden" name="phone_number3" value="'.$phone_number3.'">';
+
+        echo '<input type="hidden" name="name_member4" value="'.$name_member4.'">';
+        echo '<input type="hidden" name="mail_member4" value="'.$mail_member4.'">';
+        echo '<input type="hidden" name="phone_number4" value="'.$phone_number4.'">';
+    }
+  ?>
+
+
 </form>
 </div>
 </center>
