@@ -11,7 +11,7 @@
 
 
     <!-- Title Page-->
-    <title>Registration</title>
+    <title>Forgot password</title>
 
     <!-- Icons font CSS-->
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
@@ -43,7 +43,7 @@
                             </div>
                             
                             <div class="p-t-10">
-                                <button class="btn btn--pill btn--green" type="submit" id="next1">Register</button>
+                                <button class="btn btn--pill btn--green" type="submit" id="next1">Verify Mail</button>
                             </div>
                             
                         </form>
