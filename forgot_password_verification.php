@@ -155,10 +155,7 @@ $err = "";
                                     <input class="input--style-3" type="number" placeholder="Enter Verification Code" name="code" maxlength="6" required>
                                 </div>
 
-                                <?php
-                                    session_start();
-                                    $_SESSION['mail2'] = $mail;
-                                ?>
+                                <input type="hidden" name="mail" value="<?php echo $mail ?>">
 
                                 <div class="p-t-10">
                                     <button class="btn btn--pill btn--green" type="submit" id="next1">Register</button>

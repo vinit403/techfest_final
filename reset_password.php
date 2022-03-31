@@ -31,10 +31,7 @@
     if($_SERVER['REQUEST_METHOD'] == 'POST')
     {
         $code = $_POST['code'];
-        session_start();
-        $mail = $_SESSION['mail2'];
-
-        echo $mail;
+        $mail = $_POST['mail'];
 
         require "database_connection.php";
 
