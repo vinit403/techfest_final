@@ -1,5 +1,5 @@
 <?php
-    echo '  <footer class="style-2">
+    echo '  <footer class="style-2" style="background:#18191b">
     <div class="container">
         <div class="row align-items-middle">
             <div class="col-md-3">

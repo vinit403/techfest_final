@@ -80,6 +80,12 @@
     .location-fixed p:hover
     {
         color:#ec167f;
+        transition:.3s;
+    }
+
+    .location-fixed p{
+        color:#fff;
+        transition:.3s;
     }
 
    .tech
@@ -227,13 +233,13 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0" >
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Rishabh Kakadiya</h6>
                                     <h6>Mitul Bhatiya</h6>
                                     <h6>Priyank Galani</h6><br>
 
                                     <p><em>Maximum 4 Students in group</em></p>
-                                    <p class="tech mt-4">If you think that you are capable of beating your competitor’s team just by the technical knowledge and skill. If YES, then this is the best platform for your team, Where you can be the warrior and acquire the winning position. In which you are evaluated by quiz in the first elimination round. Afterward, you have to beat the opponent’s team by solving a maximum number of technical problems. According to the completion of tasks by a team, a point will be calculated. The teams which acquire the highest points will be declared as the winner.</p>
+                                    <p class="tech mt-4">If you think that you are capable of beating your competitor’s team just by the technical knowledge and skill, then this is the best platform for your team, where you can be the warrior and acquire the winning position. Here you are evaluated by quiz in the first elimination round. Afterward, you have to beat the opponent’s team by solving a maximum number of technical problems. According to the completion of tasks by a team, points will be calculated. The team which acquires the highest points will be declared as the winner.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group4_registration.php?event=Spartance">Register</a>
@@ -252,12 +258,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Jaymeen Sarvaiya</h6>
                                     <h6>Garvit Dhameliya</h6>
                                     <h6>Rinkesh Patel</h6><br>
                                     <p><em>Individual Event</em></p>
-                                    <p class="tech mt-4">It's an event with individual participants. All the participants in this event must complete three rounds. Participants have to perform the task within a time limit. The participants must be familiar with Linux and Ethical Hacking. Evolution will be based on how a participant will manage to exploit their attacks.</p>
+                                    <p class="tech mt-4">It's an event with individual participation. All the participants in this event must complete three rounds. Participants have to perform the task within a time limit. The participants must be familiar with Linux and Ethical Hacking. Evaluation will be based on how a participant will manage to exploit their attacks.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/single_registration.php?event=Access_Denied">Register</a>
@@ -276,7 +282,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                    <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Deep Bhingradiya</h6>
                                     <h6>Deep Jani</h6>
                                     <h6>Krish Moradiya</h6><br>
@@ -302,7 +308,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Darshak Mangroliya</h6>
                                     <h6>Anurag Bhanderi</h6>
                                     <h6>Khushal Rakholiya</h6><br>
@@ -327,12 +333,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Om Thakkar</h6>
                                     <h6>Manav Gandhi</h6>
                                     <h6>Rushi Patel</h6><br>
                                     <p><em>Maximum 3 Students in group</em></p>
-                                    <p class="tech mt-4">In this event, the participants will have to use various ‘chemical reactions’ to move a device(vehicle ). There will be three rounds at this event. Use your chemical knowledge to react to your reaction to make your car displace as much as possible.</p>
+                                    <p class="tech mt-4">In this event, the participants will have to use various ‘chemical reactions’ to move a device (vehicle). There will be three rounds in this event. Use your chemical knowledge of reaction to make your car displace as much as possible.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>            
                                         <a href="registration_pages/group3_registration.php?event=Camowheel">Register</a>
@@ -351,12 +357,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Jaimin Ahir</h6>
                                     <h6>Tirth Modi</h6>
                                     <h6>Raj Sharma</h6><br>
                                     <p><em>Compulsory 2 students in group</em></p>
-                                    <p class="tech mt-4">Bring your gray cells too far from classroom rote, Chemstar quiz is all about the world of Chemical engineering. We know a quiz is a form of game or mind sport, let us do something exciting in a quiz and get ready for a twist of ludo into the intense world of techno quizzing.</p>
+                                    <p class="tech mt-4">Bring your grey cells too far from classroom rote, Chemstar quiz is all about the world of Chemical engineering. We know a quiz is a form of game or mind sport, let us do something exciting in a quiz and get ready for a twist of ludo in the intense world of techno quizzing.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group2_registration_fix.php?event=Chemstar">Register</a>
@@ -375,13 +381,13 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Govind Chaudhry</h6>
                                     <h6>Sanket Darekar</h6>
                                     <h6>Dhruv Sonar</h6><br>
 
                                     <p><em>Maximum 4 Students in group</em></p>
-                                    <p class="tech mt-4">Design a manually controlled ROBOT that can cover maximum distance in the shortest possible time, challenging the hurdles and being one of the best opponents. Think your robot can overcome any obstacle big or small in the least possible time. If so, get it on the track and let the game begin. Rounds and obstacles will be disclosed on the event day.</p>
+                                    <p class="tech mt-4">Design a manually controlled ROBOT that can cover maximum distance in the shortest possible time, challenging the hurdles and being one of the best opponents. Think your robot which can overcome any obstacle big or small in the least possible time. If so, get it on the track and let the game begin. Rounds and obstacles will be disclosed on the event day.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group4_registration.php?event=Gaddi_On_Roll">Register</a>
@@ -400,7 +406,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Vikas Italiya</h6>
                                     <h6>Chandan Mandal</h6>
                                     <h6>Rajveer</h6><br>
@@ -424,12 +430,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                    <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Shok Patel</h6>
                                     <h6>Tushar Chauhan</h6>
                                     <h6>Tanuj Patel</h6><br>
                                     <p><em>Maximum 3 Students in group</em></p>
-                                    <p class="tech mt-4">In this group event, students have to make a demo model of the bridge. There will be only 1 round. In this game, we consider which bridge can absorb more load and which one will be the winner of the game. The main concept of the game is the design of Truss, checking the strength of the bridge.</p>
+                                    <p class="tech mt-4">In this group event, students have to make a demo model of the bridge. There will be only one round. In this game, based on load absorption capacity, the winner will be declared. The main concept of the game is the design of Truss, checking the strength of the bridge.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group3_registration.php?event=Constructo">Register</a>
@@ -448,13 +454,13 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Dipesh Umretiya</h6>
                                     <h6>Kushang Chaudhry</h6> 
                                     <h6>Neel Patel</h6><br>
 
                                     <p><em>Maximum 3 Students in group</em></p>
-                                    <p class="tech mt-4">This is a group event of 3-5 members. In this event, the participants have to make a boat by using popsicle sticks, fevicol, and foil paper. There will be only one round in this event. The model which can carry maximum load will be the winner of the contest.</p>
+                                    <p class="tech mt-4">This is a group event for 3-5 members. In this event, the participants have to prepare a boat by using popsicle sticks, fevicol, and foil paper. There will be only one round in this event. The model which can carry maximum load will be the winner of the contest.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group3_registration.php?event=Float_A_Boat">Register</a>
@@ -497,12 +503,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Vivek Bodarya</h6>
                                     <h6>Darshan Kheni</h6>
                                     <h6>Harshil Shah</h6><br>
                                     <p><em>Compulsory 2 students in group</em></p>
-                                    <p class="par-tech mt-4">It's a group event with a total of two participants. Participants in this event must complete three rounds. The participant must be familiar with the JAVA programming language. Participants will be required to perform tasks within a certain amount of time. Participants will have to perform code debugging on paper and FIX the BUGS. Participants will be given computer errors/problems which they must fix. Problem statements will be provided, along with their related code. It will be an elimination round throughout the event.</p>
+                                    <p class="par-tech mt-4">This is a group event for two participants. Participants in this event must complete three rounds. The participant must be familiar with the JAVA programming language. Participants are required to perform tasks within a specified time. Participants have to perform code debugging on paper and FIX the BUGS. Participants will be given computer errors/problems which they must fix. Problem statements will be provided, along with their related code. There will be elimination rounds throughout the event.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group2_registration_fix.php?event=Debugging_Code">Register</a>
@@ -521,12 +527,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Jay Thakkar</h6>
                                     <h6>Bhargav Amin</h6>
                                     <h6>Jenish Dhaduk</h6><br>
                                     <p><em>Maximum 3 Students in group</em></p>
-                                    <p class="par-tech mt-4">In this event you can win by designing creatively and accurately, participants will be given minimal requirements they should design in the website, the team with least time of accurate completion that hosts it on any domain and submit it before deadline will be considered as winners, fasten up your Imaginations to design it virtually!</p>
+                                    <p class="par-tech mt-4">n this event you can win by designing creatively & accurately. Participants will be given minimal requirements to design on the website. The team using the least time with accurate completion that hosts the website on any domain and submit before the deadline will be considered as winners. Fasten up your Imaginations to design it virtually!</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group3_registration.php?event=Dot_Your_Imagination">Register</a>
@@ -545,12 +551,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Darshan Modi</h6>
                                     <h6>Arshi Samol</h6>
                                     <h6>Priyanshi Patel</h6><br>
                                     <p><em>Maximum 3 Students in group</em></p>
-                                    <p class="par-tech mt-4">It's a group event where the maximum number of participants per group should be 03. Participants have to identify the chemistry clues available at various locations on the campus. The teams will have to identify the available clues, solve the problem which would lead to the next clue. Each team is required to find and solve 10 clues. Students reaching the final clue in a minimum amount of time will be the winner.</p>
+                                    <p class="par-tech mt-4">It's a group event where the maximum number of participants per group should be 03. Participants have to identify the chemistry clues available at various locations on the campus. The teams will have to identify the available clues, solve the problem which would lead to the next clue. Each team is required to find and solve 10 clues. Students reaching the final clue in a minimum amount of time will be declared as the winner.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group3_registration.php?event=Scavenger_Hunt">Register</a>
@@ -569,12 +575,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Ashutosh Raval</h6>
                                     <h6>Aman Tiwari</h6>
                                     <h6>Himanshu Parmar</h6><br>
                                     <p><em>Maximum 4 Students in group</em></p>
-                                    <p class="par-tech mt-4">Participants have to come with the boats according to the given specifications on the event date and win the race. There will be several stages and no elimination round and winners will be decided on the basis of points or time. Rounds will be disclosed on event day only.</p>
+                                    <p class="par-tech mt-4">Participants have to come with the boat according to the given specifications on the event date and win the race. There will be several stages and no elimination round and winners will be decided on the basis of points or time. Rounds will be disclosed on event day only.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group4_registration.php?event=Boat_Battle">Register</a>
@@ -593,13 +599,13 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                    <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Pratik Davda</h6>
                                     <h6>Archana Mahto </h6>
                                     <h6>Ganesh Solanki</h6><br>
 
                                     <p><em>Maximum 5 student in group</em></p>
-                                    <p class="par-tech mt-4">In this group event, students have to make the demo model of the smart city look. There will be only 1 round. The best and most creative model will be the winner of the game. The main concept of the game is creativity, the design of the team.</p>
+                                    <p class="par-tech mt-4">In this group event, students have to make the demo model of the smart city look. There will be only one round. The best and most creative model will be declared as the winner of the game. The main concept of the game is creativity & design of the team.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group5_registration.php?event=Sthapatya_gta">Register</a>
@@ -643,7 +649,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Dhruvil Khunt</h6>
                                     <h6>Ayushi Patel </h6>
                                     <h6>Priyank Naliyadra</h6><br>
@@ -667,12 +673,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Dhanyavi Goti</h6>
                                     <h6>Harshil Savani</h6>
                                     <h6>Jenil Moradiya</h6><br>
                                     <p><em>Maximum 5 student in Group.</em></p>
-                                    <p class="gen-tech mt-4">In this game, you can win by begging, borrowing, or stealing things. Participants will be given a list of things that they have to fetch within a period. Everything is fair in this war. ‘Jugaad’ is the keyword. For once, you won’t be excluded for begging, unappreciated for borrowing, or accused of stealing. The team which earns the maximum points in the least time will be declared winners. It’s time to put on your shoes, fasten your belts, smarten up your imagination and put all your resources to fetch the most radical things. So get ready to have some real fun.</p>
+                                    <p class="gen-tech mt-4">In this game, you can win by begging, borrowing, or stealing things. Participants will be given a list of things that they have to fetch within a period. Everything is fair in this war. ‘Jugaad’ is the keyword. For once, you won’t be excluded for begging, unappreciated for borrowing, or accused of stealing. The team which earns the maximum points in the least time will be declared winners. It’s time to put on your shoes, fasten your belts, smarten up your imagination and put all your resources to fetch the most radical things. So, get ready to have some real fun.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group5_registration.php?event=Beg_Borrow_Steal">Register</a>
@@ -691,12 +697,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Amit Korat</h6>
                                     <h6>Harshit Sakariya</h6>
                                     <h6>Harsh Pandya</h6><br>
                                     <p><em>Individual Event</em></p>
-                                    <p class="gen-tech mt-4">In this event, we will ask the participants for ideas on how to sell the given product? The best idea chosen will get marks accordingly. The product is given by coordinators.</p>
+                                    <p class="gen-tech mt-4">In this event, we will ask the participants for ideas on how to sell the given product? The best idea will be chosen and will get marks accordingly. The product will be given by coordinators.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/single_registration.php?event=Sell_This_Product">Register</a>
@@ -715,12 +721,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <<h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                    <<h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Hardi Sakhiya</h6>
                                     <h6>Yash Dungrani</h6>
                                     <h6>Pratham Joshi</h6><br>
                                     <p><em>Maximum 2 student in Group.</em></p>
-                                    <p class="gen-tech mt-4">This event is a group event in which the maximum number of participants is 02. In this event, a participant has to pass the laser and point them to a given exit point. Participants have to choose the right path threw mirror reflection and fixed objects to point the laser to the given exit point.</p>
+                                    <p class="gen-tech mt-4">This event is a group event in which the maximum two participants are allowed. In this event, a participant has to pass the laser and point them to a given exit point. Participants have to choose the right path through mirror reflection and fixed objects to point the laser to the given exit point.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group2_registration.php?event=Laser_Break">Register</a>
@@ -739,12 +745,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Akhilesh Rangani</h6>
                                     <h6>Yash Tahilramani</h6>
                                     <h6>Ashams Chettiveetil</h6><br>
                                     <p><em>Compulsory 5 student in Group.</em></p>
-                                    <p class="gen-tech mt-4">In this event, anyone can participate and there is no limit on the number of teams. All the teams will consist of exactly five players. The game will be Counterstrike: Global Offensive (CS: GO). First, there will be elimination rounds in which two teams will play Team deathmatch and whoever will win, goes to qualifiers. Then after elimination rounds, 12 teams will qualify to go to the qualifiers. Then there will be search and destroy matches based on bracket elimination. There will be two qualifiers rounds (will consist of four matches), one semi-final round (will consist of two matches), and one Final match.</p>
+                                    <p class="gen-tech mt-4">In this event, anyone can participate and there is no limit on the number of teams. All the teams will consist of exactly 5 players. The game will be Counter strike: Global Offensive (CS:sGO). First there will be an elimination round in which 2 teams will play Team deathmatch and whoever will win, goes to qualifiers. Then after elimination rounds, 8 teams will qualify to go to the qualifiers. Then there will be competitive matches based on bracket elimination. There will be 1 qualifier round, 1 semi-final round and 1 Final match.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group5_registration_fix.php?event=Lan_Strike">Register</a>
@@ -777,7 +783,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="offset-md-3 col-md-9">
-                                    <h4>MAD About ADS(SLM)</h4>
+                                    <h4>MAD About ADs</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
@@ -786,12 +792,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Amit Chaplot</h6>
                                     <h6>Shradha Shukla</h6>
                                     <h6>Parin Thummar</h6><br>
                                     <p><em>some company name, city</em></p>
-                                    <p class="ex-event mt-4">Participants will have to produce an advertisement for a product/service within a given time. The best advertisement chosen will be provided marks accordingly. The decision of judges will be final.</p>
+                                    <p class="ex-event mt-4">Participants will have to produce an advertisement for a product/service within a given time. The best advertisement chosen will be marked accordingly. The decision of Judges will be final.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group5_registration.php?event=mad_about_ads">Register</a>
@@ -801,7 +807,7 @@
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">Sci-Fi Exhibits (SOS)</h4>
+                                    <h4 style="padding-top: 50px;">Sci-Fi Exhibits</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
@@ -810,13 +816,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Divyang Pardhi</h6>
                                     <h6>Sanjana Patil</h6>
                                     <h6>Rishi Bhadresvara</h6><br>
                                     <p><em>some company name, city</em></p>
-                                    <p class="ex-event mt-4">In this event you have to show your creativity based on the theme of the current trends in science.</p>
-                                    <p class="ex-event mt-4">This includes three competitions like poster making, model representation and sci-toon drawing. The winner will be selected by their creativity.</p>
+                                    <p class="ex-event mt-4">In this event you have to show your creativity based on the theme of the current trends in science. This includes three competitions like poster making, model representation and sci-toon drawing. The winner will be selected based on creativity.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group2_registration.php?event=sci_fi_exhibits">Register</a>
@@ -826,7 +831,7 @@
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">Sustainable aqua refinement (SON)</h4>
+                                    <h4 style="padding-top: 50px;">Sustainable aqua refinement </h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
@@ -835,12 +840,12 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Vasant Italiya</h6>
                                     <h6>Vivek Dholu</h6>
                                     <h6>Yash Goregaolkar</h6><br>
                                     <p><em>some company name, city</em></p>
-                                    <p class="ex-event mt-4">The event is based on the aqua water refinement working model. The model which includes the process of removing the suspended particles, bacteria and other undesirable substances from contaminated water to produce safe and clean drinking water. The model must be made from natural products only. The use of harmful substances is strictly prohibited. Descriptive chart (Standard Size-70×56cm) of model must display during demonstration.</p>
+                                    <p class="ex-event mt-4">The event is based on the aqua water refinement working model. The model which includes the process of removing the suspended particles, bacteria and other undesirable substance from contaminated water to produce safe and clean drinking water. The model must be made from natural products only. The use of harmful substances is strictly prohibited. Descriptive chart (Standard Size-70×56cm) of model must display during demonstration.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/group2_registration.php?event=sustainable_aqua_refinement">Register</a>
@@ -850,7 +855,7 @@
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">Tavdi Painting (SOA)</h4>
+                                    <h4 style="padding-top: 50px;">Tavdi Painting</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
@@ -859,12 +864,13 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinator</h5><br>
+                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
                                     <h6>Amin Rangrez</h6>
                                     <h6>Ritesh Patil</h6>
                                     <h6>Riddhi Savaliya</h6><br>
                                     <p><em>some company name, city</em></p>
-                                    <p class="ex-event mt-4">Tavdi is a terracotta plate used for the purpose of making rotis in India. The beauty of tavdi is that it is made out of mud. This handmade tavdi has so much connectivity with the culture of India and is used in the kitchen as a daily utensil. We have brought the Tavdi DIY competition to stay rooted to the tradition of India. The Tavdi plates will be provided by the institution. The decorative materials such as colors, paint brushes, glue etc. Should be brought by the students.</p>
+                                    <p class="ex-event mt-4">Tavdi is a terracotta plate used for the purpose of making rotis in India. The beauty of tavdi is that it is made out of mud. This handmade tavdi has so much connectivity with the culture of India and is used in the kitchen as a daily utensil. We have brought the Tavdi DIY competition to stay rooted to the tradition of India.</p>
+                                    <p class="ex-event mt-4">The Tavdi plates will be provided by the institution. The decorative materials such as colors, paint brushes, glue etc. Should be brought by the students.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/single_registration.php?event=tavdi_painting">Register</a>
@@ -888,7 +894,7 @@
                         <div class="container" style="padding-top: 60px;">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="content__title"><spam style="text-transform: uppercase;">W</spam>ork-<spam style="text-transform: uppercase;">S</spam>hops</h2>
+                                    <h2 class="content__title" ><spam style="text-transform: uppercase;">W</spam>ork-<spam style="text-transform: uppercase;">S</spam>hops</h2>
                                 </div>
                                 <div class="col-lg-4 mt-3">
                                     <h3 class="content__subtitle">To achieve great things, two things are needed: a plan and not quite enough time.</h3>
@@ -900,16 +906,16 @@
                         <div class="container">
                             <div class="row">
                                 <div class="offset-md-3 col-md-9">
-                                    <h4>AWS</h4>
+                                    <h4>IOT (Internet of Things)</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="speaker-image">
-                                    <img src="images-event/Event-Img/1.jpg" alt="" style="max-width:230px;height:230px;" >
+                                    <img src="images-event/team/iot.jpg.webp" alt="" style="max-width:230px;height:230px;" >
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5>director &amp; founder</h5>
+                                    <h5>14th April - 2022 (2:00  PM - 5:00 PM)</h5>
                                     <p><em>some company name, city</em></p>
                                     <p class="workshop mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     <div class="social-team mt-4">
@@ -921,16 +927,16 @@
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">IOT</h4>
+                                    <h4 style="padding-top: 50px;">Mobile Application development using Flutter Framework</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="speaker-image">
-                                    <img src="images-event/Event-Img/1.jpg" alt="" style="max-width:230px;height:230px;" >
+                                    <img src="images-event/team/Flutter-App-development.jpg" alt="" style="max-width:230px;height:230px;" >
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5>director &amp; founder</h5>
+                                    <h5>14th April - 2022 (2:00  PM - 5:00 PM)</h5>
                                     <p><em>some company name, city</em></p>
                                     <p class="workshop mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     <div class="social-team mt-4">
@@ -942,16 +948,16 @@
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">Flutter</h4>
+                                    <h4 style="padding-top: 50px;">Game development using Unity</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="speaker-image">
-                                    <img src="images-event/Event-Img/1.jpg" alt="" style="max-width:230px;height:230px;" >
+                                    <img src="images-event/team/game-dev-unity.webp" alt="" style="max-width:230px;height:230px;" >
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5>director &amp; founder</h5>
+                                    <h5>15th April - 2022 (2:00  PM - 5:00 PM)</h5>
                                     <p><em>some company name, city</em></p>
                                     <p class="workshop mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     <div class="social-team mt-4">
@@ -963,16 +969,16 @@
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">Unity</h4>
+                                    <h4 style="padding-top: 50px;">AWS (Amazon Web services)</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="speaker-image">
-                                    <img src="images-event/Event-Img/1.jpg" alt="" style="max-width:230px;height:230px;" >
+                                    <img src="images-event/team/aws.jpg" alt="" style="max-width:230px;height:230px;" >
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5>director &amp; founder</h5>
+                                    <h5>15th April - 2022 (2:00  PM - 5:00 PM)</h5>
                                     <p><em>some company name, city</em></p>
                                     <p class="workshop mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     <div class="social-team mt-4">

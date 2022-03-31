@@ -67,12 +67,13 @@
         <!-- section begin -->
         <section id="section-sponsors ftco-section" >
                 <div class="wm wm-border dark wow fadeInDown " style="padding-top:50px;">Contact</div>
-                <div class="container row justify-content-center">
-                <div class="row justify-content-center">
-				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section" style="color: whitesmoke; ">Contact</h2>
-                    <div class="separator"><span><i class="fa fa-square"></i></span></div>
-                    <div class="spacer-single"></div>
+                <div class="container">
+                <div class="row">
+				<div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                            <h1>Contact</h1>
+                            <div class="separator"><span><i class="fa fa-square"></i></span></div>
+                            <div class="spacer-single"></div>
+                        </div>
 				</div>
 			</div>
 			<div class="row justify-content-center">
