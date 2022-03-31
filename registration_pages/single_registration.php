@@ -63,7 +63,7 @@ use PHPMailer\PHPMailer\Exception;
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Customer Details Form</h5>
+                                    <h5 class="modal-title">Alert</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
@@ -90,6 +90,8 @@ function OpenBootstrapPopup() {
     $("#simpleModal").modal("show");
 }
 </script>'; 
+header("refresh:3,url=../Event.php");
+
 
                     }
                     else
@@ -164,13 +166,13 @@ $host = 'email-smtp.ap-south-1.amazonaws.com';
 $port = 587;
 
 // The subject line of the email
-$subject = 'AWS SNS Email test';
+$subject = 'Event registration';
 
 // The plain-text body of the email
 $bodyText =  "okay you got it.";
 
 // The HTML-formatted body of the email
-$bodyHtml = '-- Put body html here --';
+$bodyHtml = 'You have successfully registered in event '.$event.'';
 
 $mail = new PHPMailer(true);
 
@@ -214,7 +216,7 @@ catch (phpmailerException $e) {
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title">Customer Details Form</h5>
+                                        <h5 class="modal-title">Alert</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -240,7 +242,10 @@ catch (phpmailerException $e) {
     function OpenBootstrapPopup() {
         $("#simpleModal").modal("show");
     }
-</script>'; 
+</script>';
+header("refresh:3,url=../Event.php");
+
+; 
                         }
                     }
                 }

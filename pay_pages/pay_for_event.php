@@ -119,6 +119,8 @@ function OpenBootstrapPopup() {
 $("#simpleModal").modal("show");
 }
 </script>'; 
+header("refresh:3,url=../Event.php");
+
                
                echo '  <center>
                <div class="container my-3" style="opacity:0.9">
