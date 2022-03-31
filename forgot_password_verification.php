@@ -33,7 +33,6 @@ use PHPMailer\PHPMailer\Exception;
 $err = "";
         if($_SERVER['REQUEST_METHOD'] == 'POST')
         {
-
             require "database_connection.php";
 
             $mail = $_POST['mail'];
