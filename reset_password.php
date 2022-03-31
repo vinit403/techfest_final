@@ -34,6 +34,8 @@
         session_start();
         $mail = $_SESSION['mail2'];
 
+        echo $mail;
+
         require "database_connection.php";
 
         $sql = "SELECT * FROM `user` WHERE mail='$mail'";
