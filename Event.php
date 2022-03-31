@@ -53,11 +53,11 @@
 	<link rel="stylesheet" href="css/font-style.css" type="text/css">
 
     <!-- aoide css -->
-    <link rel="stylesheet" href="aoide/css/bootstrap.css"/>
-	<link rel="stylesheet" href="aoide/css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="aoide/css/jquery.webui-popover.css"/>
-	<link rel="stylesheet" href="aoide/css/style.css"/>
-	<link rel="stylesheet" href="aoide/css/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="event_page/css/bootstrap.css"/>
+	<link rel="stylesheet" href="event_page/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="event_page/css/jquery.webui-popover.css"/>
+	<link rel="stylesheet" href="event_page/css/style.css"/>
+	<link rel="stylesheet" href="event_page/css/jquery.fancybox.min.css"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
 	<link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
 	
@@ -1146,13 +1146,13 @@
                
     <!-- JAVASCRIPT
     ================================================== -->
-    <script src="aoide/js/jquery.min.js"></script>
-	<script src="aoide/js/popper.min.js"></script> 
-	<script src="aoide/js/bootstrap.min.js"></script>
-	<script src="aoide/js/plugins.js"></script> 
-	<script src="aoide/js/gradient-animation.js"></script> 
+    <script src="event_page/js/jquery.min.js"></script>
+	<script src="event_page/js/popper.min.js"></script> 
+	<script src="event_page/js/bootstrap.min.js"></script>
+	<script src="event_page/js/plugins.js"></script> 
+	<script src="event_page/js/gradient-animation.js"></script> 
 	<!-- <script src="aoide/js/contact.js"></script> -->
-	<script src="aoide/js/custom.js"></script> 
+	<script src="event_page/js/custom.js"></script> 
 
 
     <!-- Javascript Files
