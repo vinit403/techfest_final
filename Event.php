@@ -5,7 +5,7 @@
 
   
     <meta charset="utf-8">
-    <title>Tech-Pulse || 2022-23</title>
+    <title>Events</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
