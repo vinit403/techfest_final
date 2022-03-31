@@ -149,6 +149,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <div class="p-t-10">
                                 <button class="btn btn--pill btn--green" type="submit">Submit</button>
                             </div>
+
+                            <div class="p-t-10">
+                                <a href="forgot_password.php">
+                                <button class="btn btn--pill btn--green" type="button">Forgot password? </button>
+                                </a>
+                            </div>
                         </form>
                     </div>
                 </div>
