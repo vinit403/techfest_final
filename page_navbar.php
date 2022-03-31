@@ -33,7 +33,7 @@ if(isset($_SESSION['logged_in']))
                                 <li><a href="Event.php">Events<span></span></a></li>
                                 <li><a href="package.php">Packages<span></span></a></li>
                                 <li><a href="contact-us.php">Contact us<span></span></a></li>
-                                <li><a href="accomodation_form.php">Accomodation<span></span></a></li>
+                                <li><a href="accomodation.php">Accomodation<span></span></a></li>
                                 <li><a href="dashboard.php" style="color:#ec167f";>'.$user_id.'<span></span></a></li>
                                 <li><a href="logout_user.php" style="color:#ec167f">logout<span></span></a></li>
 </ul>
@@ -84,7 +84,7 @@ if($flag == 1)
                         <li><a href="Event.php">Events<span></span></a></li>
                         <li><a href="package.php">Packages<span></span></a></li>
                         <li><a href="contact-us.php">Contact us<span></span></a></li>
-                        <li><a href="accomodation_form.php">Accomodation<span></span></a></li>
+                        <li><a href="accomodation.php">Accomodation<span></span></a></li>
                         <li><a href="login.php" style="color:#ec167f">LogIn<span></span></a></li>
                         <li><a href="sign_up.php" style="color:#ec167f">SignUp<span></span></a></li></ul>
                 </nav>
