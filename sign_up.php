@@ -79,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $user_name = test_input($_POST["user_name"]);
         // check if name only contains letters and whitespace
-        if (!preg_match("/^[a-zA-Z0-9]*$/", $user_name)) {
+        if (!preg_match("/^[a-zA-Z0-9 ]*$/", $user_name)) {
             $err = "Only Character and white space allowed in user id";
         } else {
             $fnamef = 1;
@@ -235,7 +235,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     <div class="input-group">
                                         <input class="input--style-3" type="text" placeholder="user Id" name="user_name" maxlength="20" required>
                                     </div>
-                                    <span class = "error"><?php echo $fnameErr; ?></span>
+                        
                                     <div class="input-group">
                                         <input class="input--style-3" type="text" placeholder="Full Name" name="name" maxlength="50" required>
                                     </div>
@@ -246,7 +246,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <input class="input--style-3" type="email" placeholder="Email Address" name="mail" maxlength="50" required>
                                     </div>
                                     <div class="input-group">
-                                        <input class="input--style-3" type="tel" placeholder="Mobile Number" name="phone_number" max="9999999999" min="1000000000" required>
+                                        <input class="input--style-3" type="number" placeholder="Mobile Number" name="phone_number" max="9999999999" min="1000000000" required>
                                     </div>
                                     <div class="input-group">
                                         <input class="input--style-3" type="password" placeholder="Enter Password" name="password" maxlength="20" required>
