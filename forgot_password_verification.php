@@ -35,9 +35,9 @@ $err = "";
         {
             require "database_connection.php";
 
-            $mail = $_POST['mail'];
+            $mailid = $_POST['usermailid'];
 
-            $sql = "SELECT * FROM `user` WHERE mail='$mail'";
+            $sql = "SELECT * FROM `user` WHERE mail='$mailid'";
             $result = mysqli_query($connect, $sql);
 
             if(mysqli_num_rows($result) == 0)
@@ -114,7 +114,7 @@ $err = "";
                     $mail->AltBody    = $bodyText;
                     $mail->Send();
 
-                    $sql = "UPDATE `user` SET code='$code' WHERE mail='$mail'";
+                    $sql = "UPDATE `user` SET code='$code' WHERE mail='$mailid'";
                     $result = mysqli_query($connect, $sql);
 
 
@@ -154,7 +154,7 @@ $err = "";
                                     <input class="input--style-3" type="number" placeholder="Enter Verification Code" name="code" maxlength="6" required>
                                 </div>
 
-                                <input type="hidden" name="mail" value="<?php echo $mail ?>">
+                                <input type="hidden" name="mailid" value="<?php echo $mailid ?>">
 
                                 <div class="p-t-10">
                                     <button class="btn btn--pill btn--green" type="submit" id="next1">Register</button>

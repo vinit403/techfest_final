@@ -31,11 +31,11 @@
     if($_SERVER['REQUEST_METHOD'] == 'POST')
     {
         $code = $_POST['code'];
-        $mail = $_POST['mail'];
+        $mailid = $_POST['mailid'];
 
         require "database_connection.php";
 
-        $sql = "SELECT * FROM `user` WHERE mail='$mail'";
+        $sql = "SELECT * FROM `user` WHERE mail='$mailid'";
         $result = mysqli_query($connect, $sql);
 
         $r = mysqli_fetch_assoc($result);
@@ -61,7 +61,8 @@
                                     <div class="input-group">
                                     <input class="input--style-3" type="password" placeholder="Confirm password" name="pass2" maxlength="20" required>
                                     </div>
-                                    <input type="hidden" name="mail" value='.$mail.'>
+                                    
+                                    <input type="hidden" name="mailid" value='.$mailid.'>
 
                                     <div class="p-t-10">
                                         <button class="btn btn--pill btn--green" type="submit" id="next1">Register</button>

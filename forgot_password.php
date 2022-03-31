@@ -39,10 +39,9 @@
                         <form action="forgot_password_verification.php" method="post" id="form1">
                        
                             <div class="input-group">
-                                <input class="input--style-3" type="email" placeholder="Email Id" name="mail" maxlength="50" required>
+                                <input class="input--style-3" type="email" placeholder="Email Id" name="usermailid" maxlength="50" required>
                             </div>
                             
-                            <input type="hidden" name="flag" value="1">
                             <div class="p-t-10">
                                 <button class="btn btn--pill btn--green" type="submit" id="next1">Register</button>
                             </div>
