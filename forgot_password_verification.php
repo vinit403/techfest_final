@@ -115,7 +115,7 @@ $err = "";
                     $mail->AltBody    = $bodyText;
                     $mail->Send();
 
-                    $sql = "UPDATE `user` SET code='$code' WHERE mail=$mail";
+                    $sql = "UPDATE `user` SET code='$code' WHERE mail='$mail'";
                     $result = mysqli_query($connect, $sql);
 
 
