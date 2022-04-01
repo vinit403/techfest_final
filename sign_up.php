@@ -214,7 +214,7 @@ input[type=number]::-webkit-outer-spin-button{
 }
 </style>
 <body id="homepage">
-
+ 
     <div id="wrapper">
 
         <!-- header begin -->
@@ -222,9 +222,10 @@ input[type=number]::-webkit-outer-spin-button{
         require "page_navbar.php";
         ?>
         <!-- header close -->
-
-        <div>
+        
             <div class="page-wrapper bg-gra-01 p-t-180 p-b-100 font-poppins" data-bgimage="url(images-event/bg/3.jpg)">
+            
+        <div>
                 <div class="wrapper wrapper--w780">
                     <div class="card card-2">
                         <div class="card-heading"></div>
@@ -235,6 +236,11 @@ input[type=number]::-webkit-outer-spin-button{
                                 </p>
                                 <br>
                             </h2>
+                            <div>
+            <p style="color:#555;font-size: 12px; line-height:12px;">Please provide information that is both authentic and reliable. The information you provide will be used for certification. Under any circumstances, it will not be altered! 
+             
+        </p>
+        </div>
                             <form method="POST">
                                 <div class="data">
                                     <div class="input-group">
@@ -254,13 +260,11 @@ input[type=number]::-webkit-outer-spin-button{
                                         <input class="input--style-3" type="tel" placeholder="Mobile Number" name="phone_number" required>
                                     </div>
                                     <div class="input-group">
-                                        <input class="input--style-3" type="password" placeholder="Enter Password *" name="password" maxlength="20" required>
+                                        <input class="input--style-3" type="password" placeholder="Enter Password" name="password" maxlength="20" required>
                                     </div>
                                     <div class="input-group">
                                         <input class="input--style-3" type="password" placeholder="Confirm Password" name="password2" maxlength="20" required>
                                     </div>
-
-                                    <p style="color:#555;font-size: 12px;">* Password contains three character categories: digits, Uppercase characters and minimum 8-characters.</p>
 
                                 </div>
                                 <div class="p-t-10" style="margin-bottom:20px">
