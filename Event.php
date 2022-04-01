@@ -995,7 +995,7 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="speaker-image">
-                                    <img src="images-event/Event-Img/AI_ML.jpg" alt="" style="max-width:230px;height:230px;" >
+                                    <img src="images-event/Event-img/AI_ML.png" alt="" style="max-width:230px;height:230px;" >
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
