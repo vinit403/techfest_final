@@ -86,7 +86,8 @@ if($flag == 1)
                         <li><a href="contact-us.php">Contact us<span></span></a></li>
                         <li><a href="accomodation.php">Accomodation<span></span></a></li>
                         <li><a href="login.php" style="color:#ec167f">LogIn<span></span></a></li>
-                        <li><a href="sign_up.php" style="color:#ec167f">SignUp<span></span></a></li></ul>
+                        <li><a href="sign_up.php" style="color:#ec167f">SignUp<span></span></a></li>
+                    </ul>
                 </nav>
                 
                 <!-- mainmenu close -->

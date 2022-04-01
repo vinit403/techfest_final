@@ -107,7 +107,7 @@
                         <div class="row align-items-center">
                             
                             <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0s">
-                                <h2 style="color:#ec167f">Welcome to the Biggest<br>Tech-Fest, Tech-Pulse 2022-23</h2>
+                                <h2 style="color:#ec167f">Welcome to the Biggest<br>Tech-Fest, Tech-Pulse 2022</h2>
                                 <p>
                                 As the annual tech fest of PPSU, Tech-pulse has provided a podium for engineering innovations.<br>
 
@@ -398,13 +398,13 @@
                     <!-- gallery item -->
                     <div class="item residential">
                         <div class="picframe">
-                            <a href="images-event/portfolio/img1.jpg" >
+                            <a href="images-event/portfolio/PPSU-5.jpg" >
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
                                     </span>
                                 </span>
-                                <img src="images-event/portfolio/img1.jpg" alt=""  style="height:240px">
+                                <img src="images-event/portfolio/PPSU-5.jpg" alt=""  style="height:240px">
                             </a>
                         </div>
                     </div>

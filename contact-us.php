@@ -161,15 +161,15 @@
 					          </div>
 				          </div>
 				        	
-				        	<!-- <div class="dbox w-100 d-flex align-items-center">
+				        	<div class="dbox w-100 d-flex align-items-center">
 				        		<div class="icon d-flex align-items-center justify-content-center">
 				        			<span class="fa fa-paper-plane" style="padding-bottom:17px"></span>
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@techpulse.co.in</a></p>
+					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">hello@techpulse.co.in</a></p>
 					          </div>
 				          </div>
-				        	<div class="dbox w-100 d-flex align-items-center">
+				        	<!-- <div class="dbox w-100 d-flex align-items-center">
 				        		<div class="icon d-flex align-items-center justify-content-center">
 				        			<span class="fa fa-globe" style="padding-bottom:17px"></span>
 				        		</div>

@@ -87,8 +87,9 @@
                             
                             <p class="mb-0">
                             <ul>
-                                <li>Provide BreakFast</li>
-                                <li>A.C. Room</li>
+                                <li>A/C Room</li>
+                                <li>BreakFast</li>
+                                <li>Dinner</li>
                             </ul>
                             </p>
                             <a href="accomodation_form_2.php"><input type="button" value="Book Now" style="background-color: #ec167f;color:white;border:none;height:40px; border-radius:10px;margin-top:15px;"><span></span></a>
@@ -98,8 +99,9 @@
 
                             <p class="mb-0">
                             <ul>
-                                <li>Provide BreakFast</li>
-                                <li>A.C. Room</li>
+                                <li>A/C Room</li>
+                                <li>BreakFast</li>
+                                <li>Dinner</li>
                             </ul>
                             </p>
                             
@@ -125,72 +127,7 @@
 				
 			
 			
-			<!-- section begin -->
-            <section id="section-portfolio" class="no-top no-bottom" aria-label="section">                
-                <div id="gallery" class="gallery zoom-gallery full-gallery de-gallery pf_full_width wow fadeInUp" data-wow-delay=".3s">
-
-                    <!-- gallery item -->
-                    <div class="item residential">
-                        <div class="picframe">
-                            <a href="images-event/portfolio/PPSU-5.jpg">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">View Image</span>
-                                    </span>
-                                </span>
-                                <img src="images-event/portfolio/PPSU-5.jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="item hospitaly">
-                        <div class="picframe">
-                            <a href="images-event/portfolio/PPSU-2.jpg">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">View Image</span>
-                                    </span>
-                                </span>
-                                <img src="images-event/portfolio/PPSU-2.jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="item hospitaly">
-                        <div class="picframe">
-                            <a href="images-event/portfolio/PPSU-1.jpg">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">View Image</span>
-                                    </span>
-                                </span>
-                                <img src="images-event/portfolio/PPSU-1.jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="item residential">
-                        <div class="picframe">
-                            <a href="images-event/portfolio/PPSU-4.jpg">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">View Image</span>
-                                    </span>
-                                </span>
-                                <img src="images-event/portfolio/PPSU-4.jpg" alt="" />
-                            </a>
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-                </div>             
-            </section>
-            <!-- section close -->
+			
 
             <!-- footer begin -->
 <?php

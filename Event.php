@@ -233,7 +233,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0" >
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Rishabh Kakadiya</h6>
                                     <h6>Mitul Bhatiya</h6>
                                     <h6>Priyank Galani</h6><br>
@@ -258,7 +258,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Jaymeen Sarvaiya</h6>
                                     <h6>Garvit Dhameliya</h6>
                                     <h6>Rinkesh Patel</h6><br>
@@ -282,7 +282,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                    <h5 >Event Co-ordinators</h5><br>
                                     <h6>Deep Bhingradiya</h6>
                                     <h6>Deep Jani</h6>
                                     <h6>Krish Moradiya</h6><br>
@@ -308,7 +308,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Darshak Mangroliya</h6>
                                     <h6>Anurag Bhanderi</h6>
                                     <h6>Khushal Rakholiya</h6><br>
@@ -333,7 +333,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Om Thakkar</h6>
                                     <h6>Manav Gandhi</h6>
                                     <h6>Rushi Patel</h6><br>
@@ -357,7 +357,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Jaimin Ahir</h6>
                                     <h6>Tirth Modi</h6>
                                     <h6>Raj Sharma</h6><br>
@@ -381,7 +381,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Govind Chaudhry</h6>
                                     <h6>Sanket Darekar</h6>
                                     <h6>Dhruv Sonar</h6><br>
@@ -406,7 +406,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Vikas Italiya</h6>
                                     <h6>Chandan Mandal</h6>
                                     <h6>Rajveer</h6><br>
@@ -430,7 +430,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                    <h5 >Event Co-ordinators</h5><br>
                                     <h6>Shok Patel</h6>
                                     <h6>Tushar Chauhan</h6>
                                     <h6>Tanuj Patel</h6><br>
@@ -454,7 +454,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Dipesh Umretiya</h6>
                                     <h6>Kushang Chaudhry</h6> 
                                     <h6>Neel Patel</h6><br>
@@ -503,7 +503,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Vivek Bodarya</h6>
                                     <h6>Darshan Kheni</h6>
                                     <h6>Harshil Shah</h6><br>
@@ -527,7 +527,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Jay Thakkar</h6>
                                     <h6>Bhargav Amin</h6>
                                     <h6>Jenish Dhaduk</h6><br>
@@ -551,7 +551,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Darshan Modi</h6>
                                     <h6>Arshi Samol</h6>
                                     <h6>Priyanshi Patel</h6><br>
@@ -575,7 +575,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Ashutosh Raval</h6>
                                     <h6>Aman Tiwari</h6>
                                     <h6>Himanshu Parmar</h6><br>
@@ -599,7 +599,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                    <h5 >Event Co-ordinators</h5><br>
                                     <h6>Pratik Davda</h6>
                                     <h6>Archana Mahto </h6>
                                     <h6>Ganesh Solanki</h6><br>
@@ -649,7 +649,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Dhruvil Khunt</h6>
                                     <h6>Ayushi Patel </h6>
                                     <h6>Priyank Naliyadra</h6><br>
@@ -673,7 +673,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Dhanyavi Goti</h6>
                                     <h6>Harshil Savani</h6>
                                     <h6>Jenil Moradiya</h6><br>
@@ -697,7 +697,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Amit Korat</h6>
                                     <h6>Harshit Sakariya</h6>
                                     <h6>Harsh Pandya</h6><br>
@@ -721,7 +721,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                    <<h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                    <<h5 >Event Co-ordinators</h5><br>
                                     <h6>Hardi Sakhiya</h6>
                                     <h6>Yash Dungrani</h6>
                                     <h6>Pratham Joshi</h6><br>
@@ -745,7 +745,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Akhilesh Rangani</h6>
                                     <h6>Yash Tahilramani</h6>
                                     <h6>Ashams Chettiveetil</h6><br>
@@ -792,7 +792,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Amit Chaplot</h6>
                                     <h6>Shradha Shukla</h6>
                                     <h6>Parin Thummar</h6><br>
@@ -816,7 +816,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Divyang Pardhi</h6>
                                     <h6>Sanjana Patil</h6>
                                     <h6>Rishi Bhadresvara</h6><br>
@@ -840,7 +840,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Vasant Italiya</h6>
                                     <h6>Vivek Dholu</h6>
                                     <h6>Yash Goregaolkar</h6><br>
@@ -864,7 +864,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
-                                <h5 style="text-decoration:underline;color:black;font-weight:bold">Event Co-ordinators</h5><br>
+                                <h5 >Event Co-ordinators</h5><br>
                                     <h6>Amin Rangrez</h6>
                                     <h6>Ritesh Patil</h6>
                                     <h6>Riddhi Savaliya</h6><br>
