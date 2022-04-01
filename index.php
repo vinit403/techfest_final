@@ -159,9 +159,9 @@
 						
 						<div class="clearfix"></div>
                       
-                       <div class="col-lg-3 col-md-3">
+                       <div class="col-lg-4 col-md-4" >
 							<!-- team member -->
-							<div class="de-team-list">
+							<div class="de-team-list" style="padding-left=300px">
 								<div class="team-pic">
 									<img src="images-event/team/iot.jpg.webp" class="img-responsive" alt="" >
 								</div>
@@ -175,10 +175,8 @@
 							</div>
 							<!-- team close -->
 						</div>
-						
-						
 
-                        <div class="col-lg-3 col-md-3">
+                        <div class="col-lg-4 col-md-4">
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
@@ -195,14 +193,14 @@
 							<!-- team close -->
 						</div>
 
-                        <div class="col-lg-3 col-md-3">
+                        <div class="col-lg-4 col-md-4">
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
 									<img src="images-event/team/game-dev-unity.webp" class="img-responsive" alt="">
 								</div>
 								<div class="team-desc" >
-									<h3>Game development using Unity</h3>
+									<h3>App development using Unity</h3>
 									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
 									<div class="small-border"></div>
                                     <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
@@ -212,8 +210,23 @@
 							<!-- team close -->
 						</div>
 
-                        <div class="col-lg-3 col-md-3">
-							<!-- team member -->
+                        <div class="col-lg-3 col-md-3" style="padding-top:50px;">	
+							<!-- <div class="de-team-list">
+								<div class="team-pic">
+									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" style='background-image:fill;'>
+								</div>
+								<div class="team-desc" >
+									<h3>AWS (Amazon Web services)</h3>
+									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
+									<div class="small-border"></div>
+                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+									
+								</div>
+							</div>							 -->
+						</div>
+
+                        <div class="col-lg-4 col-md-4" style="padding-top:30px">
+							
 							<div class="de-team-list">
 								<div class="team-pic">
 									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" style='background-image:fill;'>
@@ -225,9 +238,25 @@
                                     <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 									
 								</div>
-							</div>
-							<!-- team close -->
+							</div>							
 						</div>
+
+                        <div class="col-lg-4 col-md-4" style="padding-top:30px">
+							
+							<div class="de-team-list">
+								<div class="team-pic">
+									<img src="images-event/Event-Img/AI_ML.jpg" class="img-responsive" alt="" style='background-image:fill;'>
+								</div>
+								<div class="team-desc" >
+									<h3>AI/ML (Artifical Intellegence and Machine Learning)</h3>
+									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
+									<div class="small-border"></div>
+                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+									
+								</div>
+							</div>							
+						</div>
+
 						<div class="clearfix"></div>
 
                     </div>

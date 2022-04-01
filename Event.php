@@ -948,7 +948,7 @@
                                 <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">Game development using Unity</h4>
+                                    <h4 style="padding-top: 50px;">App development using Unity</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
@@ -987,15 +987,15 @@
                                     </div>
                                 </div>
 
-                                <!-- <div class="title-page-line mt-4 mb-5"></div>
+                                <div class="title-page-line mt-4 mb-5"></div>
 
                                 <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">AR/VR/Web 3.o</h4>
+                                    <h4 style="padding-top: 50px;">AI/ML (Artificial Intellegence and Machine Learning)</h4>
                                     <div class="title-page-line mt-4 mb-5"></div>
                                 </div>
                                 <div class="col-md-3">
                                     <div class="speaker-image">
-                                    <img src="images-event/Event-Img/1.jpg" alt="" style="max-width:230px;height:230px;" >
+                                    <img src="images-event/Event-Img/AI_ML.jpg" alt="" style="max-width:230px;height:230px;" >
                                     </div>
                                 </div>
                                 <div class="col-md-9 mt-4 mt-md-0">
@@ -1006,28 +1006,9 @@
                                         <a href="">Rules & Regulations</a>
                                         <a href="registration_pages/workshop_registration.php?event=AR_VR_workshop">Register</a>
                                     </div>
-                                </div> -->
+                                </div> 
                                 
-                                <!-- <div class="title-page-line mt-4 mb-5"></div>
-
-                                <div class="offset-md-3 col-md-9">
-                                    <h4 style="padding-top: 50px;">Cyber Security</h4>
-                                    <div class="title-page-line mt-4 mb-5"></div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="speaker-image">
-                                    <img src="images-event/Event-Img/1.jpg" alt="" style="max-width:230px;height:230px;" > 
-                                    </div>
-                                </div>
-                                <div class="col-md-9 mt-4 mt-md-0">
-                                    <h5>director &amp; founder</h5>
-                                    <p><em>some company name, city</em></p>
-                                    <p class="workshop mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
-                                    <div class="social-team mt-4">
-                                        <a href="">Rules & Regulations</a>
-                                        <a href="registration_pages/workshop_registration.php?event=cyber_security_workshop">Register</a>
-                                    </div>
-                                </div> -->
+                               
                             </div>
                         </div>
                     </div>							
