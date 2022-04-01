@@ -488,8 +488,6 @@
     <script src="js/jquery.stellar.min.js"></script>
 	<script src="js/enquire.min.js"></script>	
     <script src="js/designesia.js"></script>	
-    <script src="js/particles.js"></script>	
-    <script src="js/particles-settings.js"></script>	
 	<script src="js/jquery.event.move.js"></script>
 	<script src="js/jquery.plugin.js"></script>
     <script src="js/jquery.countdown.js"></script>

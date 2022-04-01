@@ -68,7 +68,7 @@
 			
 			<!-- section begin -->
 			<section id="section-about" data-bg="fixed no-repeat">
-				<div class="wm wm-border dark wow fadeInDown" style="margin-top: 50px;">Hotel</div>
+				<div class="wm wm-border dark wow fadeInDown" style="margin-top: 70px;">Hotel</div>
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
