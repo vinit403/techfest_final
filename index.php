@@ -151,7 +151,7 @@
 							<div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
                                 <div class="de-images">
 									<!-- <img class="di-small-2" src="images-event/misc/3.jpg" alt="" /> -->
-									<video class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/techpulse_2.mp4" loop autoplay muted alt="" ></video>
+									<video class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/.mp4" loop autoplay muted alt="" ></video>
 								</div>
                             </div>
 
@@ -252,7 +252,7 @@
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/Event-img/AI_ML.png" class="img-responsive" alt="">
+									<img src="images-event/Event-Img/AI_ML.png" class="img-responsive" alt="">
 								</div>
 								<div class="team-desc" >
 									<h3>AI/ML</h3>
