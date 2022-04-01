@@ -3,7 +3,7 @@
 
 <head>
 
-  
+
     <meta charset="utf-8">
     <title>Techpulse 2022</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,33 +29,33 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="stylesheet" href="css/twentytwenty.css" type="text/css">
+    <link rel="stylesheet" href="css/twentytwenty.css" type="text/css">
 
     <!-- custom background -->
     <link rel="stylesheet" href="css/bg.css" type="text/css">
 
     <!-- color scheme -->
-	<link rel="stylesheet" href="css/colors/magenta.css" type="text/css" id="colors">
+    <link rel="stylesheet" href="css/colors/magenta.css" type="text/css" id="colors">
     <link rel="stylesheet" href="css/color.css" type="text/css">
 
     <!-- load fonts -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
     <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
-	<link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
-	
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+
 
     <!-- RS5.0 Stylesheet -->
     <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
     <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
     <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
     <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
-	
-	<!-- custom font -->
-	<link rel="stylesheet" href="css/font-style.css" type="text/css">
 
-    
+    <!-- custom font -->
+    <link rel="stylesheet" href="css/font-style.css" type="text/css">
+
+
 
 </head>
 
@@ -65,9 +65,9 @@
     <div id="wrapper">
 
         <!-- header begin -->
- <?php
-    require "page_navbar.php";
- ?>
+        <?php
+        require "page_navbar.php";
+        ?>
         <!-- header close -->
 
 
@@ -77,38 +77,38 @@
             <!-- revolution slider begin -->
             <section id="section-hero" class="full-height text-light" data-bgimage="url(images/main-page.jpg) fixed top center" data-stellar-background-ratio=".2">
                 <div id="particles-js" style="opacity:0.6"></div>
-				<div class="center-y text-center">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								
-							</div>
-						</div>
-					</div>
-				</div>
+                <div class="center-y text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- revolution slider close -->
-			
-			<section id="section-countdown" aria-label="section" class="gradient-to-right pt40 pb40">
-				<div class="container">
-					<div class="row" >
-						<div class="col-md-10 offset-md-1">
-							<div class="spacer-single"></div>
-							<div id="defaultCountdown"></div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<!-- section begin -->
-			<section id="section-about" data-bgimage="url(images-event/bg/2.png) fixed no-repeat">
-				<div class="wm wm-border dark wow fadeInDown">TechPluse</div>
-                    <div class="container">
-                        <div class="row align-items-center">
-                            
-                            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0s">
-                                <h2 style="color:#ec167f">Welcome to the Biggest<br>Tech-Fest, Tech-Pulse 2022</h2>
-                                <p>
+
+            <section id="section-countdown" aria-label="section" class="gradient-to-right pt40 pb40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                            <div class="spacer-single"></div>
+                            <div id="defaultCountdown"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- section begin -->
+            <section id="section-about" data-bgimage="url(images-event/bg/2.png) fixed no-repeat">
+                <div class="wm wm-border dark wow fadeInDown">TechPluse</div>
+                <div class="container">
+                    <div class="row align-items-center">
+
+                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0s">
+                            <h2 style="color:#ec167f">Welcome to the Biggest<br>Tech-Fest, Tech-Pulse 2022</h2>
+                            <p>
                                 As the annual tech fest of PPSU, Tech-pulse has provided a podium for engineering innovations.<br>
 
                                 It is an arena for your notions to speak out loud and to nurture the skills striving to reach the pinnacle of your mind.<br>
@@ -125,118 +125,118 @@
 
                                 So call your friends, mark your calendars, and gear up for Tech-Pulse 2022-23.
 
-                                </p>
-								
-								<div class="spacer10"></div>
-								
-								
-                            </div>
-							
-							<div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
-                                <div class="de-images">
-									<!-- <img class="di-small-2" src="images-event/misc/3.jpg" alt="" /> -->
-									<img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images-event/misc/techpulse.jpg" alt=""  style="height:600px;width:550px">
-								</div>
-                            </div>
+                            </p>
+
+                            <div class="spacer10"></div>
+
 
                         </div>
+
+                        <div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
+                            <div class="de-images">
+                                <!-- <img class="di-small-2" src="images-event/misc/3.jpg" alt="" /> -->
+                                <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images-event/misc/techpulse.jpg" alt="" style="height:600px;width:550px">
+                            </div>
+                        </div>
+
                     </div>
-                </section>
-				
-				
-			
-			
-			<!-- section begin -->
+                </div>
+            </section>
+
+
+
+
+            <!-- section begin -->
             <section id="section-speakers" class="text-light" data-bgimage="url(images-event/bg/1.jpg) fixed top center" data-stellar-background-ratio=".2">
-				<div class="wm wm-border dark wow fadeInDown">WS</div>
+                <div class="wm wm-border dark wow fadeInDown">WS</div>
                 <div class="container">
                     <div class="row">
-						<div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                        <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
                             <h1>Special Workshops</h1>
                             <div class="separator"><span><i class="fa fa-square"></i></span></div>
                             <div class="spacer-single"></div>
                         </div>
-						
-						<div class="clearfix"></div>
-                      
-                       <div class="col-lg-3 col-md-3">
-							<!-- team member -->
-							<div class="de-team-list">
-								<div class="team-pic">
-									<img src="images-event/team/iot.jpg.webp" class="img-responsive" alt="" >
-								</div>
-								<div class="team-desc" > 
-									<h3>IOT (Internet of Things)</h3>
-									<p class="lead">14th April - 2022 (2:00  PM - 5:00 PM)</p>
-									<div class="small-border"></div>
-                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
-								
-								</div>
-							</div>
-							<!-- team close -->
-						</div>
-						
-						
+
+                        <div class="clearfix"></div>
 
                         <div class="col-lg-3 col-md-3">
-							<!-- team member -->
-							<div class="de-team-list">
-								<div class="team-pic">
-									<img src="images-event/team/Flutter-App-development.jpg" class="img-responsive" alt="" >
-								</div>
-								<div class="team-desc" >
-									<h3>App development using Flutter Framework</h3>
-									<p class="lead">14th April - 2022 (2:00  PM - 5:00 PM)</p>
-									<div class="small-border"></div>
+                            <!-- team member -->
+                            <div class="de-team-list">
+                                <div class="team-pic">
+                                    <img src="images-event/team/iot.jpg.webp" class="img-responsive" alt="">
+                                </div>
+                                <div class="team-desc">
+                                    <h3>IOT (Internet of Things)</h3>
+                                    <p class="lead">14th April - 2022 (2:00 PM - 5:00 PM)</p>
+                                    <div class="small-border"></div>
                                     <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
-					
-								</div>
-							</div>
-							<!-- team close -->
-						</div>
+
+                                </div>
+                            </div>
+                            <!-- team close -->
+                        </div>
+
+
 
                         <div class="col-lg-3 col-md-3">
-							<!-- team member -->
-							<div class="de-team-list">
-								<div class="team-pic">
-									<img src="images-event/team/game-dev-unity.webp" class="img-responsive" alt="">
-								</div>
-								<div class="team-desc" >
-									<h3>Game development using Unity</h3>
-									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
-									<div class="small-border"></div>
+                            <!-- team member -->
+                            <div class="de-team-list">
+                                <div class="team-pic">
+                                    <img src="images-event/team/Flutter-App-development.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="team-desc">
+                                    <h3>App development using Flutter Framework</h3>
+                                    <p class="lead">14th April - 2022 (2:00 PM - 5:00 PM)</p>
+                                    <div class="small-border"></div>
                                     <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
-						
-								</div>
-							</div>
-							<!-- team close -->
-						</div>
+
+                                </div>
+                            </div>
+                            <!-- team close -->
+                        </div>
 
                         <div class="col-lg-3 col-md-3">
-							<!-- team member -->
-							<div class="de-team-list">
-								<div class="team-pic">
-									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" style='background-image:fill;'>
-								</div>
-								<div class="team-desc" >
-									<h3>AWS (Amazon Web services)</h3>
-									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
-									<div class="small-border"></div>
+                            <!-- team member -->
+                            <div class="de-team-list">
+                                <div class="team-pic">
+                                    <img src="images-event/team/game-dev-unity.webp" class="img-responsive" alt="">
+                                </div>
+                                <div class="team-desc">
+                                    <h3>Game development using Unity</h3>
+                                    <p class="lead">15th April - 2022 (2:00 PM - 5:00 PM)</p>
+                                    <div class="small-border"></div>
                                     <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
-									
-								</div>
-							</div>
-							<!-- team close -->
-						</div>
-						<div class="clearfix"></div>
+
+                                </div>
+                            </div>
+                            <!-- team close -->
+                        </div>
+
+                        <div class="col-lg-3 col-md-3">
+                            <!-- team member -->
+                            <div class="de-team-list">
+                                <div class="team-pic">
+                                    <img src="images-event/team/aws.jpg" class="img-responsive" alt="" style='background-image:fill;'>
+                                </div>
+                                <div class="team-desc">
+                                    <h3>AWS (Amazon Web services)</h3>
+                                    <p class="lead">15th April - 2022 (2:00 PM - 5:00 PM)</p>
+                                    <div class="small-border"></div>
+                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+
+                                </div>
+                            </div>
+                            <!-- team close -->
+                        </div>
+                        <div class="clearfix"></div>
 
                     </div>
                 </div>
             </section>
             <!-- section close -->
-			
-			
-			<!-- section begin -->
+
+
+            <!-- section begin -->
             <section id="section-schedule" aria-label="section-services-tab" data-bgimage="url(images-event/bg/2.png) fixed center no-repeat">
                 <div class="wm wm-border dark wow fadeInDown ">schedule</div>
                 <div class="container">
@@ -249,7 +249,7 @@
 
                         <div class="col-md-12">
                             <div class="de_tab tab_style_4 text-center">
-                                
+
 
                                 <div class="de_tab_content text-left">
 
@@ -271,14 +271,14 @@
                                                             <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
                                                         </div> -->
 
-									                    <img src="images-event/timeline/timeline.png" class="img-responsive" alt="" />
+                                                        <img src="images-event/timeline/timeline.png" class="img-responsive" alt="" />
 
-                                                        
+
                                                         <div class="clearfix"></div>
                                                     </div>
                                                 </div>
 
-                                                
+
                                             </div>
                                         </div>
                                     </div>
@@ -287,23 +287,23 @@
                                         <div class="row">
                                             <div class="col-md-12">
                                                 <div class="schedule-listing">
-                                                <img src="images-event/timeline/timeline-02.png" class="img-responsive" alt="" />
+                                                    <img src="images-event/timeline/timeline-02.png" class="img-responsive" alt="" />
 
                                                 </div>
 
-                                                
+
                                             </div>
                                         </div>
-                                    </div>                                    
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            
-			
-			<!-- section begin -->
+
+
+            <!-- section begin -->
             <section id="section-schedule" aria-label="section-services-tab" data-bgimage="url(images-event/bg/2.png) fixed center no-repeat">
                 <div class="wm wm-border dark wow fadeInDown ">SOE</div>
                 <div class="container">
@@ -321,8 +321,8 @@
                                         <h3>Organized by</h3>
                                         <h3>School Of Engineering</h3>
                                     </li>
-                                    
-                                    
+
+
                                 </ul>
 
                                 <div class="de_tab_content text-left">
@@ -358,7 +358,7 @@
                                                             <span style="padding-left:17px">Provost & Executive Dean</span>
                                                         </div>
                                                         <div class="sc-info">
-                                                            <p style="padding-left:15px">Dr. Parag Sanghani is presently the Executive Dean with P.P Savani University. He is an Endeavour Fellow from QUT, Australia and has global exposure of education system in Europe, Australia and UK and has worked with leading Universities in UAE as Head of Academics.<br></p>
+                                                            <p style="padding-left:15px">Dr. Parag Sanghani is the Provost & Executive Dean with P P Savani University.He is an Endeavour Fellow from QUT, Australia and has global exposure of education system in Europe, Australia and UK and has worked with leading Universities in UAE as Head of Academics.<br></p>
                                                         </div>
                                                         <div class="clearfix"></div>
                                                     </div>
@@ -375,7 +375,7 @@
                                                             <span style="padding-left:17px">Dean of SOE</span>
                                                         </div>
                                                         <div class="sc-info">
-                                                            <p style="padding-left:15px">Dr. Niraj D Shah is the Principal of the School of Engineering in P. P. Savani University. He has pursued his Ph.D. in Civil-Structural Engineering from SVNIT, Surat. Dr. Shah has an experience of 22 years including academic, administrative, industrial and research experience. He has several publications, authored books, guided Doctoral and P.G students and has been honored with numerous prestigious awards.</p>
+                                                            <p style="padding-left:15px">Dr. Niraj D Shah is the Dean,School of Engineering in P. P. Savani University. He has pursued his Ph.D. in Civil-Structural Engineering from SVNIT, Surat. Dr. Shah has an experience of 22 years including academic, administrative, industrial and research experience. He has several publications, authored books, guided Doctoral and P.G students and has been honored with numerous prestigious awards.</p>
                                                         </div>
                                                         <div class="clearfix"></div>
                                                     </div>
@@ -390,21 +390,21 @@
                 </div>
             </section>
             <!-- section close -->
-			
-			<!-- section begin -->
-            <section id="section-portfolio" class="no-top no-bottom" aria-label="section">                
+
+            <!-- section begin -->
+            <section id="section-portfolio" class="no-top no-bottom" aria-label="section">
                 <div id="gallery" class="gallery zoom-gallery full-gallery de-gallery pf_full_width wow fadeInUp" data-wow-delay=".3s">
 
                     <!-- gallery item -->
                     <div class="item residential">
                         <div class="picframe">
-                            <a href="images-event/portfolio/PPSU-5.jpg" >
+                            <a href="images-event/portfolio/PPSU-5.jpg">
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
                                     </span>
                                 </span>
-                                <img src="images-event/portfolio/PPSU-5.jpg" alt=""  style="height:240px">
+                                <img src="images-event/portfolio/PPSU-5.jpg" alt="" style="height:240px">
                             </a>
                         </div>
                     </div>
@@ -413,7 +413,7 @@
                     <!-- gallery item -->
                     <div class="item hospitaly">
                         <div class="picframe">
-                            <a href="images-event/portfolio/img2.jpg" >
+                            <a href="images-event/portfolio/img2.jpg">
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
@@ -428,7 +428,7 @@
                     <!-- gallery item -->
                     <div class="item hospitaly">
                         <div class="picframe">
-                            <a href="images-event/portfolio/img3.jpg" >
+                            <a href="images-event/portfolio/img3.jpg">
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
@@ -443,7 +443,7 @@
                     <!-- gallery item -->
                     <div class="item residential">
                         <div class="picframe">
-                            <a href="images-event/portfolio/img4.jpg" >
+                            <a href="images-event/portfolio/img4.jpg">
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
@@ -454,18 +454,18 @@
                         </div>
                     </div>
                     <!-- close gallery item -->
-                </div>             
+                </div>
             </section>
             <!-- section close -->
 
-                
-                
+
+
 
             <!-- footer begin -->
-      <?php
-      require "page_footer.php";
-      ?>
-        <!-- footer close -->
+            <?php
+            require "page_footer.php";
+            ?>
+            <!-- footer close -->
         </div>
     </div>
 
@@ -486,13 +486,13 @@
     <script src="js/wow.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
-	<script src="js/enquire.min.js"></script>	
-    <script src="js/designesia.js"></script>	
-	<script src="js/jquery.event.move.js"></script>
-	<script src="js/jquery.plugin.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.plugin.js"></script>
     <script src="js/jquery.countdown.js"></script>
     <script src="js/countdown-custom.js"></script>
-    <script src="js/jquery.twentytwenty.js"></script>	
+    <script src="js/jquery.twentytwenty.js"></script>
 
     <!-- RS5.0 Core JS Files -->
     <script src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
@@ -538,12 +538,17 @@
             });
         });
     </script>
-	
-	<script>
-    $(window).on("load", function(){
-      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
-      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
-    });
+
+    <script>
+        $(window).on("load", function() {
+            $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({
+                default_offset_pct: 0.7
+            });
+            $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({
+                default_offset_pct: 0.3,
+                orientation: 'vertical'
+            });
+        });
     </script>
 
 
