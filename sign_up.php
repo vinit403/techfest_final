@@ -254,11 +254,13 @@ input[type=number]::-webkit-outer-spin-button{
                                         <input class="input--style-3" type="tel" placeholder="Mobile Number" name="phone_number" required>
                                     </div>
                                     <div class="input-group">
-                                        <input class="input--style-3" type="password" placeholder="Enter Password" name="password" maxlength="20" required>
+                                        <input class="input--style-3" type="password" placeholder="Enter Password *" name="password" maxlength="20" required>
                                     </div>
                                     <div class="input-group">
                                         <input class="input--style-3" type="password" placeholder="Confirm Password" name="password2" maxlength="20" required>
                                     </div>
+
+                                    <p style="color:#555;font-size: 12px;">* Password contains three character categories: digits, Uppercase characters and minimum 8-characters.</p>
 
                                 </div>
                                 <div class="p-t-10" style="margin-bottom:20px">

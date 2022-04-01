@@ -854,7 +854,7 @@ $senderName = 'Techpluse Admin';
 
 // Replace recipient@example.com with a "To" address. If your account
 // is still in the sandbox, this address must be verified.
-$recipient = 'jilsvaghasiya333@gmail.com';
+$recipient = $mail;
 
 // Replace smtp_username with your Amazon SES SMTP user name.
 $usernameSmtp = 'AKIAR3NH6FDMMDNB25EB';
