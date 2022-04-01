@@ -282,6 +282,15 @@
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div id="tab2" class="tab_single_content dark">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="schedule-listing">
+                                                <img src="images-event/timeline/timeline-02.png" class="img-responsive" alt="" />
+
+                                                </div>
+
                                                 
                                             </div>
                                         </div>

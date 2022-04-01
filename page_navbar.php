@@ -65,11 +65,7 @@ if($flag == 1)
     <div class="row">
         <div class="col-md-12">
             <!-- logo begin -->
-            <div id="logo">
-                <a href="index.php">
-                    <img class="logo" src="images-event/techpulse-logo.png" alt="" style="height: 50px;width: 190px;top:15px;position: absolute; left: 40px;display: block;z-index: 3002;"><br>
-                </a>
-            </div>
+            
             <!-- logo close -->
 
             <!-- small button begin -->
