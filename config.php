@@ -10,8 +10,8 @@ $displayCurrency = 'INR';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$servername = "techfest.c4vg6z6fzyif.ap-south-1.rds.amazonaws.com";
+$servername = "techpulse.crqeegwkwobj.ap-south-1.rds.amazonaws.com";
 $username = "admin";
-$password = "techfest#12";
-$database = "techfest";
+$password = "Techfest##90";
+$database = "techpulse";
 $connect = mysqli_connect($servername, $username, $password, $database);  
