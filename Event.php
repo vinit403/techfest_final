@@ -116,7 +116,7 @@
 <body id="homepage">
     
 
-<div class="event section" style="background-image: url(aoide/img/background.jpg);">
+<div class="event section" style="background-image: url(event_page/img/background.jpg);">
                     
                                 
     <div class="content">

@@ -54,8 +54,24 @@
 	
 	<!-- custom font -->
 	<link rel="stylesheet" href="css/font-style.css" type="text/css">
+    
+    <style>
+
+        @media screen and (min-width: 992px){
+            .col-lg-3{
+                max-width:20%;
+            }
+            .team-desc{
+                font-size:15px;
+            }
+
+            .team-desc h3{
+                font-size:17px;
+            }
+        }
 
     
+    </style>
 
 </head>
 
@@ -135,7 +151,7 @@
 							<div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
                                 <div class="de-images">
 									<!-- <img class="di-small-2" src="images-event/misc/3.jpg" alt="" /> -->
-									<img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images-event/misc/techpulse.jpg" alt=""  style="height:600px;width:550px">
+									<video class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/techpulse_2.mp4" loop autoplay muted alt="" ></video>
 								</div>
                             </div>
 
@@ -159,24 +175,29 @@
 						
 						<div class="clearfix"></div>
                       
-                       <div class="col-lg-4 col-md-4" >
+                       <div class="col-lg-3 col-md-3">
 							<!-- team member -->
-							<div class="de-team-list" style="padding-left=300px">
+							<div class="de-team-list">
 								<div class="team-pic">
 									<img src="images-event/team/iot.jpg.webp" class="img-responsive" alt="" >
 								</div>
 								<div class="team-desc" > 
 									<h3>IOT (Internet of Things)</h3>
-									<p class="lead">14th April - 2022 (2:00  PM - 5:00 PM)</p>
+									<p class="lead" style="font-size:13px">14<sup>th</sup> April-2022 (2:00 PM - 5:00 PM)</p>
 									<div class="small-border"></div>
-                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+                                    <li><a href="Event.php" ><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 								
 								</div>
 							</div>
 							<!-- team close -->
 						</div>
 
-                        <div class="col-lg-4 col-md-4">
+
+                        
+						
+						
+
+                        <div class="col-lg-3 col-md-3">
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
@@ -184,16 +205,16 @@
 								</div>
 								<div class="team-desc" >
 									<h3>App development using Flutter Framework</h3>
-									<p class="lead">14th April - 2022 (2:00  PM - 5:00 PM)</p>
+									<p class="lead" style="font-size:13px">14<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p>
 									<div class="small-border"></div>
-                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+                                    <li><a href="Event.php" "><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 					
 								</div>
 							</div>
 							<!-- team close -->
 						</div>
 
-                        <div class="col-lg-4 col-md-4">
+                        <div class="col-lg-3 col-md-3">
 							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
@@ -201,31 +222,16 @@
 								</div>
 								<div class="team-desc" >
 									<h3>App development using Unity</h3>
-									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
+									<p class="lead" style="font-size:13px">15<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p>
 									<div class="small-border"></div>
-                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+                                    <li><a href="Event.php" ><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 						
 								</div>
 							</div>
 							<!-- team close -->
 						</div>
 
-                        <div class="col-lg-3 col-md-3" style="padding-top:50px;">	
-							<!-- <div class="de-team-list">
-								<div class="team-pic">
-									<img src="images-event/team/aws.jpg" class="img-responsive" alt="" style='background-image:fill;'>
-								</div>
-								<div class="team-desc" >
-									<h3>AWS (Amazon Web services)</h3>
-									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
-									<div class="small-border"></div>
-                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
-									
-								</div>
-							</div>							 -->
-						</div>
-
-                        <div class="col-lg-4 col-md-4" style="padding-top:30px">
+                        <div class="col-lg-3 col-md-3">
 							
 							<div class="de-team-list">
 								<div class="team-pic">
@@ -233,30 +239,34 @@
 								</div>
 								<div class="team-desc" >
 									<h3>AWS (Amazon Web services)</h3>
-									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
+									<p class="lead" style="font-size:13px">15<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p>
 									<div class="small-border"></div>
-                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+                                    <li><a href="Event.php" ><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 									
 								</div>
-							</div>							
+							</div>
+							
 						</div>
 
-                        <div class="col-lg-4 col-md-4" style="padding-top:30px">
-							
+                        <div class="col-lg-3 col-md-3">
+							<!-- team member -->
 							<div class="de-team-list">
 								<div class="team-pic">
-									<img src="images-event/Event-Img/AI_ML.jpg" class="img-responsive" alt="" style='background-image:fill;'>
+									<img src="images-event/Event-img/AI_ML.png" class="img-responsive" alt="">
 								</div>
 								<div class="team-desc" >
-									<h3>AI/ML (Artifical Intellegence and Machine Learning)</h3>
-									<p class="lead">15th April - 2022 (2:00  PM - 5:00 PM)</p>
+									<h3>AI/ML</h3>
+									<p class="lead" style="font-size:13px">15<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p>
 									<div class="small-border"></div>
-                                    <li><a href="Event.php"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
-									
+                                    <li><a href="Event.php" ><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
+						
 								</div>
-							</div>							
+							</div>
+							<!-- team close -->
 						</div>
 
+
+                        
 						<div class="clearfix"></div>
 
                     </div>
@@ -287,18 +297,7 @@
                                             <div class="col-md-12">
                                                 <div class="schedule-listing">
                                                     <div class="schedule-item">
-                                                        <!-- <div class="sc-time">10:00 - 12:00 AM</div>
-                                                        <div class="sc-pic">
-                                                            <img src="" class="img-circle" alt="">
-                                                        </div>
-                                                        <div class="sc-name">
-                                                            <h4>John Smith</h4>
-                                                            <span>Founder & CEO</span>
-                                                        </div>
-                                                        <div class="sc-info">
-                                                            <h3>Introduction Creative Design</h3>
-                                                            <p>In this session we will discuss about digital topics in detail. You need laptops and other tech support equipment. This session will last for 2 hours. So prepare yourself.</p>
-                                                        </div> -->
+                                                       
 
 									                    <img src="images-event/timeline/timeline.png" class="img-responsive" alt="" />
 
