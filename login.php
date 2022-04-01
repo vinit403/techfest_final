@@ -137,7 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
                             <div class="data">
                                 <div class="input-group">
-                                    <input class="input--style-3" type="text" placeholder="Name" name="user_name">
+                                    <input class="input--style-3" type="text" placeholder="User Id" name="user_name">
 
                                 </div>
                                 <div class="input-group">
