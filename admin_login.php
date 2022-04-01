@@ -38,7 +38,7 @@
 
   <body>
     <div class="container">
-    <form action="/admin_login.php" method="post">
+    <form action="admin_login.php" method="post">
             <div class="container">
                 <center>
                 <h2 class="mb-3">

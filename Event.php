@@ -1004,7 +1004,7 @@
                                     <p class="workshop mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit.</p>
                                     <div class="social-team mt-4">
                                         <a href="">Rules & Regulations</a>
-                                        <a href="registration_pages/workshop_registration.php?event=AR_VR_workshop">Register</a>
+                                        <a href="registration_pages/workshop_registration.php?event=AI_ML_workshop">Register</a>
                                     </div>
                                 </div> 
                                 
