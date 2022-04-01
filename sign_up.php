@@ -251,7 +251,7 @@ input[type=number]::-webkit-outer-spin-button{
                                         <input class="input--style-3" type="email" placeholder="Email Address" name="mail" maxlength="50" required>
                                     </div>
                                     <div class="input-group">
-                                        <input class="input--style-3" type="number" placeholder="Mobile Number" name="phone_number" max="9999999999" min="1000000000" required>
+                                        <input class="input--style-3" type="tel" placeholder="Mobile Number" name="phone_number" required>
                                     </div>
                                     <div class="input-group">
                                         <input class="input--style-3" type="password" placeholder="Enter Password" name="password" maxlength="20" required>
