@@ -79,7 +79,7 @@
                                             <div class="pricing-s1 mb30">
                                                 <div class="ribbon color-2 text-white">Premium</div>
                                                 <div class="top">
-                                                    <h2>Package<sup>&nbsp;&nbsp;*</sup></h2>
+                                                    <h2>Standard<sup>&nbsp;&nbsp;*</sup></h2>
                                                     <p class="price"><span class="currency id-color">Rs.</span> <b>499/-</b></p>
                                                 </div>
                                                 <div class="bottom">
@@ -99,7 +99,7 @@
                                             <div class="pricing-s1 mb30">
                                                 <div class="ribbon color-2 text-white">Premium+</div>
                                                 <div class="top">
-                                                    <h2>Permium Package<sup>&nbsp;&nbsp;*</sup></h2>
+                                                    <h2>Permium<sup>&nbsp;&nbsp;*</sup></h2>
                                                     <p class="price"><span class="currency id-color">Rs.</span> <b>999/-</b></p>
                                                 </div>
                                                 <div class="bottom">

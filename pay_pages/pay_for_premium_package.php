@@ -1,55 +1,54 @@
 <style>
-    input{
-        background-color:#8e04d9;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-        color:white;
+    input {
+
+        /* background-image: linear-gradient(180deg, #FC466B , #3F5EFB); */
+        background-color: #D3CCE3;
+        font-weight: 700;
+        border-radius: 25px;
+        border: none;
         padding: 10px 20px;
-        font-size: 28px;
-        font-weight: bold;
+
     }
-    button
-    {
-        background-color:#8e04d9;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-        color:white;
+
+    #btn {
+
+        background-color: #D3CCE3;
+        font-weight: 700;
+        border-radius: 25px;
+        border: none;
         padding: 10px 20px;
-        font-size: 18px;
-        font-weight: bold;
     }
-    #h{
-        color:white;
-        font-weight:bold;
-        font-family: "Times New Roman", Times, serif; 
-    }
+
     body {
-            background-image: url('../images-event/bg/3.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
+        background-image: url('../images/ty.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
 
-        .container {
-            background-color: #191C24;
-            max-width: 600px;
-            margin: auto;
-            padding : 0.5px;
-        }
-        #form{
-            background-color: #191C24;
-            max-width: 600px;
-            opacity : 0.9;
-            padding-top : 2px;
-            padding-bottom : 25px;
-            margin-bottom : 0px;
+    .modal-content {
+        background-image: linear-gradient(90deg, #FFAFBD, #ffc3a0);
 
-        }
+    }
 
+    .modal-content1 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: 0.3rem;
+        outline: 0;
+        background-image: linear-gradient(45deg, #642B73, #C6426E);
+
+    }
+
+    .py-51 {
+        padding: 0px;
+    }
 </style>
 <?php
 require('../config.php');
@@ -84,78 +83,23 @@ if(isset($_SESSION['logged_in']))
 
         if($row == 1 || $row2 == 1 || $row3 == 1 || $row4 == 1)
         {
-            echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Customer Details Form</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        You have already purchased package or premium package
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            echo ' <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+                   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+                   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<script type="text/javascript">
-window.onload = function () {
-OpenBootstrapPopup();
-};
-function OpenBootstrapPopup() {
-$("#simpleModal").modal("show");
-}
-</script>'; 
-header("refresh:3,url=../Event.php");
-
-           
-           echo '  <center>
-           <div class="container my-3" style="opacity:0.9">
-               <div class="container my-3">
-                   <h2 id="h" style="color:#8e04d9">
-                       Your Details
-                   </h2>
-                   </div>
-               <div class="container my-3">
-                 <h3 id="h">
-                     Name : '.$name.'
-                 </h3>
-             </div>
-             <div class="container my-3">
-               <h3 id="h">
-                     Mail id :'.$mail.'
-               </h3>
-               </div>
-               <div class="container my-3">
-               <h3 id="h">
-                     Phone Number :'.$phone_number.'
-                 </h3>
-               </div>
-               <div class="container my-3">
-               <h3 id="h">
-                     Amount : '.$amount.'/100 
-                 </h3>
-               </div>
-               <div class="container my-3">
-               <h3 id="h">
-                     Payment for : '.$event.'
-                 </h3>
-               </div>
-               <div class="container my-3">
-               <h3 id="h" style="color:#8e04d9">
-                    You Have Already Purchased a package / premium package
-                </h3>
-                </div>
-               </center>';
+                      <div class="modal-dialog">
+                           <div class="modal-content">
+                               <div class="modal-body ">
+                                   <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                                   <div class="px-4 py-5">
+                                       <h5 class="text-uppercase"> Dear ' . $name . '</h5>
+                                       <h4 class="mt-5 theme-color mb-5">You are already purchase premium package!</h4> <span class="theme-color">You can purchase add-on for more events.</span>
+                            
+                               </div>
+                           </div>
+                       </div>
+                   </div>';
+                header("refresh:7,url=../package.php");
 
                exit;
         }
@@ -245,39 +189,28 @@ $json = json_encode($data);
     <title>payment</title>
 </head>
 <body>
-    <center>
-<div class="container my-3" style="opacity:0.9">
-    <div class="container my-3">
-        <h2 id="h" style="color:#8e04d9">
-            Your Details
-        </h2>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body ">
+                <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                <div class="px-4 py-5">
+                    <h5 class="text-uppercase"><?php echo $name ?></h5>
+                    <h4 class="mt-5 theme-color mb-5">yes, we know you are premium.</h4> <span class="theme-color">Payment Summary</span>
+                    <div class="mb-3">
+                        <hr class="new1">
+                    </div>
+                    <div class="d-flex justify-content-between"> <span class="font-weight-bold">Premium Package</span> <span class="text-muted">₹999.00</span> </div>
+
+                    <div class="d-flex justify-content-between mt-3"> <span class="font-weight-bold">Total</span> <span class="font-weight-bold theme-color">₹999.00</span> </div>
+                    <!-- <div class="text-center mt-5"> <button class="btn btn-primary">Pay now</button> </div> -->
+                </div>
+            </div>
         </div>
-    <div class="container my-3">
-      <h3 id="h">
-          Name : <?php echo $name ?>
-      </h3>
-  </div>
-  <div class="container my-3">
-    <h3 id="h">
-          Mail id : <?php echo $mail ?>
-    </h3>
     </div>
-    <div class="container my-3">
-    <h3 id="h">
-          Phone Number : <?php echo $phone_number ?>
-      </h3>
-    </div>
-    <div class="container my-3">
-    <h3 id="h">
-          Amount : <?php echo $amount/100 ?>
-      </h3>
-    </div>
-    <div class="container my-3">
-    <h3 id="h">
-          Payment for : <?php echo $event ?>
-      </h3>
-    </div>
-    </center>
 
 <center>
 <form action="../verify_pages/verify_for_premium_package.php" method="POST" class="mx-3" id="form">
@@ -302,21 +235,28 @@ $json = json_encode($data);
   <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
   <input type="hidden" name="shopping_order_id" value="3456">
 </form>
-<div class="container my-3" style="opacity:0.9">
-        <form action="../direct_premium_package_purchased.php" method="post">
-            <h3 style="color:white">
-                OR
-            </h3>
-            <input type="text" name="unique_code" id="uc" placeholder="Enter Unique Code" maxlength="10" style="background-color:white; font-size: 15px; margin-bottom:10px; color:black" required><br>
-            <input type="text" name="team_code" id="tc" placeholder="Enter Promotion Team Code" maxlength="10" style="background-color:white; font-size: 15px; margin-bottom:10px; color:black" required><br>
-
-            <button type="submit">
-                Pay Cash To Our Team.
-            </button>
-        </form>
-    </div>
-</div>
 </center>
+<div class="modal-dialog">
+            <div class="modal-content1">
+                <div class="modal-body ">
+                    <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                    <div class="px-4 py-51">
+                        <h4 class="mt-5 theme-color mb-5">Only for cash payment</h4>
+                        <center>
+                        <form action="../direct_event_purchased.php" method="post">
+
+                            <input type="text" name="unique_code" id="uc" placeholder="Enter Unique Code" maxlength="8" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
+                            <input type="text" name="team_code" id="tc" placeholder="Enter Promotion Team Code" maxlength="5" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
+
+                            <button type="submit" id="btn">
+                                Pay Cash To Our Team.
+                            </button>
+                        </form>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
 </div>
     <!-- Javascript Files
     ================================================== -->
