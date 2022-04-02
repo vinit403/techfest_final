@@ -209,7 +209,7 @@ $json = json_encode($data);
                         <form action="../direct_event_purchased.php" method="post">
 
                             <input type="text" name="unique_code" id="uc" placeholder="Enter Unique Code" maxlength="8" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
-                            <input type="text" name="team_code" id="tc" placeholder="Enter Promotion Team Code" maxlength="5" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
+                            <input type="text" name="team_code" id="tc" placeholder="Enter Promotion Team Code" maxlength="4" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
 
                             <button type="submit" id="btn">
                                 Pay Cash To Our Team.
