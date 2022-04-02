@@ -18,29 +18,6 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
 
     <title>Admin</title>
   </head>
-    <?php
-    if($_SERVER['REQUEST_METHOD'] == 'POST')
-    {
-        $heading = $_POST['heading'];
-        $info = $_POST['info'];
-
-        $heading = str_replace("<","&lt;","$heading");
-        $heading = str_replace(">", "&gt;", "$heading");
-        $info = str_replace("<","&lt;","$info");
-        $info = str_replace(">", "&gt;", "$info");
-
-        include "database_connection.php";
-        $sql = "INSERT INTO `news_feed`(`heading`, `message`, `date`) VALUES ('$heading','$info', CURRENT_TIMESTAMP())";
-        $result = mysqli_query($connect, $sql);
-        if($result)
-        {
-            echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong>successfull...!!</strong> 
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-          </div>';
-        }
-    }
-    ?>
 
   <body>
           <ul class="nav nav-pills my-3">
@@ -55,24 +32,139 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
                     </button>
             </li>
             </ul>
-      <div class="container my-5">
-        <h2 class="my-3">
-            Share New Update Or News
-        </h2>
-      </div>
-    <div class="container" id="d">
-        <form action="/adminAccess.php" method="post">
-            <div class="mb-3">
-                <label for="heading" class="form-label">Enter Heading</label>
-                <input type="text" name="heading" class="form-control" id="heading" aria-describedby="emailHelp" maxlength="500" required>
+
+            <div class="container">
+            <?php
+              require "database_connection.php";
+              $sql = "SELECT * FROM `user`";
+              $result = mysqli_query($connect, $sql);
+
+              $rows = mysqli_num_rows($result);
+
+              echo '<h3> Total Users : '.$rows.' </h3><br>';
+
+              $sql = "SELECT * FROM `package_purchased`";
+              $result = mysqli_query($connect, $sql);
+              $sql = "SELECT * FROM `package_purchased_on_cash`";
+              $result2 = mysqli_query($connect, $sql);
+
+              $row_package = mysqli_num_rows($result);
+              $row_package2 = mysqli_num_rows($result2);
+
+              $row_package = $row_package + $row_package2;
+
+              echo '<h3>Total Selling Of Packages ...</h3><p> package : '.$row_package.'</p>';
+
+              $sql = "SELECT * FROM `premium_package_purchased`";
+              $result = mysqli_query($connect, $sql);
+              $sql = "SELECT * FROM `premium_package_purchased_on_cash`";
+              $result2 = mysqli_query($connect, $sql);
+
+              $row_premium_package = mysqli_num_rows($result);
+              $row_premium_package2 = mysqli_num_rows($result2);
+
+              $row_premium_package = $row_premium_package + $row_premium_package2;
+
+              echo '<p> premium package : '.$row_premium_package.'</p>';
+
+
+              $sql = "SELECT * FROM `workshop_purchased`";
+              $result = mysqli_query($connect, $sql);
+              $sql = "SELECT * FROM `workshop_purchased_on_cash`";
+              $result2 = mysqli_query($connect, $sql);
+
+              $row_ws = mysqli_num_rows($result);
+              $row_ws2 = mysqli_num_rows($result2);
+
+              $row_ws = $row_ws + $row_ws2;
+
+              echo '<br><h3>Total Workshop Selling </h3> <p>workshops : '.$row_ws.'</p>';
+
+
+              echo '<br><h3>Number Of Students In Events</h3>';
+
+              $sql = "SELECT * FROM `events`";
+              $result = mysqli_query($connect, $sql);
+
+              while($r = mysqli_fetch_assoc($result))
+              {
+                $event = $r['event_name'];
+                $eve = $event.'_register';
+
+                $sql2 = "SELECT * FROM `$eve`";
+                $result2 = mysqli_query($connect, $sql2);
+
+                $row = mysqli_num_rows($result2);
+
+                echo '<p>'.$event.' : '.$row.'</p>';
+              }
+
+
+              echo '<br><h3>Number Of Students In Workshops</h3>';
+              $sql = "SELECT * FROM `workshop`";
+              $result = mysqli_query($connect, $sql);
+
+              while($r = mysqli_fetch_assoc($result))
+              {
+                $event = $r['workshop_name'];
+                $eve = $event.'_register';
+
+                $sql2 = "SELECT * FROM `$eve`";
+                $result2 = mysqli_query($connect, $sql2);
+
+                $row = mysqli_num_rows($result2);
+
+                echo '<p>'.$event.' : '.$row.'</p>';
+              }
+
+              echo '<br><h3>Cash Collected By Promotion Teams.</h3>';
+
+              $sql = "SELECT * FROM `promotion_team_code`";
+              $result = mysqli_query($connect, $sql);
+
+              while($i = mysqli_fetch_assoc($result))
+              {
+                $team_code = $i['team_code'];
+
+                $sql2 = "SELECT * FROM `event_purchased_on_cash` WHERE promotion_team_code='$team_code'";
+                $result2 = mysqli_query($connect, $sql2);
+
+                $row_event = mysqli_num_rows($result2);
+                $amount_event = $row_event*149;
+
+                $sql3 = "SELECT * FROM `package_purchased_on_cash` WHERE promotion_team_code='$team_code'";
+                $result3 = mysqli_query($connect, $sql3);
+
+                $row_package = mysqli_num_rows($result3);
+                $amount_package = $row_package*499;
+
+                $sql4 = "SELECT * FROM `premium_package_purchased_on_cash` WHERE promotion_team_code='$team_code'";
+                $result4 = mysqli_query($connect, $sql4);
+
+                $row_premium = mysqli_num_rows($result4);
+                $amount_premium = $row_premium*999;
+
+                $sql5 = "SELECT * FROM `workshop_purchased_on_cash` WHERE promotion_team_code='$team_code'";
+                $result5 = mysqli_query($connect, $sql5);
+
+                $row_workshop = mysqli_num_rows($result5);
+                $amount_workshop = $row_workshop*599;
+
+                echo '<br><h4>'.$team_code.'</h4>';
+                echo '<p>add on events : '.$amount_event.'</p>';
+                echo '<p>package : '.$amount_package.'</p>';
+                echo '<p>premium package : '.$amount_premium.'</p>';
+                echo '<p>workshop : '.$amount_workshop.'</p>';
+
+                $total = $amount_event+$amount_package+$amount_premium+$amount_workshop;
+
+                echo '<h5>Total : '.$total.'</h5>';
+
+
+              }
+            ?>
+                          
             </div>
-            <div class="mb-3">
-                <label for="info" class="form-label">Enter news or update</label>
-                <input type="text" name="info" class="form-control" id="info" maxlength="5000" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    </div>
  
     <!-- Optional JavaScript; choose one of the two! -->
 

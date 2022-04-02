@@ -113,8 +113,8 @@
 							
 							<div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
                                 <div class="de-images">
-									<!-- <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images-event/misc/clgimg2.jpeg" alt="" /> -->
-									<video class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/ppsu.mp4" loop autoplay muted alt="" ></video>
+									<img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images-event/misc/hotel.jpg" alt="" />
+									<!-- <video class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/ppsu.mp4" loop autoplay muted alt="" ></video> -->
 
 								</div>
                             </div>
