@@ -98,7 +98,7 @@ if (isset($_SESSION['logged_in'])) {
                            </div>
                        </div>
                    </div>';
-            header("refresh:3,url=../package.php");
+            header("refresh:7,url=../package.php");
             exit;
         }
     } else {
@@ -192,7 +192,7 @@ $json = json_encode($data);
                 <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
                 <div class="px-4 py-5">
                     <h5 class="text-uppercase"><?php echo $name ?></h5>
-                    <h4 class="mt-5 theme-color mb-5">Thanks for your order</h4> <span class="theme-color">Payment Summary</span>
+                    <h4 class="mt-5 theme-color mb-5">Keep hustling. Keep Adding more events.</h4> <span class="theme-color">Payment Summary</span>
                     <div class="mb-3">
                         <hr class="new1">
                     </div>
@@ -212,7 +212,7 @@ $json = json_encode($data);
             <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
             <input type="hidden" name="shopping_order_id" value="3456">
         </form>
-
+        </center>
 
         <div class="modal-dialog">
             <div class="modal-content1">
@@ -220,7 +220,7 @@ $json = json_encode($data);
                     <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
                     <div class="px-4 py-51">
                         <h4 class="mt-5 theme-color mb-5">Only for cash payment</h4>
-
+                        <center>
                         <form action="../direct_event_purchased.php" method="post">
 
                             <input type="text" name="unique_code" id="uc" placeholder="Enter Unique Code" maxlength="8" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
@@ -230,13 +230,14 @@ $json = json_encode($data);
                                 Pay Cash To Our Team.
                             </button>
                         </form>
+                        </center>
                     </div>
                 </div>
             </div>
 
         </div>
         </div>
-    </center>
+    
     </div>
     <!-- Javascript Files
     ================================================== -->

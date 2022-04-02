@@ -145,7 +145,7 @@ $err = "";
                             <form action="reset_password.php" method="post" id="form1">
     
                                 <div>
-                                    <p style="color:red; font-size=15px">
+                                    <p style="color:red; font-size:15px">
                                         <?php echo $err ?>
                                     </p>
                                 </div>

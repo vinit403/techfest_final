@@ -1,5 +1,6 @@
 <?php
-
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 if($_SERVER['REQUEST_METHOD'] != 'POST')
 {
     echo "page not fount...";
@@ -64,8 +65,7 @@ if ($success === true)
         
             $sql = "UPDATE `user` SET event_count='$event_count' WHERE user_id='$user_name'";
             $result = mysqli_query($connect, $sql);
-        
-        
+
             $sql = "INSERT INTO `event_purchased` (`user_id`,`payment_id`) VALUES ('$user_name', '$payment_id')";
             $result = mysqli_query($connect, $sql);
 
