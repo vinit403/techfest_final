@@ -26,7 +26,7 @@ session_start();
 
                 require "database_connection.php";
 
-                $sql = "SELECT * FROM `unique_codes` WHERE code='$unique_code'";
+                $sql = "SELECT `$team_code` FROM `unique_codes` WHERE $team_code ='$unique_code'";
                 $result = mysqli_query($connect, $sql);
 
                 $rows = mysqli_num_rows($result);
@@ -138,7 +138,7 @@ session_start();
                     $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
                     $result = mysqli_query($connect, $sql);
 
-                    $sql = "DELETE FROM `unique_codes` WHERE code='$unique_code'";
+                    $sql = "UPDATE `unique_codes` SET `$team_code` = 'ReMoVeD' WHERE $team_code = '$unique_code'";
                     $result = mysqli_query($connect, $sql);
 
                     header("location: success.php");
