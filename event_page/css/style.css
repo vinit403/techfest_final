@@ -800,7 +800,7 @@ main {
 }
 
 .menu__item:nth-child(4)::before {
-	background: linear-gradient(45deg, #a8ff78, #78ffd6);
+	background: linear-gradient(90deg, #1CD8D2, #93EDC7);
 }
 
 .menu__item:nth-child(5)::before {

@@ -12,11 +12,6 @@
     <meta name="author" content="">
 
 
-    <!--[if lt IE 9]>
-	<script src="js/html5shiv.js"></script>
-	<![endif]-->
-
-
     <!-- CSS Files
     ================================================== -->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
@@ -42,16 +37,18 @@
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
     <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
-
-    <!-- RS5.0 Stylesheet -->
-    <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
-    <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
 	
 	<!-- custom font -->
 	<link rel="stylesheet" href="css/font-style.css" type="text/css">
 </head>
+<style> 
+@media only screen and (max-width : 768px) {
+    #info{
+        top: -10px;
+    }
+}
+
+</style>
 
 <body id="homepage">
 
@@ -93,7 +90,7 @@
                         
                         <div class="row g-4" style="margin-top:10px">
                             <div class="col-md-12">
-                                <a href="https://www.ppsu.ac.in"><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px; border-radius:10px;"><span></span></a>
+                                <a href="https://www.ppsu.ac.in"><input type="button" id = "info" value="More Information" style="Position:relative; left: 13px;background-color: #ec167f;color:white;border:none;height:40px; border-radius:10px;"><span></span></a>
                             </div>    
                         </div>
                     </div>

@@ -1,9 +1,19 @@
+<style> 
+@media only screen and (max-width : 768px) {
+    .img{
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+</style>
 <?php
     echo '  <footer class="style-2" style="background:#18191b">
     <div class="container">
         <div class="row align-items-middle">
             <div class="col-md-3">
-                <a href="index.php"><img class="logo" src="images-event/techpulse-logo.png" alt="" style="height: 50px;width: 190px;"></a>
+                <a href="index.php"><div class="img"><img class="logo" src="images-event/techpulse-logo.png" alt="" style="height: 50px;width: 190px;"></div></a>
             </div>
 
             <div class="col-md-6" style="text-align: center;">
