@@ -426,13 +426,13 @@
                     <!-- gallery item -->
                     <div class="item residential">
                         <div class="picframe">
-                            <a href="images-event/portfolio/PPSU-img.jpg" >
+                            <a href="images-event/portfolio/PPSU-img.jpg">
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
                                     </span>
                                 </span>
-                                <img src="images-event/portfolio/PPSU-img.jpg" alt=""  style="height:240px">
+                                <img src="images-event/portfolio/PPSU-img.jpg" alt="" />
                             </a>
                         </div>
                     </div>
@@ -441,7 +441,7 @@
                     <!-- gallery item -->
                     <div class="item hospitaly">
                         <div class="picframe">
-                            <a href="images-event/portfolio/img2.jpg" >
+                            <a href="images-event/portfolio/img2.jpg">
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
@@ -456,7 +456,7 @@
                     <!-- gallery item -->
                     <div class="item hospitaly">
                         <div class="picframe">
-                            <a href="images-event/portfolio/img3.jpg" >
+                            <a href="images-event/portfolio/img3.jpg">
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
@@ -471,7 +471,7 @@
                     <!-- gallery item -->
                     <div class="item residential">
                         <div class="picframe">
-                            <a href="images-event/portfolio/img4.jpg" >
+                            <a href="images-event/portfolio/img4.jpg">
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
