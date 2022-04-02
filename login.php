@@ -129,7 +129,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <div class="card-body">
                         <h2 class="title">Log In</h2>
 
-                        <p style="color:red; font-size:15px">
+                        <p style="color:red; font-size:15px; position:relative; top: 30px;">
                             <?php echo $err ?>
                         </p>
 

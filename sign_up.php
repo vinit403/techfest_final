@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $college_name = test_input($_POST["college_name"]);
         // check if name only contains letters and whitespace
-        if (!preg_match("/^[a-zA-Z0-9 ]*$/", $college_name)) {
+        if (!preg_match("/^[a-zA-Z ]*$/", $college_name)) {
             $err = "Only Character,Number,# and @ allowed in college name";
         } else {
             $useridf = 1;
