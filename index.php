@@ -426,13 +426,13 @@
                     <!-- gallery item -->
                     <div class="item residential">
                         <div class="picframe">
-                            <a href="images-event/portfolio/PPSU-5.jpg" >
+                            <a href="images-event/portfolio/PPSU-img.jpg" >
                                 <span class="overlay">
                                     <span class="pf_text">
                                         <span class="project-name">View Image</span>
                                     </span>
                                 </span>
-                                <img src="images-event/portfolio/PPSU-5.jpg" alt=""  style="height:240px">
+                                <img src="images-event/portfolio/PPSU-img.jpg" alt=""  style="height:240px">
                             </a>
                         </div>
                     </div>
