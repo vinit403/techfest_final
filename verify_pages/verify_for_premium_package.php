@@ -48,6 +48,9 @@ if ($success === true)
     {
         if($_SESSION['logged_in'] == "true")
         {
+
+            $uuid = uniqid();
+
             $user_name = $_SESSION['user_id'];
             $name = $_SESSION['name'];
             $phone_number = $_SESSION['phone_number'];
@@ -84,7 +87,7 @@ if ($success === true)
 
             if($row == 0)
             {
-            $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
+            $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`, `unique_number`) VALUES ('$user_name', '$mail', '$uuid')";
             $result = mysqli_query($connect, $sql);
 
             require '../vendor/autoload.php';

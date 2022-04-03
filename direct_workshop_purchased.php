@@ -6,6 +6,8 @@ session_start();
         {
             if($_SERVER['REQUEST_METHOD'] == 'POST')
             {
+                $uuid = uniqid();
+
                 $flag = 0;
 
                 $unique_code = $_POST['unique_code'];
@@ -141,8 +143,8 @@ session_start();
                     if($row == 0)
                     {
                         
-                    $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
-                    $result = mysqli_query($connect, $sql);
+                        $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`, `unique_number`) VALUES ('$user_name', '$mail', '$uuid')";
+                        $result = mysqli_query($connect, $sql);
 
                     require 'vendor/autoload.php';
                     require 'smtp.php';

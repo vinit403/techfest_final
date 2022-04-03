@@ -116,6 +116,9 @@ session_start();
 
                 if($flag == 0)
                 {
+
+                    $uuid = uniqid();
+
                     $user_name = $_SESSION['user_id'];
                     $name = $_SESSION['name'];
                     $phone_number = $_SESSION['phone_number'];
@@ -141,7 +144,7 @@ session_start();
                     if($row == 0)
                     {
                         
-                    $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
+                    $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`, `unique_number`) VALUES ('$user_name', '$mail', '$uuid')";
                     $result = mysqli_query($connect, $sql);
 
                     require 'vendor/autoload.php';
