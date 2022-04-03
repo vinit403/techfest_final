@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="css/twentytwenty.css" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
 
     <!-- custom background -->
     <link rel="stylesheet" href="css/bg.css" type="text/css">
