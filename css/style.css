@@ -5470,12 +5470,17 @@ color:#606060;
 .padding50{padding:60px !important;}
 .padding60{padding:70px !important;}
 
-
+@media only screen and (max-width : 768px) {
+	#particles-js{
+		opacity: 0;
+	}
+}
 #particles-js{
+	position: absolute;
+	opacity: 0.8;
 	top:0;
 	width:100%;
 	height:100%;
-	position:absolute;
 	z-index:0;
 }
 
@@ -7371,6 +7376,7 @@ display:table;
 	@media only screen and (max-width: 767px) {
 	.container{padding-left:30px; padding-right:30px;}
 	.feature-box-image,.pricing-box{margin-bottom:30px;}
+
 	
 	.de_tab .de_nav li {
 	display: block;
