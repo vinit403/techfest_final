@@ -89,7 +89,7 @@ else
                         <form action="group2_registration_validation.php" method="post" id="form1">
                        
                             <div class="input-group">
-                                <input class="input--style-3" type="text" placeholder="User Id" name="uid_member2" maxlength="20">
+                                <input class="input--style-3" type="text" placeholder="User Id" name="uid_member2" maxlength="20" required>
                             </div>
                             
                             <input type="hidden" name="event" value="<?php echo $event ?>">
