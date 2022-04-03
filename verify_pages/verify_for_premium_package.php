@@ -54,6 +54,8 @@ if ($success === true)
             $mail = $_SESSION['mail'];
             $college = $_SESSION['college'];
 
+            $amount = $_POST['amount'];
+
             $event_count = 4;
             $workshop_count = 1;
 

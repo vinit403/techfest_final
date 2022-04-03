@@ -144,8 +144,8 @@ session_start();
                     $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
                     $result = mysqli_query($connect, $sql);
 
-                    require '../vendor/autoload.php';
-                    require '../smtp.php';
+                    require 'vendor/autoload.php';
+                    require 'smtp.php';
         
                     $sender = 'hello@techpulse.co.in';
                     $senderName = 'Techpulse';

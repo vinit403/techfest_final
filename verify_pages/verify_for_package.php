@@ -48,6 +48,8 @@ if ($success === true) {
             $mail = $_SESSION['mail'];
             $college = $_SESSION['college'];
 
+            $amount = $_POST['amount'];
+
             $event_count = 2;
 
             $payment_id = $_POST['razorpay_payment_id'];

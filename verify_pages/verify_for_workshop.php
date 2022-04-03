@@ -58,6 +58,8 @@ if ($success === true)
             $payment_id = $_POST['razorpay_payment_id'];
             $order_id = $_POST['order_id'];
 
+            $amount = $_POST['amount'];
+
 
             $sql = "SELECT workshop_count FROM `user` WHERE user_id='$user_name'";
             $result = mysqli_query($connect, $sql);
