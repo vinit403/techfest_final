@@ -1,7 +1,7 @@
 <?php
 
-$keyId = 'rzp_live_jRHSfuOG5U9oHm';
-$keySecret = 'dTcTBvrYrfRsrKcXoAmCiSkw';
+$keyId = 'rzp_live_oWLAVFP5n6uLhR';
+$keySecret = 'kLYrkQX3b20uSsfP8nAZeZhX';
 $displayCurrency = 'INR';
 
 // $keyId = 'rzp_test_ZNLJDXrC172XHy';
