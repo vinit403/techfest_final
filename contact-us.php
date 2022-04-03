@@ -79,6 +79,8 @@
      $sql = "INSERT INTO `contact_us` (`name`, `email`, `subject`, `message`) VALUES ('$name','$email','$subject','$message')";
      $result = mysqli_query($connect, $sql);
 
+     header("location: index.php");
+
  }
 ?>
 

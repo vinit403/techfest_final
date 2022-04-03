@@ -56,6 +56,8 @@ if ($success === true)
             $college = $_SESSION['college'];
 
             $payment_id = $_POST['razorpay_payment_id'];
+            $order_id = $_POST['order_id'];
+
 
             $sql = "SELECT workshop_count FROM `user` WHERE user_id='$user_name'";
             $result = mysqli_query($connect, $sql);
