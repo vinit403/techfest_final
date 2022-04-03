@@ -75,7 +75,13 @@ if ($success === true)
             $sql = "INSERT INTO `premium_package_purchased` (`user_id`, `payment_id`) VALUES ('$user_name', '$payment_id')";
             $result = mysqli_query($connect, $sql);
 
+            
+            $sql = "SELECT * FROM `user_entry_pass` WHERE user_id = $user_name";
+            $result = mysqli_query($connect, $sql);
+            $row = mysqli_num_rows($result);
 
+            if($row == 0)
+            {
             $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
             $result = mysqli_query($connect, $sql);
 
@@ -127,6 +133,7 @@ if ($success === true)
             } catch (Exception $e) {
                 echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
             }
+        }
 
             header("location: ../success.php");
         

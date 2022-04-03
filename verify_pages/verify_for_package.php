@@ -67,80 +67,87 @@ if ($success === true) {
             $sql = "INSERT INTO `package_purchased` (`user_id`, `payment_id`) VALUES ('$user_name', '$payment_id')";
             $result = mysqli_query($connect, $sql);
 
-            $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
+            $sql = "SELECT * FROM `user_entry_pass` WHERE user_id = $user_name";
             $result = mysqli_query($connect, $sql);
+            $row = mysqli_num_rows($result);
 
-            require '../vendor/autoload.php';
-            require '../smtp.php';
-
-            $sender = 'hello@techpulse.co.in';
-            $senderName = 'Techpulse';
-
-            $recipient = $mail;
-
-            // The subject line of the email
-            $subject = 'Package purchase';
-
-            // The plain-text body of the email
-            $bodyText =  "okay you got it.";
-
-            // The HTML-formatted body of the email
-            $bodyHtml = "<html><body>";
-            $bodyHtml .= "Woo hoo! You have successfully purchased standard package.<br>";
-            $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
-
-            ORDER SUMMARY:<br><br>
-
-            Product: Standard Package QTY.1<br>
-            Price: 399<br>
-            Order id: $order_id<br>
-            Payment id: $payment_id<br>
-            Order Total: [price]<br><br>
-            
-            Name:<br>
-            Email:<br>
-            phone number:<br><br>
-            
+            if($rows == 0)
+            {
+                $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
+                $result = mysqli_query($connect, $sql);
+    
+                require '../vendor/autoload.php';
+                require '../smtp.php';
+    
+                $sender = 'hello@techpulse.co.in';
+                $senderName = 'Techpulse';
+    
+                $recipient = $mail;
+    
+                // The subject line of the email
+                $subject = 'Package purchase';
+    
+                // The plain-text body of the email
+                $bodyText =  "okay you got it.";
+    
+                // The HTML-formatted body of the email
+                $bodyHtml = "<html><body>";
+                $bodyHtml .= "Woo hoo! You have successfully purchased standard package.<br>";
+                $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
+    
+                ORDER SUMMARY:<br><br>
+    
+                Product: Standard Package QTY.1<br>
+                Price: 399<br>
+                Order id: $order_id<br>
+                Payment id: $payment_id<br>
+                Order Total: [price]<br><br>
                 
-            Thanks and Regards,<br>
-            Team Techpulse";
-            $bodyHtml .= "Here we attached one QR code for you. It is a entry pass for 14th-15th April.<br>
-                        You have to scan this QR code at our verification desk on event date.<br>
-                        It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.";
-
-            $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$code&amp;size=200x200' alt='' title='HELLO'/>";
-
-            $bodyHtml .= "</body></html>";
-
-            $mail = new PHPMailer(true);
-
-            try {
-                // Specify the SMTP settings.
-                $mail->isSMTP();
-                $mail->setFrom($sender, $senderName);
-                $mail->Username   = $usernameSmtp;
-                $mail->Password   = $passwordSmtp;
-                $mail->Host       = $host;
-                $mail->Port       = $port;
-                $mail->SMTPAuth   = true;
-                $mail->SMTPSecure = 'tls';
-                //  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
-
-                // Specify the message recipients.
-                $mail->addAddress($recipient);
-                // You can also add CC, BCC, and additional To recipients here.
-
-                // Specify the content of the message.
-                $mail->isHTML(true);
-                $mail->Subject    = $subject;
-                $mail->Body       = $bodyHtml;
-                $mail->AltBody    = $bodyText;
-                $mail->Send();
-                echo "Email sent!", PHP_EOL;
-            } catch (phpmailerException $e) {
-                echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
-            } catch (Exception $e) {
-                echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+                Name:<br>
+                Email:<br>
+                phone number:<br><br>
+                
+                    
+                Thanks and Regards,<br>
+                Team Techpulse";
+                $bodyHtml .= "Here we attached one QR code for you. It is a entry pass for 14th-15th April.<br>
+                            You have to scan this QR code at our verification desk on event date.<br>
+                            It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.";
+    
+                $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$code&amp;size=200x200' alt='' title='HELLO'/>";
+    
+                $bodyHtml .= "</body></html>";
+    
+                $mail = new PHPMailer(true);
+    
+                try {
+                    // Specify the SMTP settings.
+                    $mail->isSMTP();
+                    $mail->setFrom($sender, $senderName);
+                    $mail->Username   = $usernameSmtp;
+                    $mail->Password   = $passwordSmtp;
+                    $mail->Host       = $host;
+                    $mail->Port       = $port;
+                    $mail->SMTPAuth   = true;
+                    $mail->SMTPSecure = 'tls';
+                    //  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
+    
+                    // Specify the message recipients.
+                    $mail->addAddress($recipient);
+                    // You can also add CC, BCC, and additional To recipients here.
+    
+                    // Specify the content of the message.
+                    $mail->isHTML(true);
+                    $mail->Subject    = $subject;
+                    $mail->Body       = $bodyHtml;
+                    $mail->AltBody    = $bodyText;
+                    $mail->Send();
+                    echo "Email sent!", PHP_EOL;
+                } catch (phpmailerException $e) {
+                    echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
+                } catch (Exception $e) {
+                    echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+                }
             }
 
             header("location: ../success.php");
