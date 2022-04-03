@@ -135,8 +135,82 @@ session_start();
                     $sql = "INSERT INTO `event_purchased_on_cash` (`user_id`,`unique_code`, `promotion_team_code`) VALUES ('$user_name', '$unique_code' ,'$team_code')";
                     $result = mysqli_query($connect, $sql);
 
-                    $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
+                    $sql = "SELECT * FROM `user_entry_pass` WHERE user_id = $user_name";
                     $result = mysqli_query($connect, $sql);
+                    $row = mysqli_num_rows($result);
+                    if($row == 0)
+                    {
+                        $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
+                        $result = mysqli_query($connect, $sql);
+
+                        require '../vendor/autoload.php';
+                        require '../smtp.php';
+            
+                        $sender = 'hello@techpulse.co.in';
+                        $senderName = 'Techpluse Admin';
+                        $recipient = $mailid;
+            
+                        // The subject line of the email
+                        $subject = $user_name . ', thank you for your order';
+            
+                        // The plain-text body of the email
+                        $bodyText =  "okay you got it.";
+            
+                        // The HTML-formatted body of the email
+                        $bodyHtml = "<html><body>";
+                        $bodyHtml .= "Woo hoo! Now you have extra Event in your Wallet.<br>";
+                        $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
+            
+                        ORDER SUMMARY:<br><br>
+            
+                        Product: Single Event QTY.1<br>
+                        Price: $amount<br>
+                        Order id: $order_id<br>
+                        Payment id: $payment_id<br>
+                        Order Total: $amount<br><br>
+                        
+                        Name: $name<br>
+                        Email:$mailid<br>
+                        phone number:$phone_number<br><br>
+                        
+                            
+                        Thanks and Regards,<br>
+                        Team Techpulse";
+            
+                        $bodyHtml .= "</body></html>";
+            
+                        $mail = new PHPMailer(true);
+            
+                        try {
+                            // Specify the SMTP settings.
+                            $mail->isSMTP();
+                            $mail->setFrom($sender, $senderName);
+                            $mail->Username   = $usernameSmtp;
+                            $mail->Password   = $passwordSmtp;
+                            $mail->Host       = $host;
+                            $mail->Port       = $port;
+                            $mail->SMTPAuth   = true;
+                            $mail->SMTPSecure = 'tls';
+                            //  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
+            
+                            // Specify the message recipients.
+                            $mail->addAddress($recipient);
+                            // You can also add CC, BCC, and additional To recipients here.
+            
+                            // Specify the content of the message.
+                            $mail->isHTML(true);
+                            $mail->Subject    = $subject;
+                            $mail->Body       = $bodyHtml;
+                            $mail->AltBody    = $bodyText;
+                            $mail->Send();
+                            echo "Email sent!", PHP_EOL;
+                        } catch (phpmailerException $e) {
+                            echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
+                        } catch (Exception $e) {
+                            echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+                        }
+                    }
+
 
                     $sql = "UPDATE `unique_codes` SET `$team_code` = 'ReMoVeD' WHERE $team_code = '$unique_code'";
                     $result = mysqli_query($connect, $sql);
