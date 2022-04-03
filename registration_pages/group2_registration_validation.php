@@ -349,7 +349,7 @@ header("refresh:3,url=../Event.php");
                 }
 
                 require '../vendor/autoload.php';
-
+                
                 // Replace sender@example.com with your "From" address.
                 // This address must be verified with Amazon SES.
                 $sender = 'techpulse2022@gmail.com';

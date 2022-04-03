@@ -157,7 +157,7 @@ session_start();
         
                     $recipient = $mail;
         
-                    // The subject line of the email
+                    // The subject line of the email.
                     $subject = 'Package purchase';
         
                     // The plain-text body of the email

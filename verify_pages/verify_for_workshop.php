@@ -149,7 +149,7 @@ if ($success === true)
                 $mail->addAddress($recipient);
                 // You can also add CC, BCC, and additional To recipients here.
             
-                // Specify the content of the message.
+                // Specify the content of the message..
                 $mail->isHTML(true);
                 $mail->Subject    = $subject;
                 $mail->Body       = $bodyHtml;
@@ -162,7 +162,7 @@ if ($success === true)
             } catch (Exception $e) {
                 echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
             }
-
+        }
             header("location: ../success.php");
         }
         else
@@ -181,4 +181,3 @@ else
     $html = "<p>Your payment failed</p>
         <p>{$error}</p>";
 }
-

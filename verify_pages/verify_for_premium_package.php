@@ -24,7 +24,7 @@ if (empty($_POST['razorpay_payment_id']) === false)
 
     try
     {
-        // Please note that the razorpay order ID must
+        // Please note that the razorpay order ID must.
         // come from a trusted source (session here, but
         // could be database or something else)
         $attributes = array(
@@ -90,7 +90,7 @@ if ($success === true)
             {
             $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`, `unique_number`) VALUES ('$user_name', '$mail', '$uuid')";
             $result = mysqli_query($connect, $sql);
-            
+
                 require '../vendor/autoload.php';
                 require '../smtp.php';
 

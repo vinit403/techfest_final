@@ -166,7 +166,7 @@ session_start();
                     // The plain-text body of the email
                     $bodyText =  "okay you got it.";
         
-                    // The HTML-formatted body of the email
+                    // The HTML-formatted body of the email.
                     $bodyHtml = "<html><body>";
                     $bodyHtml .= "Woo hoo! You have successfully purchased standard package.<br>";
                     $bodyHtml .= "You paid cash to our promotion team. Review your receipt and get started.<br><br>
