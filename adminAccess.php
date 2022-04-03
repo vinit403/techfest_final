@@ -80,6 +80,17 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
 
               echo '<br><h3>Total Workshop Selling </h3> <p>workshops : '.$row_ws.'</p>';
 
+              $sql = "SELECT * FROM `event_purchased`";
+              $result = mysqli_query($connect, $sql);
+
+              $sql2 = "SELECT * FROM `event_purchased_on_cash`";
+              $result2 = mysqli_query($connect, $sql2);
+
+              $row_eve = mysqli_num_rows($result);
+              $row_eve2 = mysqli_num_rows($result2);
+
+              $row_eve = $row_eve + $row_eve2;
+              echo '<br><h3>Total Selling Of Add on events ...</h3><p> events : '.$row_eve.'</p>';
 
               echo '<br><h3>Number Of Students In Events</h3>';
 
@@ -160,8 +171,38 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
 
                 echo '<h5>Total : '.$total.'</h5>';
 
-
               }
+              echo '<br><h3>Accomodation information</h3>';
+
+                $sql = "SELECT * FROM `accomodation_person2_1day`";
+                $result = mysqli_query($connect, $sql);
+
+                $rows = mysqli_num_rows($result);
+
+                echo '2 persons in a room for 1 day : '.$rows.'<br>';
+
+                $sql = "SELECT * FROM `accomodation_person2_2days`";
+                $result = mysqli_query($connect, $sql);
+
+                $rows = mysqli_num_rows($result);
+
+                echo '2 persons in a room for 2 days : '.$rows.'<br>';
+
+                $sql = "SELECT * FROM `accomodation_person4_1day`";
+                $result = mysqli_query($connect, $sql);
+
+                $rows = mysqli_num_rows($result);
+
+                echo '4 persons in a room for 1 day : '.$rows.'<br>';
+
+                $sql = "SELECT * FROM `accomodation_person4_2days`";
+                $result = mysqli_query($connect, $sql);
+
+                $rows = mysqli_num_rows($result);
+
+                echo '4 persons in a room for 2 days : '.$rows.'<br><br>';
+
+
             ?>
                           
             </div>
