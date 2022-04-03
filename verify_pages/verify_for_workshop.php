@@ -49,6 +49,9 @@ if ($success === true)
     {
         if($_SESSION['logged_in'] == "true")
         {
+
+            $uuid = uniqid();
+
             $user_name = $_SESSION['user_id'];
             $name = $_SESSION['name'];
             $phone_number = $_SESSION['phone_number'];
@@ -76,7 +79,14 @@ if ($success === true)
 
             $result = mysqli_query($connect, $sql);
 
-            $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
+            $sql = "SELECT * FROM `user_entry_pass` WHERE user_id = $user_name";
+            $result = mysqli_query($connect, $sql);
+            $row = mysqli_num_rows($result);
+
+            if($row == 0)
+            {
+
+            $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`, `unique_number`) VALUES ('$user_name', '$mail', '$uuid')";
             $result = mysqli_query($connect, $sql);
 
             require '../vendor/autoload.php';
@@ -139,7 +149,7 @@ if ($success === true)
                 $mail->addAddress($recipient);
                 // You can also add CC, BCC, and additional To recipients here.
             
-                // Specify the content of the message.
+                // Specify the content of the message..
                 $mail->isHTML(true);
                 $mail->Subject    = $subject;
                 $mail->Body       = $bodyHtml;
@@ -152,7 +162,7 @@ if ($success === true)
             } catch (Exception $e) {
                 echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
             }
-
+        }
             header("location: ../success.php");
         }
         else
@@ -171,4 +181,3 @@ else
     $html = "<p>Your payment failed</p>
         <p>{$error}</p>";
 }
-

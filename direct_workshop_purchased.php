@@ -8,6 +8,8 @@ session_start();
         {
             if($_SERVER['REQUEST_METHOD'] == 'POST')
             {
+                $uuid = uniqid();
+
                 $flag = 0;
 
                 $unique_code = $_POST['unique_code'];
@@ -143,8 +145,8 @@ session_start();
                     if($row == 0)
                     {
                         
-                    $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
-                    $result = mysqli_query($connect, $sql);
+                        $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`, `unique_number`) VALUES ('$user_name', '$mail', '$uuid')";
+                        $result = mysqli_query($connect, $sql);
 
                     require '/vendor/autoload.php';
                     require 'smtp.php';
@@ -160,7 +162,7 @@ session_start();
                     // The plain-text body of the email
                     $bodyText =  "okay you got it.";
                     
-                    // The HTML-formatted body of the email
+                    // The HTML-formatted body of the email.
                     $bodyHtml = "<html><body>";
                     $bodyHtml .= "Woo hoo! You have successfully purchased Workshop. It will reflect in your wallet.<br>    <br>";
                     $bodyHtml .= "You paid cash to our promotion team. Review your receipt and get started.<br><br>

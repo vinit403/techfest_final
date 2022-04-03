@@ -277,10 +277,21 @@ $("#simpleModal").modal("show");
                 }
 
                 require '../vendor/autoload.php';
+<<<<<<< HEAD
                 require '../smtp.php';
 
                 $sender = 'hello@techpulse.co.in';
                 $senderName = 'Techpluse';
+=======
+                
+                // Replace sender@example.com with your "From" address.
+                // This address must be verified with Amazon SES.
+                $sender = 'techpulse2022@gmail.com';
+                $senderName = 'Techpluse Admin';
+                
+                // Replace recipient@example.com with a "To" address. If your account
+                // is still in the sandbox, this address must be verified.
+>>>>>>> 0ae09eaac787015925c4ce5b5ac216cf846147f9
                 $recipient = $mail;
 
                 $subject = $name . ', Thank you for Participating';

@@ -118,6 +118,9 @@ session_start();
 
                 if($flag == 0)
                 {
+
+                    $uuid = uniqid();
+
                     $user_name = $_SESSION['user_id'];
                     $name = $_SESSION['name'];
                     $phone_number = $_SESSION['phone_number'];
@@ -136,14 +139,6 @@ session_start();
 
                     $sql = "INSERT INTO `event_purchased_on_cash` (`user_id`,`unique_code`, `promotion_team_code`) VALUES ('$user_name', '$unique_code' ,'$team_code')";
                     $result = mysqli_query($connect, $sql);
-
-                    $sql = "SELECT * FROM `user_entry_pass` WHERE user_id = $user_name";
-                    $result = mysqli_query($connect, $sql);
-                    $row = mysqli_num_rows($result);
-                    if($row == 0)
-                    {
-                        $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
-                        $result = mysqli_query($connect, $sql);
 
                         require 'vendor/autoload.php';
                         require 'smtp.php';
@@ -209,7 +204,6 @@ session_start();
                         } catch (Exception $e) {
                             echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
                         }
-                    }
 
 
                     $sql = "UPDATE `unique_codes` SET `$team_code` = 'ReMoVeD' WHERE $team_code = '$unique_code'";
