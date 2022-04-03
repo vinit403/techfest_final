@@ -111,18 +111,17 @@ if ($success === true) {
                 Payment id: $payment_id<br>
                 Order Total:$amount<br><br>
                 
-                Name:<br>
-                Email:<br>
-                phone number:<br><br>
-                
-                    
-                Thanks and Regards,<br>
-                Team Techpulse";
+                Name: $name<br>
+                Email: $mail<br>
+                phone number: $phone_number<br><br>";
+
                 $bodyHtml .= "Here we attached one QR code for you. It is a entry pass for 14th-15th April.<br>
                             You have to scan this QR code at our verification desk on event date.<br>
                             It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.";
     
-                $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$code&amp;size=200x200' alt='' title='HELLO'/>";
+                $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$uuid&amp;size=200x200' alt='' title='HELLO'/>";
+                $bodyHtml .= "Thanks and Regards,<br>
+                Team Techpulse";
     
                 $bodyHtml .= "</body></html>";
     

@@ -1,8 +1,12 @@
 <?php
 
-$keyId = 'rzp_test_ZNLJDXrC172XHy';
-$keySecret = 'dTcTBvrYrfRsrKcXoAmCiSkw';
+$keyId = 'rzp_live_oWLAVFP5n6uLhR';
+$keySecret = 'kLYrkQX3b20uSsfP8nAZeZhX';
 $displayCurrency = 'INR';
+
+// $keyId = 'rzp_test_ZNLJDXrC172XHy';
+// $keySecret = 'g8eZwzOxvewasSIbwFnDStX5';
+// $displayCurrency = 'INR';
 
 //These should be commented out in production
 // This is for error reporting

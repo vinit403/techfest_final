@@ -81,8 +81,23 @@ if(isset($_SESSION['logged_in']))
         $row2 = mysqli_num_rows($result2);
         $row = mysqli_num_rows($result);
 
+        $err = "";
+        
+
         if($row == 1 || $row2 == 1 || $row3 == 1 || $row4 == 1)
         {
+            if ($row == 1 ){
+                $err = "You already purchase standard package!";
+            }
+            elseif($row2 == 1){
+                $err = "You already purchase premium package!";
+            }
+            elseif($row3 == 1){
+                $err = "You already purchase standard package via cash!";
+            }
+            elseif($row4 == 1){
+                $err = "You already purchase premium package via cash!";
+            }
             echo ' <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -92,8 +107,8 @@ if(isset($_SESSION['logged_in']))
                                <div class="modal-body ">
                                    <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
                                    <div class="px-4 py-5">
-                                       <h5 class="text-uppercase"> Dear ' . $name . '</h5>
-                                       <h4 class="mt-5 theme-color mb-5">You are already purchase premium package!</h4> <span class="theme-color">You can purchase add-on for more events.</span>
+                                       <h5 class="text-uppercase"> Dear ' . $name . '</h5>  
+                                       <h4 class="mt-5 theme-color mb-5">'.$err.'</h4> <span class="theme-color">You can purchase add-on for more events.</span>
                             
                                </div>
                            </div>

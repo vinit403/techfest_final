@@ -95,8 +95,8 @@ if ($success === true) {
                 Order Total: $amount<br><br>
                 
                 Name: $name<br>
-                Email:$mailid<br>
-                phone number:$phone_number<br><br>
+                Email: $mailid<br>
+                phone number: $phone_number<br><br>
                 
                     
                 Thanks and Regards,<br>

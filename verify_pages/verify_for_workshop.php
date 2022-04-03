@@ -62,6 +62,7 @@ if ($success === true)
             $order_id = $_POST['order_id'];
 
             $amount = $_POST['amount'];
+            $amount = $amount / 100;
 
 
             $sql = "SELECT workshop_count FROM `user` WHERE user_id='$user_name'";
@@ -116,9 +117,9 @@ if ($success === true)
             Payment id: $payment_id<br>
             Order Total: $amount<br><br>
             
-            Name:<br>
-            Email:<br>
-            phone number:<br><br>
+            Name: $name<br>
+            Email: $mail<br>
+            phone number: $phone_number<br><br>
             
                 
             Thanks and Regards,<br>

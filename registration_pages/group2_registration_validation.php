@@ -4,19 +4,16 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 session_start();
-if($_SERVER['REQUEST_METHOD'] == 'POST')
-{
-    if(isset($_SESSION['logged_in']))
-    {
-        if($_SESSION['logged_in'] == 'true')
-        {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    if (isset($_SESSION['logged_in'])) {
+        if ($_SESSION['logged_in'] == 'true') {
             $flag_verified = 0;
             require "../database_connection.php";
 
             $uid_leader = $_SESSION['user_id'];
             $uid_member2 = $_POST['uid_member2'];
-            $uid_member2 = str_replace("<","&lt;","$uid_member2");
-            $uid_member2= str_replace(">", "&gt;", "$uid_member2");
+            $uid_member2 = str_replace("<", "&lt;", "$uid_member2");
+            $uid_member2 = str_replace(">", "&gt;", "$uid_member2");
             $event = $_POST['event'];
 
             $sql = "SELECT user_id FROM `user`";
@@ -24,18 +21,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 
             $flag2 = 0;
 
-            while($r = mysqli_fetch_assoc($result))
-            {
+            while ($r = mysqli_fetch_assoc($result)) {
                 $user = $r['user_id'];
-                if($user == $uid_member2)
-                {
+                if ($user == $uid_member2) {
                     $flag2 = 1;
                 }
             }
-            if($uid_member2 != "")
-            {
-                if($flag2 == 0)
-                {
+            if ($uid_member2 != "") {
+                if ($flag2 == 0) {
                     echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -46,7 +39,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                                 </button>
                             </div>
                             <div class="modal-body">
-                                '.$uid_member2.' not exist
+                                ' . $uid_member2 . ' not exist
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -66,10 +59,10 @@ OpenBootstrapPopup();
 function OpenBootstrapPopup() {
 $("#simpleModal").modal("show");
 }
-</script>'; 
-header("refresh:3,url=../Event.php");
+</script>';
+                    header("refresh:3,url=../Event.php");
 
-                   $flag_verified = 1;
+                    $flag_verified = 1;
                 }
             }
 
@@ -77,8 +70,7 @@ header("refresh:3,url=../Event.php");
             $result = mysqli_query($connect, $sql);
             $r2 = mysqli_fetch_assoc($result);
             $event_count = $r2['event_count'];
-            if($event_count == 0)
-            {
+            if ($event_count == 0) {
                 echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
@@ -89,7 +81,7 @@ header("refresh:3,url=../Event.php");
                             </button>
                         </div>
                         <div class="modal-body">
-                            No event remaining in '.$uid_leader.'\'s wallet
+                            No event remaining in ' . $uid_leader . '\'s wallet
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -109,21 +101,18 @@ OpenBootstrapPopup();
 function OpenBootstrapPopup() {
 $("#simpleModal").modal("show");
 }
-</script>'; 
-header("refresh:3,url=../Event.php");
+</script>';
+                header("refresh:3,url=../Event.php");
 
-               $flag_verified = 1;
-
+                $flag_verified = 1;
             }
 
-            if($uid_member2 != "")
-            {
+            if ($uid_member2 != "") {
                 $sql = "SELECT event_count FROM `user` WHERE user_id='$uid_member2'";
                 $result = mysqli_query($connect, $sql);
                 $r2 = mysqli_fetch_assoc($result);
                 $event_count2 = $r2['event_count'];
-                if($event_count2 == 0)
-                {
+                if ($event_count2 == 0) {
                     echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -134,7 +123,7 @@ header("refresh:3,url=../Event.php");
                                 </button>
                             </div>
                             <div class="modal-body">
-                                No event remaining in '.$uid_member2.'\'s wallet
+                                No event remaining in ' . $uid_member2 . '\'s wallet
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -154,23 +143,21 @@ header("refresh:3,url=../Event.php");
     function OpenBootstrapPopup() {
     $("#simpleModal").modal("show");
     }
-    </script>'; 
-    header("refresh:3,url=../Event.php");
+    </script>';
+                    header("refresh:3,url=../Event.php");
 
-    
-                   $flag_verified = 1;
-    
+
+                    $flag_verified = 1;
                 }
             }
 
-            $eve_register = $event."_register";
+            $eve_register = $event . "_register";
 
             $sql = "SELECT * FROM `$eve_register` WHERE user_id='$uid_leader'";
             $result = mysqli_query($connect, $sql);
             $r = mysqli_num_rows($result);
-                if($r == 1)
-                {
-                    echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
+            if ($r == 1) {
+                echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -180,7 +167,7 @@ header("refresh:3,url=../Event.php");
                                 </button>
                             </div>
                             <div class="modal-body">
-                                '.$uid_leader.' is already in this event
+                                ' . $uid_leader . ' is already in this event
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -200,20 +187,17 @@ header("refresh:3,url=../Event.php");
     function OpenBootstrapPopup() {
     $("#simpleModal").modal("show");
     }
-    </script>'; 
-    header("refresh:3,url=../Event.php");
+    </script>';
+                header("refresh:3,url=../Event.php");
 
-                   $flag_verified = 1;
+                $flag_verified = 1;
+            }
 
-                }
-
-            if($uid_member2 != "")
-            {
-            $sql = "SELECT * FROM `$eve_register` WHERE user_id='$uid_member2'";
-            $result = mysqli_query($connect, $sql);
-            $r = mysqli_num_rows($result);
-                if($r == 1)
-                {
+            if ($uid_member2 != "") {
+                $sql = "SELECT * FROM `$eve_register` WHERE user_id='$uid_member2'";
+                $result = mysqli_query($connect, $sql);
+                $r = mysqli_num_rows($result);
+                if ($r == 1) {
                     echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -224,7 +208,7 @@ header("refresh:3,url=../Event.php");
                                 </button>
                             </div>
                             <div class="modal-body">
-                                '.$uid_member2.' is already in this event
+                                ' . $uid_member2 . ' is already in this event
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -244,74 +228,21 @@ header("refresh:3,url=../Event.php");
     function OpenBootstrapPopup() {
     $("#simpleModal").modal("show");
     }
-    </script>'; 
-    header("refresh:3,url=../Event.php");
+    </script>';
+                    header("refresh:3,url=../Event.php");
 
-                   $flag_verified = 1;
-
+                    $flag_verified = 1;
                 }
             }
-            // $sql = "SELECT * FROM `$event` WHERE userid='$uid_leader'";
-            // $sql2 = "SELECT * FROM `$event` WHERE userid_member2='$uid_member2'";
-            // $sql3 = "SELECT * FROM `$event` WHERE userid_member3='$uid_member3'";
-            // $sql4 = "SELECT * FROM `$event` WHERE userid_member4='$uid_member4'";
-            // $result = mysqli_query($connect, $sql);
-            // $result2 = mysqli_query($connect, $sql2);
-            // $result3 = mysqli_query($connect, $sql3);
-            // $result4 = mysqli_query($connect, $sql4);
 
-            // $rws = mysqli_num_rows($result);
-            // $rws2 = mysqli_num_rows($result2);
-            // $rws3 = mysqli_num_rows($result3);
-            // $rws4 = mysqli_num_rows($result4);
-
-            // if($rws == 1)
-            // {
-            //     echo '<script type ="text/JavaScript">
-            //     alert("'.$uid_leader.'is already in this event")ss
-            //     window.location = "group4_registration.php?event='.$event.'"
-            //    </script>'; 
-            //    $flag_verified = 1;
-
-            // }
-            // if($rws2 == 1)
-            // {
-            //     echo '<script type ="text/JavaScript">
-            //     alert("'.$uid_member2.'is already in this event")ss
-            //     window.location = "group4_registration.php?event='.$event.'"
-            //    </script>'; 
-            //    $flag_verified = 1;
-
-            // }
-            // if($rws3 == 1)
-            // {
-            //     echo '<script type ="text/JavaScript">
-            //     alert("'.$uid_member3.'is already in this event")ss
-            //     window.location = "group4_registration.php?event='.$event.'"
-            //    </script>'; 
-            //    $flag_verified = 1;
-
-            // }
-            // if($rws4 == 1)
-            // {
-            //     echo '<script type ="text/JavaScript">
-            //     alert("'.$uid_member4.'is already in this event")ss
-            //     window.location = "group4_registration.php?event='.$event.'"
-            //    </script>'; 
-            //    $flag_verified = 1;
-
-            // }
-
-            if($flag_verified == 0)
-            {
+            if ($flag_verified == 0) {
                 $userid = $_SESSION['user_id'];
                 $name = $_SESSION['name'];
                 $phone_number = $_SESSION['phone_number'];
                 $mail = $_SESSION['mail'];
                 $college = $_SESSION['college'];
-                
-                if($uid_member2 != "")
-                {
+
+                if ($uid_member2 != "") {
                     $sql = "SELECT * FROM `user` WHERE user_id='$uid_member2'";
                     $result = mysqli_query($connect, $sql);
                     $r = mysqli_fetch_assoc($result);
@@ -319,36 +250,39 @@ header("refresh:3,url=../Event.php");
                     $mail_2 = $r['mail'];
                     $college_2 = $r['college'];
                 }
-    
+
                 $sql = "INSERT INTO `$event` (`leader_name`, `leader_college`, `leader_mail`, `leader_phone_number`, `member2_name`,`member2_college`,`member2_mail`) VALUES ('$name','$college','$mail','$phone_number','$name_2','$college_2','$mail_2')";
                 $result = mysqli_query($connect, $sql);
-                
-                $eve_register = $event."_register";
+
+                $eve_register = $event . "_register";
                 $sql = "INSERT INTO `$eve_register` (`user_id`) VALUES ('$uid_leader')";
                 $result = mysqli_query($connect, $sql);
-                if($uid_member2 != "")
-                {
+                if ($uid_member2 != "") {
                     $sql = "INSERT INTO `$eve_register` (`user_id`) VALUES ('$uid_member2')";
                     $result = mysqli_query($connect, $sql);
                 }
 
                 $event_count = $event_count - 1;
 
-                if($uid_member2 != "")
-                {
+                if ($uid_member2 != "") {
                     $event_count2 = $event_count2 - 1;
                 }
-    
+
                 $sql = "UPDATE `user` SET event_count='$event_count' WHERE user_id='$uid_leader'";
                 $result = mysqli_query($connect, $sql);
 
-                if($uid_member2 != "")
-                {
+                if ($uid_member2 != "") {
                     $sql = "UPDATE `user` SET event_count='$event_count2' WHERE user_id='$uid_member2'";
                     $result = mysqli_query($connect, $sql);
                 }
 
                 require '../vendor/autoload.php';
+<<<<<<< HEAD
+                require '../smtp.php';
+
+                $sender = 'hello@techpulse.co.in';
+                $senderName = 'Techpluse';
+=======
                 
                 // Replace sender@example.com with your "From" address.
                 // This address must be verified with Amazon SES.
@@ -357,35 +291,36 @@ header("refresh:3,url=../Event.php");
                 
                 // Replace recipient@example.com with a "To" address. If your account
                 // is still in the sandbox, this address must be verified.
+>>>>>>> 0ae09eaac787015925c4ce5b5ac216cf846147f9
                 $recipient = $mail;
-                
-                // Replace smtp_username with your Amazon SES SMTP user name.
-                $usernameSmtp = 'AKIAR3NH6FDMMDNB25EB';
-                
-                // Replace smtp_password with your Amazon SES SMTP password.
-                $passwordSmtp = 'BJM+spGKi0uSUKETgnodvcqdKzyFuZs5Q/pTHEPJyOjY';
-                
-                // Specify a configuration set. If you do not want to use a configuration
-                // set, comment or remove the next line.
-                //$configurationSet = 'ConfigSet';
-                
-                // If you're using Amazon SES in a region other than US West (Oregon),
-                // replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
-                // endpoint in the appropriate region.
-                $host = 'email-smtp.ap-south-1.amazonaws.com';
-                $port = 587;
-                
-                // The subject line of the email
-                $subject = 'Event registration';
-                
+
+                $subject = $name . ', Thank you for Participating';
+
                 // The plain-text body of the email
                 $bodyText =  "okay you got it.";
-                
+
                 // The HTML-formatted body of the email
-                $bodyHtml = 'Your team successfully registered in event '.$event.'';
+                $bodyHtml = "<html><body>";
+                $bodyHtml .= "Thank you for participating in Techpulse Events.<br><br>";
+                $bodyHtml .= "Event details are mention below.<br><br>
+
+                Event Name: $event<br>
+                Event Participator:<br> 
+                        $name <br>
+                        $name_2 <br><br>
                 
+                Name: $name<br>
+                Email: $mail<br>
+                phone number:$phone_number<br><br>
+                
+                    
+                Thanks and Regards,<br>
+                Team Techpulse";
+
+                $bodyHtml .= "</body></html>";
+
                 $mail = new PHPMailer(true);
-                
+
                 try {
                     // Specify the SMTP settings.
                     $mail->isSMTP();
@@ -396,46 +331,34 @@ header("refresh:3,url=../Event.php");
                     $mail->Port       = $port;
                     $mail->SMTPAuth   = true;
                     $mail->SMTPSecure = 'tls';
-                  //  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
-                
+                    //  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
+
                     // Specify the message recipients.
                     $mail->addAddress($recipient);
                     // You can also add CC, BCC, and additional To recipients here.
-                
+
                     // Specify the content of the message.
                     $mail->isHTML(true);
                     $mail->Subject    = $subject;
                     $mail->Body       = $bodyHtml;
                     $mail->AltBody    = $bodyText;
                     $mail->Send();
-                    echo "Email sent!" , PHP_EOL;
-                } 
-                catch (phpmailerException $e) {
+                    echo "Email sent!", PHP_EOL;
+                } catch (phpmailerException $e) {
                     echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
                 } catch (Exception $e) {
                     echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
                 }
 
                 header("location: ../success.php");
-            
+            } else {
             }
-            else
-            {
-                
-            }
-        }
-        else
-        {
+        } else {
             header("location: ../index.php");
         }
-    }
-    else
-    {
+    } else {
         header("location: ../index.php");
     }
-}
-else
-{
+} else {
     header("location: ../index.php");
 }
-?>
