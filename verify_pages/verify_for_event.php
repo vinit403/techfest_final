@@ -46,10 +46,13 @@ if ($success === true) {
             $user_name = $_SESSION['user_id'];
             $name = $_SESSION['name'];
             $phone_number = $_SESSION['phone_number'];
-            $mail = $_SESSION['mail'];
+            $mailid = $_SESSION['mail'];
             $college = $_SESSION['college'];
 
             $payment_id = $_POST['razorpay_payment_id'];
+            $order_id = $_POST['order_id'];
+            $amount = $_POST['amount'];
+
 
             $sql = "SELECT event_count FROM `user` WHERE user_id='$user_name'";
             $result = mysqli_query($connect, $sql);
@@ -64,16 +67,16 @@ if ($success === true) {
             $sql = "INSERT INTO `event_purchased` (`user_id`,`payment_id`) VALUES ('$user_name', '$payment_id')";
             $result = mysqli_query($connect, $sql);
 
-            $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
+            $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mailid')";
             $result = mysqli_query($connect, $sql);
 
             require '../vendor/autoload.php';
-            require '../smtp.php';
+            include '../smtp.php';
 
-            $sender = 'hello@techpulse.co.in';
+            $sender = 'admin@techpulse.co.in';
             $senderName = 'Techpulse';
 
-            $recipient = $mail;
+            $recipient = $mailid;
 
             // The subject line of the email
             $subject = $user_name . ', thank you for your order';
@@ -84,27 +87,25 @@ if ($success === true) {
             // The HTML-formatted body of the email
             $bodyHtml = "<html><body>";
             $bodyHtml .= "Woo hoo! Now you have extra Event in your Wallet.<br>";
-            $bodyHtml .= "Here's your confirmation for order number $oder_id. Review your receipt and get started.<br><br>
+            $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
 
             ORDER SUMMARY:<br><br>
 
             Product: Single Event QTY.1<br>
-            Price: [price]<br>
-            Order id: [number]<br>
-            Payment id: [number]<br>
-            Order Date: [date]<br>
-            Order Total: [price]<br><br>
+            Price: $amount<br>
+            Order id: $order_id<br>
+            Payment id: $payment_id<br>
+            Order Total: $amount<br><br>
             
-            Name:<br>
-            Email:<br>
-            phone number:<br><br>
+            Name: $name<br>
+            Email:$mailid<br>
+            phone number:$phone_number<br><br>
             
                 
             Thanks and Regards,<br>
             Team Techpulse";
 
             $bodyHtml .= "</body></html>";
-            $bodyHtml = 'You have successfully purchased an event... your payment id is : ' . $payment_id . '';
 
             $mail = new PHPMailer(true);
 
@@ -130,6 +131,7 @@ if ($success === true) {
                 $mail->Body       = $bodyHtml;
                 $mail->AltBody    = $bodyText;
                 $mail->Send();
+                
                 echo "Email sent!", PHP_EOL;
             } catch (phpmailerException $e) {
                 echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.

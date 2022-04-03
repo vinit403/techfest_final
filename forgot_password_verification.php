@@ -55,7 +55,7 @@ $err = "";
                 $code = rand(100000, 999999);
 
                 require 'vendor/autoload.php';
-                require '../smtp.php';
+                require 'smtp.php';
                 $sender = 'admin@techpulse.co.in';
                 $senderName = 'Techpluse Admin';
                 $recipient = $mailid;

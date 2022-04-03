@@ -45,6 +45,7 @@ if (empty($_POST['razorpay_payment_id']) === false)
 if ($success === true)
 {
     $payment_id = $_POST['razorpay_payment_id'];
+    $order_id = $_POST['order_id'];
     $count = $_POST['count'];
     $amount = $_POST['amount'];
 

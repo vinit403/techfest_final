@@ -51,7 +51,9 @@ if ($success === true) {
             $event_count = 2;
 
             $payment_id = $_POST['razorpay_payment_id'];
+            $order_id = $_POST['order_id'];
 
+        
             $sql = "SELECT event_count FROM `user` WHERE user_id='$user_name'";
             $result = mysqli_query($connect, $sql);
 
@@ -85,15 +87,14 @@ if ($success === true) {
             // The HTML-formatted body of the email
             $bodyHtml = "<html><body>";
             $bodyHtml .= "Woo hoo! You have successfully purchased standard package.<br>";
-            $bodyHtml .= "Here's your confirmation for order number $oder_id. Review your receipt and get started.<br><br>
+            $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
 
             ORDER SUMMARY:<br><br>
 
-            Product: Single Event QTY.1<br>
-            Price: [price]<br>
-            Order id: [number]<br>
-            Payment id: [number]<br>
-            Order Date: [date]<br>
+            Product: Standard Package QTY.1<br>
+            Price: 399<br>
+            Order id: $order_id<br>
+            Payment id: $payment_id<br>
             Order Total: [price]<br><br>
             
             Name:<br>
