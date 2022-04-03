@@ -380,7 +380,7 @@ $("#simpleModal").modal("show");
                 $sql = "SELECT event_count FROM `user` WHERE user_id='$uid_member5'";
                 $result = mysqli_query($connect, $sql);
                 $r2 = mysqli_fetch_assoc($result);
-                $event_count4 = $r2['event_count'];
+                $event_count5 = $r2['event_count'];
                 if ($event_count5 == 0) {
                     echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
