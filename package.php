@@ -71,13 +71,14 @@
                     <div class="row">
                         <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
                             <h1>Choose a Ticket</h1>
+                            <p style="color:yellow;">Sales end at 6th April,2022</p>
                             <div class="separator"><span><i class="fa fa-square"></i></span></div>
                             <div class="spacer-single"></div>
                         </div>
 
                                         <div class="col-sm-4">
                                             <div class="pricing-s1 mb30">
-                                                <div class="ribbon color-2 text-white">Premium</div>
+                                                <div class="ribbon color-2 text-white" style="background-color: red;">₹100 off</div>
                                                 <div class="top">
                                                     <h2>Standard<sup>&nbsp;&nbsp;*</sup></h2>
                                                     <p class="price"><span class="currency id-color">Rs.</span> <b>399/-</b></p>
@@ -97,7 +98,7 @@
                                         </div>
                                         <div class="col-sm-4">
                                             <div class="pricing-s1 mb30">
-                                                <div class="ribbon color-2 text-white">Premium+</div>
+                                                <div class="ribbon color-2 text-white" style="background-color: red;">₹100 off</div>
                                                 <div class="top">
                                                     <h2>Permium<sup>&nbsp;&nbsp;*</sup></h2>
                                                     <p class="price"><span class="currency id-color">Rs.</span> <b>899/-</b></p>
@@ -118,6 +119,7 @@
                                         </div>
                                         <div class="col-sm-4">
                                             <div class="pricing-s1 mb30">
+                                            <div class="ribbon color-2 text-white" style="background-color: red;">₹100 off</div>
                                                 <div class="top">
                                                     <h2>Work-Shop<sup>&nbsp;&nbsp;*</sup></h2>
                                                     <p class="price"><span class="currency id-color">Rs.</span> <b>499/-</b></p>

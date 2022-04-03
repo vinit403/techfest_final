@@ -218,9 +218,9 @@ $json = json_encode($data);
                     <div class="mb-3">
                         <hr class="new1">
                     </div>
-                    <div class="d-flex justify-content-between"> <span class="font-weight-bold">Premium Package</span> <span class="text-muted">₹999.00</span> </div>
+                    <div class="d-flex justify-content-between"> <span class="font-weight-bold">Premium Package</span> <span class="text-muted">₹899.00</span> </div>
 
-                    <div class="d-flex justify-content-between mt-3"> <span class="font-weight-bold">Total</span> <span class="font-weight-bold theme-color">₹999.00</span> </div>
+                    <div class="d-flex justify-content-between mt-3"> <span class="font-weight-bold">Total</span> <span class="font-weight-bold theme-color">₹899.00</span> </div>
                     <!-- <div class="text-center mt-5"> <button class="btn btn-primary">Pay now</button> </div> -->
                 </div>
             </div>
