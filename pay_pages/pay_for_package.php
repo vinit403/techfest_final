@@ -80,9 +80,22 @@ if(isset($_SESSION['logged_in']))
         $row4 = mysqli_num_rows($result4);
         $row2 = mysqli_num_rows($result2);
         $row = mysqli_num_rows($result);
+        $err = "";
 
         if($row == 1 || $row2 == 1 || $row3 == 1 || $row4 == 1)
         {
+            if ($row == 1 ){
+                $err = "You already purchase standard package!";
+            }
+            elseif($row2 == 1){
+                $err = "You already purchase premium package!";
+            }
+            elseif($row3 == 1){
+                $err = "You already purchase standard package via cash!";
+            }
+            elseif($row4 == 1){
+                $err = "You already purchase premium package via cash!";
+            }
             echo ' <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -93,7 +106,7 @@ if(isset($_SESSION['logged_in']))
                                    <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
                                    <div class="px-4 py-5">
                                        <h5 class="text-uppercase"> Dear ' . $name . '</h5>
-                                       <h4 class="mt-5 theme-color mb-5">You are already purchase standard package!</h4> <span class="theme-color">You can purchase add-on for more events.</span>
+                                       <h4 class="mt-5 theme-color mb-5">'.$err.'</h4> <span class="theme-color">You can purchase add-on for more events.</span>
                             
                                </div>
                            </div>
@@ -203,9 +216,10 @@ $json = json_encode($data);
                     <div class="mb-3">
                         <hr class="new1">
                     </div>
-                    <div class="d-flex justify-content-between"> <span class="font-weight-bold">Standard Package</span> <span class="text-muted">₹499.00</span> </div>
+                    <h6>All the details will send to your Email.</h6>
+                    <div class="d-flex justify-content-between"> <span class="font-weight-bold">Standard Package</span> <span class="text-muted">₹399.00</span> </div>
 
-                    <div class="d-flex justify-content-between mt-3"> <span class="font-weight-bold">Total</span> <span class="font-weight-bold theme-color">₹499.00</span> </div>
+                    <div class="d-flex justify-content-between mt-3"> <span class="font-weight-bold">Total</span> <span class="font-weight-bold theme-color">₹399.00</span> </div>
                     <!-- <div class="text-center mt-5"> <button class="btn btn-primary">Pay now</button> </div> -->
                 </div>
             </div>
