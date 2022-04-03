@@ -160,8 +160,38 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
 
                 echo '<h5>Total : '.$total.'</h5>';
 
-
               }
+              echo '<br><h3>Accomodation information</h3>';
+
+                $sql = "SELECT * FROM `accomodation_person2_1day`";
+                $result = mysqli_query($connect, $sql);
+
+                $rows = mysqli_num_rows($result);
+
+                echo '2 persons in a room for 1 day : '.$rows.'<br>';
+
+                $sql = "SELECT * FROM `accomodation_person2_2days`";
+                $result = mysqli_query($connect, $sql);
+
+                $rows = mysqli_num_rows($result);
+
+                echo '2 persons in a room for 2 days : '.$rows.'<br>';
+
+                $sql = "SELECT * FROM `accomodation_person4_1day`";
+                $result = mysqli_query($connect, $sql);
+
+                $rows = mysqli_num_rows($result);
+
+                echo '4 persons in a room for 1 day : '.$rows.'<br>';
+
+                $sql = "SELECT * FROM `accomodation_person4_2days`";
+                $result = mysqli_query($connect, $sql);
+
+                $rows = mysqli_num_rows($result);
+
+                echo '4 persons in a room for 2 days : '.$rows.'<br><br>';
+
+
             ?>
                           
             </div>
