@@ -69,31 +69,12 @@ if ($success === true) {
             $result = mysqli_query($connect, $sql);
 
             require '../vendor/autoload.php';
+            require '../smtp.php';
 
-            // Replace sender@example.com with your "From" address.
-            // This address must be verified with Amazon SES.
             $sender = 'hello@techpulse.co.in';
             $senderName = 'Techpulse';
 
-            // Replace recipient@example.com with a "To" address. If your account
-            // is still in the sandbox, this address must be verified.
             $recipient = $mail;
-
-            // Replace smtp_username with your Amazon SES SMTP user name.
-            $usernameSmtp = 'postmaster@techpulse.co.in';
-
-            // Replace smtp_password with your Amazon SES SMTP password.
-            $passwordSmtp = 'f36f82f60f438dde08eefa8b87f8d86a-62916a6c-3012292c';
-
-            // Specify a configuration set. If you do not want to use a configuration
-            // set, comment or remove the next line.
-            //$configurationSet = 'ConfigSet';
-
-            // If you're using Amazon SES in a region other than US West (Oregon),
-            // replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
-            // endpoint in the appropriate region.
-            $host = 'smtp.mailgun.org';
-            $port = 587;
 
             // The subject line of the email
             $subject = 'Package purchase';
@@ -102,9 +83,32 @@ if ($success === true) {
             $bodyText =  "okay you got it.";
 
             // The HTML-formatted body of the email
-            $bodyHtml = 'You have successfully purchased a package... your payment id is : ' . $payment_id . '';
-            $bodyHtml .= "<html><body>";
+            $bodyHtml = "<html><body>";
+            $bodyHtml .= "Woo hoo! You have successfully purchased standard package.<br>";
+            $bodyHtml .= "Here's your confirmation for order number $oder_id. Review your receipt and get started.<br><br>
+
+            ORDER SUMMARY:<br><br>
+
+            Product: Single Event QTY.1<br>
+            Price: [price]<br>
+            Order id: [number]<br>
+            Payment id: [number]<br>
+            Order Date: [date]<br>
+            Order Total: [price]<br><br>
+            
+            Name:<br>
+            Email:<br>
+            phone number:<br><br>
+            
+                
+            Thanks and Regards,<br>
+            Team Techpulse";
+            $bodyHtml .= "Here we attached one QR code for you. It is a entry pass for 14th-15th April.<br>
+                        You have to scan this QR code at our verification desk on event date.<br>
+                        It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.";
+
             $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$code&amp;size=200x200' alt='' title='HELLO'/>";
+
             $bodyHtml .= "</body></html>";
 
             $mail = new PHPMailer(true);

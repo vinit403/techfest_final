@@ -36,8 +36,9 @@ $err = "";
             require "database_connection.php";
 
             $mailid = $_POST['usermailid'];
+            $name = $_POST['user_name'];
 
-            $sql = "SELECT * FROM `user` WHERE mail='$mailid'";
+            $sql = "SELECT * FROM `user` WHERE mail ='$mailid' AND user_id='$name'";
             $result = mysqli_query($connect, $sql);
 
             if(mysqli_num_rows($result) == 0)
@@ -45,7 +46,7 @@ $err = "";
                 $err = "No any account found with this mail";
 
                 echo '<script type ="text/JavaScript">
-                 alert("No any account found with this mail")
+                 alert("Account Not found. Check your input values.")
                 window.location = "forgot_password.php"
                 </script>';
             }
@@ -54,17 +55,27 @@ $err = "";
                 $code = rand(100000, 999999);
 
                 require 'vendor/autoload.php';
-                require 'smtp.php';
+                require '../smtp.php';
+                $sender = 'admin@techpulse.co.in';
+                $senderName = 'Techpluse Admin';
+                $recipient = $mailid;
 
                 // The subject line of the email
-                $subject = 'Your One-Time Passcode from Techpulse   ';
+                $subject = 'Your One-Time Passcode from Techpulse';
 
                 // The plain-text body of the email
                 $bodyText =  "okay you got it.";
 
                 // The HTML-formatted body of the email
                 $bodyHtml = "<html><body>";
-                $bodyHtml .= "Dear Customer,";
+                $bodyHtml .= "Dear $name,<br>";
+                $bodyHtml .= "Greetings from Techpulse. Your OTP is $code. Please note that OTP is valid for 10 minutes.<br><br>
+
+                We assure you of our best services.<br><br>
+                
+                Thanks and Regards,<br>
+                
+                Team Techpulse";
                 $bodyHtml .= "</body></html>";
 
                 // $bodyHtml = 'Your code for verification is '.$code.'';
