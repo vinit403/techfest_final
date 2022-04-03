@@ -1,4 +1,6 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 session_start();
     if(isset($_SESSION['logged_in']))
     {
@@ -135,8 +137,85 @@ session_start();
                     $sql = "INSERT INTO `workshop_purchased_on_cash` (`user_id`,`unique_code`, `promotion_team_code`) VALUES ('$user_name', '$unique_code' ,'$team_code')";
                     $result = mysqli_query($connect, $sql);
 
+                    $sql = "SELECT * FROM `user_entry_pass` WHERE user_id = $user_name";
+                    $result = mysqli_query($connect, $sql);
+                    $row = mysqli_num_rows($result);
+                    if($row == 0)
+                    {
+                        
                     $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
                     $result = mysqli_query($connect, $sql);
+
+                    require '/vendor/autoload.php';
+                    require 'smtp.php';
+
+                    $sender = 'hello@techpulse.co.in';
+                    $senderName = 'Techpluse';
+
+                    $recipient = $mail;
+                    
+                    // The subject line of the email
+                    $subject = 'Workshop order';
+                    
+                    // The plain-text body of the email
+                    $bodyText =  "okay you got it.";
+                    
+                    // The HTML-formatted body of the email
+                    $bodyHtml = "<html><body>";
+                    $bodyHtml .= "Woo hoo! You have successfully purchased Workshop. It will reflect in your wallet.<br>    <br>";
+                    $bodyHtml .= "You paid cash to our promotion team. Review your receipt and get started.<br><br>
+
+                    ORDER SUMMARY:<br><br>
+
+                    Product: Standard Package QTY.1<br>
+                    Price: ₹499<br>
+                    Order Total: ₹499<br><br>
+                    
+                    Name:<br>
+                    Email:<br>
+                    phone number:<br><br>
+                    
+                        
+                    Thanks and Regards,<br>
+                    Team Techpulse";
+                    $bodyHtml .= "Here we attached one QR code for you. It is a entry pass for 14th-15th April.<br>
+                                You have to scan this QR code at our verification desk on event date.<br>
+                                It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.";
+
+                    $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$code&amp;size=200x200' alt='' title='HELLO'/>";
+
+                    $bodyHtml .= "</body></html>";
+                    $mail = new PHPMailer(true);
+        
+                    try {
+                        // Specify the SMTP settings.
+                        $mail->isSMTP();
+                        $mail->setFrom($sender, $senderName);
+                        $mail->Username   = $usernameSmtp;
+                        $mail->Password   = $passwordSmtp;
+                        $mail->Host       = $host;
+                        $mail->Port       = $port;
+                        $mail->SMTPAuth   = true;
+                        $mail->SMTPSecure = 'tls';
+                        //  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
+        
+                        // Specify the message recipients.
+                        $mail->addAddress($recipient);
+                        // You can also add CC, BCC, and additional To recipients here.
+        
+                        // Specify the content of the message.
+                        $mail->isHTML(true);
+                        $mail->Subject    = $subject;
+                        $mail->Body       = $bodyHtml;
+                        $mail->AltBody    = $bodyText;
+                        $mail->Send();
+                        echo "Email sent!", PHP_EOL;
+                    } catch (phpmailerException $e) {
+                        echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
+                    } catch (Exception $e) {
+                        echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
+                    }
+                    }
 
                     $sql = "UPDATE `unique_codes` SET `$team_code` = 'ReMoVeD' WHERE $team_code = '$unique_code'";
                     $result = mysqli_query($connect, $sql);
@@ -163,4 +242,3 @@ session_start();
     {
         header("location: index.php");
     }
-?>

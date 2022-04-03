@@ -48,10 +48,15 @@ if ($success === true) {
             $mail = $_SESSION['mail'];
             $college = $_SESSION['college'];
 
+            $amount = $_POST['amount'];
+
             $event_count = 2;
 
             $payment_id = $_POST['razorpay_payment_id'];
             $order_id = $_POST['order_id'];
+            $amount = $_POST['amount'];
+
+            $amount = $amount / 100;
 
         
             $sql = "SELECT event_count FROM `user` WHERE user_id='$user_name'";
@@ -92,16 +97,16 @@ if ($success === true) {
     
                 // The HTML-formatted body of the email
                 $bodyHtml = "<html><body>";
-                $bodyHtml .= "Woo hoo! You have successfully purchased standard package.<br>";
+                $bodyHtml .= "Woo hoo! You have successfully purchased standard package.<br><br>";
                 $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
     
                 ORDER SUMMARY:<br><br>
     
                 Product: Standard Package QTY.1<br>
-                Price: 399<br>
+                Price: $amount<br>
                 Order id: $order_id<br>
                 Payment id: $payment_id<br>
-                Order Total:399<br><br>
+                Order Total:$amount<br><br>
                 
                 Name:<br>
                 Email:<br>

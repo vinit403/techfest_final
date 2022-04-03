@@ -53,7 +53,7 @@ if ($success === true) {
             $order_id = $_POST['order_id'];
             $amount = $_POST['amount'];
 
-            $amount = $amount/100;
+            $amount = $amount / 100;
             $sql = "SELECT event_count FROM `user` WHERE user_id='$user_name'";
             $result = mysqli_query($connect, $sql);
 
@@ -83,7 +83,7 @@ if ($success === true) {
 
             // The HTML-formatted body of the email
             $bodyHtml = "<html><body>";
-            $bodyHtml .= "Woo hoo! Now you have extra Event in your Wallet.<br>";
+            $bodyHtml .= "Woo hoo! Now you have extra Event in your Wallet.<br><br>";
             $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
     
                 ORDER SUMMARY:<br><br>

@@ -54,6 +54,9 @@ if ($success === true)
             $mail = $_SESSION['mail'];
             $college = $_SESSION['college'];
 
+            $amount = $_POST['amount'];
+            $amount = $amount / 100;
+
             $event_count = 4;
             $workshop_count = 1;
 
@@ -96,16 +99,16 @@ if ($success === true)
                 
                 // The plain-text body of the email
                 $bodyHtml = "<html><body>";
-                $bodyHtml .= "Woo hoo! You have successfully purchased Premimum package.<br>";
+                $bodyHtml .= "Woo hoo! You have successfully purchased Premimum package.<br><br>";
                 $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
     
                 ORDER SUMMARY:<br><br>
     
                 Product: Standard Package QTY.1<br>
-                Price: 399<br>
+                Price: $amount<br>
                 Order id: $order_id<br>
                 Payment id: $payment_id<br>
-                Order Total:<br><br>
+                Order Total: $amount<br><br>
                 
                 Name:<br>
                 Email:<br>

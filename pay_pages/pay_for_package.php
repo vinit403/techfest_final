@@ -237,7 +237,6 @@ $json = json_encode($data);
   <input type="hidden" name="order_id" value="<?php echo $razorpayOrderId ?>">
   <input type="hidden" name="amount" value="<?php echo $amount ?>">
 
-
 </form>
 </center>
 <div class="modal-dialog">

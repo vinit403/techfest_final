@@ -198,6 +198,7 @@ $json = json_encode($data);
   <!-- Any extra fields to be submitted with the form but not sent to Razorpay -->
   <input type="hidden" name="shopping_order_id" value="3456">
   <input type="hidden" name="order_id" value="<?php echo $razorpayOrderId ?>">
+  <input type="hidden" name="amount" value="<?php echo $amount ?>">
 
 </form>
 </center>
