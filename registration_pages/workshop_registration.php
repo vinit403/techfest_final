@@ -11,7 +11,8 @@
 </head>
 
 <?php
-
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
     session_start();
     if(isset($_SESSION['logged_in']))
     {

@@ -15,6 +15,8 @@
             $sql = "UPDATE `user` SET code='0' WHERE mail='$mailid'";
             $result = mysqli_query($connect, $sql);
 
+            $pass1 = password_hash($pass1, PASSWORD_DEFAULT);
+
             $sql = "UPDATE `user` SET password='$pass1' WHERE mail='$mailid'";
             $result = mysqli_query($connect, $sql);
 
