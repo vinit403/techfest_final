@@ -38,7 +38,7 @@
                     
                         <form action="forgot_password_verification.php" method="post" id="form1">
                             <div class="input-group">
-                                <input class="input--style-3" type="text" placeholder="User Id" name="user_name">
+                                <input class="input--style-3" type="text" placeholder="User Id" name="user_name" maxlength="20" required>
                             </div>
                             <div class="input-group">
                                 <input class="input--style-3" type="email" placeholder="Email Id" name="usermailid" maxlength="50" required>

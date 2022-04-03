@@ -13,11 +13,6 @@ if(isset($_SESSION['logged_in']))
             <div class="row">
                 <div class="col-md-12">
                     <!-- logo begin -->
-                    <div id="logo">
-                        <a href="index.php">
-                            <img class="logo" src="images-event/techpulse-logo.png" alt="" style="height: 50px;width: 190px;top: 10px;;position: absolute; left: 40px;display: block;z-index: 3002;">
-                        </a>
-                    </div>
 
                     <!-- logo close -->
 
