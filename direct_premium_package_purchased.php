@@ -1,4 +1,6 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 session_start();
     if(isset($_SESSION['logged_in']))
     {
@@ -167,15 +169,13 @@ session_start();
                     // The HTML-formatted body of the email
                     $bodyHtml = "<html><body>";
                     $bodyHtml .= "Woo hoo! You have successfully purchased standard package.<br>";
-                    $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
+                    $bodyHtml .= "You paid cash to our promotion team. Review your receipt and get started.<br><br>
         
                     ORDER SUMMARY:<br><br>
         
                     Product: Standard Package QTY.1<br>
-                    Price: 399<br>
-                    Order id: $order_id<br>
-                    Payment id: $payment_id<br>
-                    Order Total: [price]<br><br>
+                    Price: ₹899<br>
+                    Order Total: ₹899<br><br>
                     
                     Name:<br>
                     Email:<br>

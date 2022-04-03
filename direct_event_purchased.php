@@ -1,4 +1,6 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 session_start();
     if(isset($_SESSION['logged_in']))
     {
@@ -142,7 +144,7 @@ session_start();
                         require 'smtp.php';
             
                         $sender = 'hello@techpulse.co.in';
-                        $senderName = 'Techpluse Admin';
+                        $senderName = 'Techpluse';
                         $recipient = $mailid;
             
                         // The subject line of the email
@@ -154,15 +156,13 @@ session_start();
                         // The HTML-formatted body of the email
                         $bodyHtml = "<html><body>";
                         $bodyHtml .= "Woo hoo! Now you have extra Event in your Wallet.<br>";
-                        $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
+                        $bodyHtml .= "You paid cash to our promotion team. Review your receipt and get started.<br><br>
             
                         ORDER SUMMARY:<br><br>
             
                         Product: Single Event QTY.1<br>
-                        Price: $amount<br>
-                        Order id: $order_id<br>
-                        Payment id: $payment_id<br>
-                        Order Total: $amount<br><br>
+                        Price: ₹150<br>
+                        Order Total: ₹150<br><br>
                         
                         Name: $name<br>
                         Email:$mailid<br>
@@ -231,4 +231,3 @@ session_start();
     {
         header("location: index.php");
     }
-?>
