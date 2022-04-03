@@ -10,4 +10,5 @@
         $password = "Techfest##90";
         $database = "techpulse";
         $connect = mysqli_connect($servername, $username, $password, $database);  
+        
 ?>
