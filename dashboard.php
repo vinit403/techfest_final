@@ -104,7 +104,7 @@ $row2 = mysqli_num_rows($result2);
 $row = mysqli_num_rows($result);
 
 if ($row == 1 || $row2 == 1 || $row3 == 1 || $row4 == 1) {
-    $txt = "Stand up + Sunburn party Included";
+    $txt = "Stand up + DJ night party Included";
 }
 
 // Fetching events
