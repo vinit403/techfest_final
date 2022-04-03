@@ -140,7 +140,7 @@
   }
 </style>
 <?php
-// header("refresh:3,url=dashboard.php")
+header("refresh:3,url=dashboard.php")
 session_start();
 if (isset($_SESSION['logged_in'])) {
   if ($_SESSION['logged_in'] == 'true') {

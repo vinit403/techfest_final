@@ -76,18 +76,18 @@ if ($success === true)
 
 // Replace sender@example.com with your "From" address.
 // This address must be verified with Amazon SES.
-$sender = 'techpulse2022@gmail.com';
-$senderName = 'Techpluse Admin';
+$sender = 'hello@techpulse.co.in';
+$senderName = 'Techpulse';
 
 // Replace recipient@example.com with a "To" address. If your account
 // is still in the sandbox, this address must be verified.
 $recipient = $mail;
 
 // Replace smtp_username with your Amazon SES SMTP user name.
-$usernameSmtp = 'AKIAR3NH6FDMMDNB25EB';
+$usernameSmtp = 'postmaster@techpulse.co.in';
 
 // Replace smtp_password with your Amazon SES SMTP password.
-$passwordSmtp = 'BJM+spGKi0uSUKETgnodvcqdKzyFuZs5Q/pTHEPJyOjY';
+$passwordSmtp = 'f36f82f60f438dde08eefa8b87f8d86a-62916a6c-3012292c';
 
 // Specify a configuration set. If you do not want to use a configuration
 // set, comment or remove the next line.
@@ -96,7 +96,7 @@ $passwordSmtp = 'BJM+spGKi0uSUKETgnodvcqdKzyFuZs5Q/pTHEPJyOjY';
 // If you're using Amazon SES in a region other than US West (Oregon),
 // replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
 // endpoint in the appropriate region.
-$host = 'email-smtp.ap-south-1.amazonaws.com';
+$host = 'smtp.mailgun.org';
 $port = 587;
 
 // The subject line of the email

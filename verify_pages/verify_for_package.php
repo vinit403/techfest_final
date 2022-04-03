@@ -1,9 +1,9 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-if($_SERVER['REQUEST_METHOD'] != 'POST')
-{
+if ($_SERVER['REQUEST_METHOD'] != 'POST') {
     echo "page not fount...";
     exit;
 }
@@ -11,6 +11,7 @@ require('../config.php');
 session_start();
 
 require('../razorpay/razorpay-php/Razorpay.php');
+
 use Razorpay\Api\Api;
 use Razorpay\Api\Errors\SignatureVerificationError;
 
@@ -18,12 +19,10 @@ $success = true;
 
 $error = "Payment Failed";
 
-if (empty($_POST['razorpay_payment_id']) === false)
-{
+if (empty($_POST['razorpay_payment_id']) === false) {
     $api = new Api($keyId, $keySecret);
 
-    try
-    {
+    try {
         // Please note that the razorpay order ID must
         // come from a trusted source (session here, but
         // could be database or something else)
@@ -34,20 +33,15 @@ if (empty($_POST['razorpay_payment_id']) === false)
         );
 
         $api->utility->verifyPaymentSignature($attributes);
-    }
-    catch(SignatureVerificationError $e)
-    {
+    } catch (SignatureVerificationError $e) {
         $success = false;
         $error = 'Razorpay Error : ' . $e->getMessage();
     }
 }
 
-if ($success === true)
-{
-    if(isset($_SESSION['logged_in']))
-    {
-        if($_SESSION['logged_in'] == "true")
-        {
+if ($success === true) {
+    if (isset($_SESSION['logged_in'])) {
+        if ($_SESSION['logged_in'] == "true") {
             $user_name = $_SESSION['user_id'];
             $name = $_SESSION['name'];
             $phone_number = $_SESSION['phone_number'];
@@ -57,16 +51,16 @@ if ($success === true)
             $event_count = 2;
 
             $payment_id = $_POST['razorpay_payment_id'];
-        
+
             $sql = "SELECT event_count FROM `user` WHERE user_id='$user_name'";
             $result = mysqli_query($connect, $sql);
-        
+
             $r = mysqli_fetch_assoc($result);
             $event_count = $event_count + $r['event_count'];
-        
+
             $sql = "UPDATE `user` SET event_count='$event_count' WHERE user_id='$user_name'";
             $result = mysqli_query($connect, $sql);
-        
+
 
             $sql = "INSERT INTO `package_purchased` (`user_id`, `payment_id`) VALUES ('$user_name', '$payment_id')";
             $result = mysqli_query($connect, $sql);
@@ -78,40 +72,43 @@ if ($success === true)
 
             // Replace sender@example.com with your "From" address.
             // This address must be verified with Amazon SES.
-            $sender = 'techpulse2022@gmail.com';
-            $senderName = 'Techpluse Admin';
-            
+            $sender = 'hello@techpulse.co.in';
+            $senderName = 'Techpulse';
+
             // Replace recipient@example.com with a "To" address. If your account
             // is still in the sandbox, this address must be verified.
             $recipient = $mail;
-            
+
             // Replace smtp_username with your Amazon SES SMTP user name.
-            $usernameSmtp = 'AKIAR3NH6FDMMDNB25EB';
-            
+            $usernameSmtp = 'postmaster@techpulse.co.in';
+
             // Replace smtp_password with your Amazon SES SMTP password.
-            $passwordSmtp = 'BJM+spGKi0uSUKETgnodvcqdKzyFuZs5Q/pTHEPJyOjY';
-            
+            $passwordSmtp = 'f36f82f60f438dde08eefa8b87f8d86a-62916a6c-3012292c';
+
             // Specify a configuration set. If you do not want to use a configuration
             // set, comment or remove the next line.
             //$configurationSet = 'ConfigSet';
-            
+
             // If you're using Amazon SES in a region other than US West (Oregon),
             // replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
             // endpoint in the appropriate region.
-            $host = 'email-smtp.ap-south-1.amazonaws.com';
+            $host = 'smtp.mailgun.org';
             $port = 587;
-            
+
             // The subject line of the email
             $subject = 'Package purchase';
-            
+
             // The plain-text body of the email
             $bodyText =  "okay you got it.";
-            
+
             // The HTML-formatted body of the email
-            $bodyHtml = 'You have successfully purchased a package... your payment id is : '.$payment_id.'';
-            
+            $bodyHtml = 'You have successfully purchased a package... your payment id is : ' . $payment_id . '';
+            $bodyHtml .= "<html><body>";
+            $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$code&amp;size=200x200' alt='' title='HELLO'/>";
+            $bodyHtml .= "</body></html>";
+
             $mail = new PHPMailer(true);
-            
+
             try {
                 // Specify the SMTP settings.
                 $mail->isSMTP();
@@ -122,42 +119,33 @@ if ($success === true)
                 $mail->Port       = $port;
                 $mail->SMTPAuth   = true;
                 $mail->SMTPSecure = 'tls';
-              //  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
-            
+                //  $mail->addCustomHeader('X-SES-CONFIGURATION-SET', $configurationSet);
+
                 // Specify the message recipients.
                 $mail->addAddress($recipient);
                 // You can also add CC, BCC, and additional To recipients here.
-            
+
                 // Specify the content of the message.
                 $mail->isHTML(true);
                 $mail->Subject    = $subject;
                 $mail->Body       = $bodyHtml;
                 $mail->AltBody    = $bodyText;
                 $mail->Send();
-                echo "Email sent!" , PHP_EOL;
-            } 
-            catch (phpmailerException $e) {
+                echo "Email sent!", PHP_EOL;
+            } catch (phpmailerException $e) {
                 echo "An error occurred. {$e->errorMessage()}", PHP_EOL; //Catch errors from PHPMailer.
             } catch (Exception $e) {
                 echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
             }
 
             header("location: ../success.php");
-        
-        }
-        else
-        {
+        } else {
             header("location: ../login.php");
         }
-    }
-    else
-    {
+    } else {
         header("location: ../login.php");
     }
-}
-else
-{
+} else {
     $html = "<p>Your payment failed</p>
         <p>{$error}</p>";
 }
-

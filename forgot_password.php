@@ -34,9 +34,14 @@
             <div class="card card-5">
                 <div class="card-heading"></div>
                 <div class="card-body">
-                <h2 class="title"> Enter Your Mail Id</h2>
+                <h2 class="title"> Enter Your Details</h2>
                     
                         <form action="forgot_password_verification.php" method="post" id="form1">
+                            <div class="data">
+                                <div class="input-group">
+                                    <input class="input--style-3" type="text" placeholder="User Id" name="user_name">
+
+                                </div>
                        
                             <div class="input-group">
                                 <input class="input--style-3" type="email" placeholder="Email Id" name="usermailid" maxlength="50" required>
