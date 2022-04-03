@@ -983,7 +983,7 @@ require "page_navbar.php";
                                     </div>
                                     <div class="col-md-9 mt-4 mt-md-0">
                                         <h5>14th April - 2022 (2:00 PM - 5:00 PM)</h5>
-                                        <p class="workshop mt-4">Venue :- C-Building C-201-A</p>
+                                        <p class="workshop mt-4">IoT stands for Internet of Things, describing the interconnection of what is usually called "smart devices". A smart object is basically any object (having any purpose) that is upgraded by technology to provide new capabilities. An electronic chip is usually added to the object to make it smart, enabling it to interact, process data and communicate. These are the main characteristics of the intelligence of things. The interaction firstly consists of collecting data about the direct environment of the object. These data are processed and possibly spread, and the processing eventually leads to a second interaction, the object acting according to the previous steps. The ability to sense, analyze, decide and react constitutes the core of smart devices.</p>
                                         <p class="par-tech mt-4">Hands-on WorkShop.</p>
 
                                         <div class="social-team mt-4">
@@ -1005,7 +1005,7 @@ require "page_navbar.php";
                                     </div>
                                     <div class="col-md-9 mt-4 mt-md-0">
                                         <h5>14th April - 2022 (2:00 PM - 5:00 PM)</h5>
-                                        <p class="workshop mt-4">Venue:- C-Building C-201-C</p>
+                                        <p class="workshop mt-4">Flutter is an open-source software development kit which enables smooth and easy cross-platform mobile app development. You can build high quality natively compiled apps for iOS and Android quickly, without having to write the code for the two apps separately. All you need is one codebase for both platforms.</p>
                                         <p class="par-tech mt-4">Hands-on WorkShop.</p>
                                         <div class="social-team mt-4">
                                             <!-- <a href="">Rules & Regulations</a> -->
@@ -1016,7 +1016,7 @@ require "page_navbar.php";
                                     <div class="title-page-line mt-4 mb-5"></div>
 
                                     <div class="offset-md-3 col-md-9">
-                                        <h4 style="padding-top: 50px;">App development using Unity</h4>
+                                        <h4 style="padding-top: 50px;">AR App development using Unity</h4>
                                         <div class="title-page-line mt-4 mb-5"></div>
                                     </div>
                                     <div class="col-md-3">
@@ -1026,7 +1026,7 @@ require "page_navbar.php";
                                     </div>
                                     <div class="col-md-9 mt-4 mt-md-0">
                                         <h5>15th April - 2022 (2:00 PM - 5:00 PM)</h5>
-                                        <p class="workshop mt-4">Venue:- C-Building C-201-A</p>
+                                        <p class="workshop mt-4">If you have any interest in game development, then learning Unity should be your top priority. Unity is the tool used by a large number of game developers to create and power their creations. Unity software is powerful, extremely easy to use, and free until you start making the big bucks. And there’s no catch here. Unity is not a pared-down “game builder,” but rather a professional tool used by some of the biggest.</p>
                                         <p class="par-tech mt-4">Hands-on WorkShop.</p>
                                         <div class="social-team mt-4">
                                             <!-- <a href="">Rules & Regulations</a> -->
@@ -1047,7 +1047,7 @@ require "page_navbar.php";
                                     </div>
                                     <div class="col-md-9 mt-4 mt-md-0">
                                         <h5>15th April - 2022 (2:00 PM - 5:00 PM)</h5>
-                                        <p class="workshop mt-4">Venue:- C-Building C-201-C</p>
+                                        <p class="workshop mt-4">Amazon Web Services (AWS) started to offer IT services to the market in the form of web services, which is nowadays known as cloud computing. With this cloud, we need not plan for servers and other IT infrastructure which takes up much of time in advance. Instead, these services can instantly spin up hundreds or thousands of servers in minutes and deliver results faster. We pay only for what we use with no up-front expenses and no long-term commitments, which makes AWS cost efficient.</p>
                                         <p class="par-tech mt-4">Hands-on WorkShop.</p>
                                         <div class="social-team mt-4">
                                             <!-- <a href="">Rules & Regulations</a> -->
@@ -1068,7 +1068,7 @@ require "page_navbar.php";
                                     </div>
                                     <div class="col-md-9 mt-4 mt-md-0">
                                         <h5>15th April - 2022 (2:00 PM - 5:00 PM)</h5>
-                                        <p class="workshop mt-4">Venue:- Auditorium Hall</p>
+                                        <p class="workshop mt-4">Artificial intelligence generally refers to processes and algorithms that are able to simulate human intelligence, including mimicking cognitive functions such as perception, learning and problem solving. Machine learning and deep learning (DL) are subsets of AI. Specific practical applications of AI include modern web search engines, personal assistant programs that understand spoken language, self-driving vehicles and recommendation engines, such as those used by Spotify and Netflix.</p>
                                         <div class="social-team mt-4">
                                             <!-- <a href="">Rules & Regulations</a> -->
                                             <a href="registration_pages/workshop_registration.php?event=AI_ML_workshop">Register</a>

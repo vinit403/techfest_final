@@ -147,11 +147,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             </div>
 
                             <div class="p-t-10">
-                                <button class="btn btn--pill btn--green" type="submit">Submit</button>
+                                <button class="btn btn--pill btn--green" type="submit">Login</button>
                             </div>
 
                             <div class="p-t-10">
-                                <a href="forgot_password.php" class="btn btn--pill" style="color:#555">Forgot password?</a>
+                                <a href="forgot_password.php" class="btn btn--pill" style="color:#555; position:relative; left:-30px;">Forgot password?</a>
                             </div>
                         </form>
                     </div>

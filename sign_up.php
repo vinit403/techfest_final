@@ -269,7 +269,7 @@ input[type=number]::-webkit-outer-spin-button{
 
                                 </div>
                                 <div class="p-t-10" style="margin-bottom:20px">
-                                    <button class="btn btn--pill btn--green" type="submit">Submit</button>
+                                    <button class="btn btn--pill btn--green" type="submit" style="position: relative; bottom: 20px;">Signup</button>
                                 </div>
 
                             </form>
