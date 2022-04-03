@@ -7,8 +7,8 @@
 
         $servername = "techpulse.crqeegwkwobj.ap-south-1.rds.amazonaws.com";
         $username = "admin";
-        $password = "Techfest##90";
+        $password = "Awsrds##techpulse";
         $database = "techpulse";
         $connect = mysqli_connect($servername, $username, $password, $database);  
-        
+
 ?>
