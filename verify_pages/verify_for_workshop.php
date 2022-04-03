@@ -74,51 +74,50 @@ if ($success === true)
 
             $result = mysqli_query($connect, $sql);
 
-            $sql = "SELECT * FROM `user_entry_pass` WHERE user_id = $user_name";
-            $result = mysqli_query($connect, $sql);
-            $row = mysqli_num_rows($result);
-
-            if($row == 0)
-            {
-
             $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`) VALUES ('$user_name', '$mail')";
             $result = mysqli_query($connect, $sql);
 
             require '../vendor/autoload.php';
+            require '../smtp.php';
 
-            // Replace sender@example.com with your "From" address.
-            // This address must be verified with Amazon SES.
-            $sender = 'techpulse2022@gmail.com';
-            $senderName = 'Techpluse Admin';
+            $sender = 'hello@techpulse.co.in';
+            $senderName = 'Techpluse';
             
-            // Replace recipient@example.com with a "To" address. If your account
-            // is still in the sandbox, this address must be verified.
             $recipient = $mail;
             
-            // Replace smtp_username with your Amazon SES SMTP user name.
-            $usernameSmtp = 'AKIAR3NH6FDMMDNB25EB';
-            
-            // Replace smtp_password with your Amazon SES SMTP password.
-            $passwordSmtp = 'BJM+spGKi0uSUKETgnodvcqdKzyFuZs5Q/pTHEPJyOjY';
-            
-            // Specify a configuration set. If you do not want to use a configuration
-            // set, comment or remove the next line.
-            //$configurationSet = 'ConfigSet';
-            
-            // If you're using Amazon SES in a region other than US West (Oregon),
-            // replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
-            // endpoint in the appropriate region.
-            $host = 'email-smtp.ap-south-1.amazonaws.com';
-            $port = 587;
-            
             // The subject line of the email
-            $subject = 'Workshop purchase';
+            $subject = 'Workshop order';
             
             // The plain-text body of the email
             $bodyText =  "okay you got it.";
             
             // The HTML-formatted body of the email
-            $bodyHtml = 'You have successfully purchased a workshop... your payment id is : '.$payment_id.'';
+            $bodyHtml = "<html><body>";
+            $bodyHtml .= "Woo hoo! You have successfully purchased Workshop. It will reflect in your wallet.<br>";
+            $bodyHtml .= "Here's your confirmation for order number $order_id. Review your receipt and get started.<br><br>
+
+            ORDER SUMMARY:<br><br>
+
+            Product: Standard Package QTY.1<br>
+            Price: 399<br>
+            Order id: $order_id<br>
+            Payment id: $payment_id<br>
+            Order Total: [price]<br><br>
+            
+            Name:<br>
+            Email:<br>
+            phone number:<br><br>
+            
+                
+            Thanks and Regards,<br>
+            Team Techpulse";
+            $bodyHtml .= "Here we attached one QR code for you. It is a entry pass for 14th-15th April.<br>
+                        You have to scan this QR code at our verification desk on event date.<br>
+                        It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.";
+
+            $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$code&amp;size=200x200' alt='' title='HELLO'/>";
+
+            $bodyHtml .= "</body></html>";
             
             $mail = new PHPMailer(true);
             
@@ -151,7 +150,6 @@ if ($success === true)
             } catch (Exception $e) {
                 echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
             }
-        }
 
             header("location: ../success.php");
         }

@@ -85,7 +85,7 @@ if ($success === true) {
                 $recipient = $mail;
     
                 // The subject line of the email
-                $subject = 'Package purchase';
+                $subject = $user_name.', thank you for purchase';
     
                 // The plain-text body of the email
                 $bodyText =  "okay you got it.";
@@ -101,7 +101,7 @@ if ($success === true) {
                 Price: 399<br>
                 Order id: $order_id<br>
                 Payment id: $payment_id<br>
-                Order Total: [price]<br><br>
+                Order Total:399<br><br>
                 
                 Name:<br>
                 Email:<br>
