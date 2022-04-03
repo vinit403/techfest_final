@@ -524,56 +524,6 @@ header("refresh:3,url=../Event.php");
                 }
             }
 
-            // $sql = "SELECT * FROM `$event` WHERE userid='$uid_leader'";
-            // $sql2 = "SELECT * FROM `$event` WHERE userid_member2='$uid_member2'";
-            // $sql3 = "SELECT * FROM `$event` WHERE userid_member3='$uid_member3'";
-            // $sql4 = "SELECT * FROM `$event` WHERE userid_member4='$uid_member4'";
-            // $result = mysqli_query($connect, $sql);
-            // $result2 = mysqli_query($connect, $sql2);
-            // $result3 = mysqli_query($connect, $sql3);
-            // $result4 = mysqli_query($connect, $sql4);
-
-            // $rws = mysqli_num_rows($result);
-            // $rws2 = mysqli_num_rows($result2);
-            // $rws3 = mysqli_num_rows($result3);
-            // $rws4 = mysqli_num_rows($result4);
-
-            // if($rws == 1)
-            // {
-            //     echo '<script type ="text/JavaScript">
-            //     alert("'.$uid_leader.'is already in this event")ss
-            //     window.location = "group4_registration.php?event='.$event.'"
-            //    </script>'; 
-            //    $flag_verified = 1;
-
-            // }
-            // if($rws2 == 1)
-            // {
-            //     echo '<script type ="text/JavaScript">
-            //     alert("'.$uid_member2.'is already in this event")ss
-            //     window.location = "group4_registration.php?event='.$event.'"
-            //    </script>'; 
-            //    $flag_verified = 1;
-
-            // }
-            // if($rws3 == 1)
-            // {
-            //     echo '<script type ="text/JavaScript">
-            //     alert("'.$uid_member3.'is already in this event")ss
-            //     window.location = "group4_registration.php?event='.$event.'"
-            //    </script>'; 
-            //    $flag_verified = 1;
-
-            // }
-            // if($rws4 == 1)
-            // {
-            //     echo '<script type ="text/JavaScript">
-            //     alert("'.$uid_member4.'is already in this event")ss
-            //     window.location = "group4_registration.php?event='.$event.'"
-            //    </script>'; 
-            //    $flag_verified = 1;
-
-            // }
 
             if($flag_verified == 0)
             {
@@ -671,40 +621,38 @@ header("refresh:3,url=../Event.php");
                 }
 
                 require '../vendor/autoload.php';
+                require '../smtp.php';
 
-                // Replace sender@example.com with your "From" address.
-                // This address must be verified with Amazon SES.
-                $sender = 'techpulse2022@gmail.com';
-                $senderName = 'Techpluse Admin';
-                
-                // Replace recipient@example.com with a "To" address. If your account
-                // is still in the sandbox, this address must be verified.
+                $sender = 'hello@techpulse.co.in';
+                $senderName = 'Techpluse';
                 $recipient = $mail;
-                
-                // Replace smtp_username with your Amazon SES SMTP user name.
-                $usernameSmtp = 'AKIAR3NH6FDMMDNB25EB';
-                
-                // Replace smtp_password with your Amazon SES SMTP password.
-                $passwordSmtp = 'BJM+spGKi0uSUKETgnodvcqdKzyFuZs5Q/pTHEPJyOjY';
-                
-                // Specify a configuration set. If you do not want to use a configuration
-                // set, comment or remove the next line.
-                //$configurationSet = 'ConfigSet';
-                
-                // If you're using Amazon SES in a region other than US West (Oregon),
-                // replace email-smtp.us-west-2.amazonaws.com with the Amazon SES SMTP
-                // endpoint in the appropriate region.
-                $host = 'email-smtp.ap-south-1.amazonaws.com';
-                $port = 587;
-                
-                // The subject line of the email
-                $subject = 'Event registration';
-                
+
+                $subject = $name . ', Thank you for Participating';
+
                 // The plain-text body of the email
                 $bodyText =  "okay you got it.";
-                
+
                 // The HTML-formatted body of the email
-                $bodyHtml = 'Your team successfully registered in event '.$event.'';
+                $bodyHtml = "<html><body>";
+                $bodyHtml .= "Thank you for participating in Techpulse Events.<br><br>";
+                $bodyHtml .= "Event details are mention below.<br><br>
+
+                Event Name: $event<br>
+                Event Participator:<br>
+                        $name <br> 
+                        $name_2 <br>
+                        $name_3 <br>
+                        $name_4 <br><br>
+                
+                Name: $name<br>
+                Email: $mail<br>
+                phone number:$phone_number<br><br>
+                
+                    
+                Thanks and Regards,<br>
+                Team Techpulse";
+
+                $bodyHtml .= "</body></html>";
                 
                 $mail = new PHPMailer(true);
                 
