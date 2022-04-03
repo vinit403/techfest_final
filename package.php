@@ -80,7 +80,7 @@
                                                 <div class="ribbon color-2 text-white">Premium</div>
                                                 <div class="top">
                                                     <h2>Standard<sup>&nbsp;&nbsp;*</sup></h2>
-                                                    <p class="price"><span class="currency id-color">Rs.</span> <b>499/-</b></p>
+                                                    <p class="price"><span class="currency id-color">Rs.</span> <b>399/-</b></p>
                                                 </div>
                                                 <div class="bottom">
                                                     <ul>
@@ -100,7 +100,7 @@
                                                 <div class="ribbon color-2 text-white">Premium+</div>
                                                 <div class="top">
                                                     <h2>Permium<sup>&nbsp;&nbsp;*</sup></h2>
-                                                    <p class="price"><span class="currency id-color">Rs.</span> <b>999/-</b></p>
+                                                    <p class="price"><span class="currency id-color">Rs.</span> <b>899/-</b></p>
                                                 </div>
                                                 <div class="bottom">
                                                     <ul>
@@ -120,7 +120,7 @@
                                             <div class="pricing-s1 mb30">
                                                 <div class="top">
                                                     <h2>Work-Shop<sup>&nbsp;&nbsp;*</sup></h2>
-                                                    <p class="price"><span class="currency id-color">Rs.</span> <b>599/-</b></p>
+                                                    <p class="price"><span class="currency id-color">Rs.</span> <b>499/-</b></p>
                                                 </div>
                                                 <div class="bottom">
                                                     <ul>
