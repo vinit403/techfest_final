@@ -65,7 +65,7 @@ if(isset($_SESSION['logged_in']))
         $phone_number = $_SESSION['phone_number'];
         $mail = $_SESSION['mail'];
         $event = "Purchase Premium Package";
-        $amount = 999;
+        $amount = 899;
 
         $sql = "SELECT * FROM `package_purchased` WHERE user_id = '$user_name'";
         $result = mysqli_query($connect, $sql);

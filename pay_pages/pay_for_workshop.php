@@ -66,7 +66,7 @@ if(isset($_SESSION['logged_in']))
             $phone_number = $_SESSION['phone_number'];
             $mail = $_SESSION['mail'];
             $event = "Purchase workshop";
-            $amount = 599;
+            $amount = 499;
     }
     else
     {
