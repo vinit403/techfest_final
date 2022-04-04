@@ -45,12 +45,6 @@
     <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
     <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
 
-    <!-- RS5.0 Stylesheet -->
-    <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
-    <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
-
     <!-- custom font -->
     <link rel="stylesheet" href="css/font-style.css" type="text/css">
     <style>
@@ -197,6 +191,10 @@ $total2 = count($workshops);
                                             <p class="m-b-10 f-w-600">College</p>
                                             <p class="text-muted f-w-400"><?php echo $college ?></p>
                                         </div>
+                                        <div class="col-sm-6">
+                                            <p class="m-b-10 f-w-600">Package</p>
+                                            <p class="text-muted f-w-400"><?php echo $college ?></p>
+                                        </div>
                                     </div>
                                     <p class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600">Wallet</p>
                                     <div class="row">
@@ -287,50 +285,6 @@ $total2 = count($workshops);
     <script src="js/countdown-custom.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>
 
-    <!-- RS5.0 Core JS Files -->
-    <script src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-    <script src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-
-    <!-- RS5.0 Extensions Files -->
-    <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-
-    <script>
-        jQuery(document).ready(function() {
-            // revolution slider
-            jQuery("#slider-revolution").revolution({
-                sliderType: "standard",
-                sliderLayout: "fullwidth",
-                delay: 5000,
-                navigation: {
-                    arrows: {
-                        enable: true
-                    },
-                    bullets: {
-                        enable: false,
-                        style: 'hermes'
-                    },
-
-                },
-                parallax: {
-                    type: "mouse",
-                    origo: "slidercenter",
-                    speed: 2000,
-                    levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
-                },
-                spinner: "off",
-                gridwidth: 1140,
-                gridheight: 700,
-                disableProgressBar: "on"
-            });
-        });
-    </script>
 
     <script>
         $(window).on("load", function() {

@@ -196,6 +196,8 @@ $json = json_encode($data);
                     <div class="mb-3">
                         <hr class="new1">
                     </div>
+                    <h6>All the details will send to your Email.</h6>
+                    <p>If you haven't receive email. Check your spam box</p>
                     <div class="d-flex justify-content-between"> <span class="font-weight-bold">Add on Event (Qty. 1)</span> <span class="text-muted">₹149.00</span> </div>
 
                     <div class="d-flex justify-content-between mt-3"> <span class="font-weight-bold">Total</span> <span class="font-weight-bold theme-color">₹149.00</span> </div>
@@ -227,7 +229,7 @@ $json = json_encode($data);
                         <form action="../direct_event_purchased.php" method="post">
 
                             <input type="text" name="unique_code" id="uc" placeholder="Enter Unique Code" maxlength="8" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
-                            <input type="text" name="team_code" id="tc" placeholder="Enter Promotion Team Code" maxlength="4" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
+                            <input type="text" name="team_code" id="tc" placeholder="Enter campaigning Team Code" maxlength="4" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
 
                             <button type="submit" id="btn">
                                 Pay Cash To Our Team.

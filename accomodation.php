@@ -78,7 +78,7 @@
                         </div>
                             
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="text-uppercase mb-4" style="color: #fff;">Facilities Provide</h1>
+                    <h1 class="text-uppercase mb-4" style="color: #fff;">Facilities Provided</h1>
                     <!-- <p>P P Savani University, one of the leading Knowledge City is a fully integrated higher education facility for students across the globe. With an in-depth domain exposure in the field of education, it has strong capabilities across the spectrum of the education industry. From Nursing to Engineering, Liberal Arts to Specialised Sciences, Architecture to Physiotherapy and Management to Design, P P Savani University has earned a reputation amongst Indian Universities for providing a quality and comprehensive learning environment.</p> -->
                     
                     <div class="row g-4">
