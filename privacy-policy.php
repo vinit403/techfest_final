@@ -5,7 +5,7 @@
 
 
     <meta charset="utf-8">
-    <title>Terms & Conditions</title>
+    <title>Privacy Policy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -60,51 +60,48 @@
         <!-- header close -->
 
         <section id="section-about" data-bg="fixed no-repeat">
-
-            <h1>
-                <center>Terms & Conditions </center>
-            </h1><br>
-            <p style="color:white">
-                Welcome to techpulse.co.in!
-
-                These terms and conditions outline the rules and regulations for the use of techpulse's Website, located at https://www.techpulse.co.in.
-
-                By accessing this website we assume you accept these terms and conditions. Do not continue to use techpulse.co.in if you do not agree to take all of the terms and conditions stated on this page.<br><br>  
+          
+                <h1>
+               <center>Privacy Policy</center> 
+                </h1><br>
+                <p style="color:white">
                 
-                <h4>Purchases</h4>
-                Payment once done is done, it won't be refunded under any circumstances. No refund Policy.<br>
+                <p>At techpulse.co.in, accessible from https://www.techpulse.co.in, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by techpulse.co.in and how we use it.</p>
 
-                1. Participant's details will be emailed to them before the event begins. <br>
+                <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
 
-                2. Participant needs to check their spam folder if they don't get the email within an hour of registration. <br>
+                <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in techpulse.co.in. This policy is not applicable to any information collected offline or via channels other than this website.</p>
 
-                3. Participant's entry won't be transferred to anyone else. <br>
+                <h4>Consent</h4>
 
-                4. Entries won't be canceled under any circumstances. <br>
+                <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
 
-                5. If found that there are more than one person to scan the same QR code for entry into the campus, the participant will be disqualified from all the events automatically. <br>
+                <h5>Information we collect</h5>
 
-                6. All the details filled while filling the form will be considered final for all the official documents in TechPulse. <br>
+                <p>The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</p>
+                <p>If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
+                <p>When you register for an Account, we may ask for your contact information, including items such as name, email address, and telephone number.</p>
 
-                7. TechPulse team deserves the right to decline entry if discrepancy is found. <br>
+                <h4>How we use your information</h4>
 
-                8. Participant needs to show their QR code whenever required and whenever asked by TechPulse team. <br>
+                <p>We use the information we collect in various ways, including to:</p>
 
-                9. TechPulse team reserves the rights to change any rules without prior notice. <br>
+                <ul>
+                    <li>Provide, operate, and maintain our website</li>
+                    <li>Improve, personalize, and expand our website</li>
+                    <li>Understand and analyze how you use our website</li>
+                    <li>Develop new products, services, features, and functionality</li>
+                    <li>Communicate with you, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li>
+                    <li>Send you emails</li>
+                    <li>Find and prevent fraud</li>
+                </ul>
 
-                10. By submitting this registration form, you are liable to make payment in full prior to the event. <br>
+                <h4>Log Files</h4>
 
-                11. TechPulse team is not liable for any of your belongings if they are lost during the event. <br>
+                <p>techpulse.co.in follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</p>
 
-                12. Smoking is strictly prohibited inside the campus. <br>
-
-                13. All the items which are banned by The Gujarat State Government aren't allowed inside the campus. <br>
-
-                14. In the event that the candidate is found in the violation of point 13 or 14, TechPulse team deserves the right to take appropriate action. <br>
-
-                All Rights Reserved To TechPulse Team. <br>
-            </p>
-
+                </p>
+            
 
         </section>
         <!-- footer begin -->
@@ -139,6 +136,7 @@
     <script src="js/jquery.countdown.js"></script>
     <script src="js/countdown-custom.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>
+
 
 
     <script>

@@ -21,7 +21,9 @@
             </div>
 
             <div class="col-md-3" style="text-align: center;">
-                <a href="terms-conditions.php"><span class = "id-color">Terms And Conditions.</span></a>
+                <a href="terms-conditions.php"><span class = "id-color">Terms And Conditions.</span></a><br>
+                <a href="privacy-policy.php"><span class = "id-color">Privacy Policy.</span></a>
+
             </div>
         </div>
     </div>
