@@ -13,12 +13,7 @@ if(isset($_SESSION['logged_in']))
             <div class="row">
                 <div class="col-md-12">
                     <!-- logo begin -->
-                        <nav>
-                        <ul id="mainmenu" class="ms-2">
-                                <li><a href="index.php">Home<span></span></a></li>
-</ul>
-
-                        </nav>
+                        
                     <!-- logo close -->
 
                     <!-- small button begin -->

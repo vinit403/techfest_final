@@ -103,11 +103,11 @@ if ($row == 1 || $row2 == 1 || $row3 == 1 || $row4 == 1) {
 
 if($row == 1 || $row3 == 1)
 {
-    // standerd package
+    $pkg = "standerd package";
 }
 if($row2 == 1 || $row4 == 1)
 {
-    // premium package
+    $pkg = "premium package";
 }
 
 // Fetching events
@@ -193,7 +193,7 @@ $total2 = count($workshops);
                                         </div>
                                         <div class="col-sm-6">
                                             <p class="m-b-10 f-w-600">Package</p>
-                                            <p class="text-muted f-w-400"><?php echo $college ?></p>
+                                            <p class="text-muted f-w-400"><?php echo $pkg ?></p>
                                         </div>
                                     </div>
                                     <p class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600">Wallet</p>
