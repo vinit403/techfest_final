@@ -244,7 +244,7 @@ input[type=number]::-webkit-outer-spin-button{
                             <form method="POST">
                                 <div class="data">
                                     <div class="input-group">
-                                        <input class="input--style-3" type="text" placeholder="user Id" name="user_name" maxlength="20" required>
+                                        <input class="input--style-3" type="text" placeholder="User Id" name="user_name" maxlength="20" required>
                                     </div>
                         
                                     <div class="input-group">
@@ -266,6 +266,7 @@ input[type=number]::-webkit-outer-spin-button{
                                         <input class="input--style-3" type="password" placeholder="Confirm Password" name="password2" maxlength="20" required>
                                     </div>
                                     <p style="color:#555;font-size: 12px; line-height:15px;">* Password contains three character categories: digits, Uppercase characters and minimum 8-characters.</p>
+                                    <p style="color:#555;font-size: 12px; line-height:15px;">* By submitting this form you accepting our <a href = "terms-conditions.php" style="font-weight: 100;" >terms & conditions.</a></p>
 
                                 </div>
                                 <div class="p-t-10" style="margin-bottom:20px">

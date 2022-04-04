@@ -74,7 +74,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <h1 style="color: #ec167f; text-align:left; padding-bottom:5vh;">SignUp yourself or Login.</h1>
-                        <p>Click on SignUp button on navigation bar or if you account then just login.</p>
+                        <p>Click on <a href="sign_up.php"> Signup </a> button on navigation bar or if you account then just <a href="login.php"> login.</a></p>
                     </div>
 
                     <div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
@@ -86,7 +86,7 @@
 
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <h1 style="color: #ec167f; text-align:left; padding-bottom:5vh;">Go to Package page and purchase any package.</h1>
-                        <p style="text-align: justify;">Total 2 Packages are available. For more information checkout package page.<br>
+                        <p style="text-align: justify;">Total 2 Packages are available. For more information checkout <a href="package.php">package page. </a> <br>
                             click on purchase and new payment page is open. if you want to pay via online, click on Pay now.<br>
                             If you want to pay with cash then enter Unique code and campaigning team code which you have collect from our campaigning team. <br><br>
                             All the details will share with you via Email.<br>
@@ -124,7 +124,7 @@
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
 
                         <h1 style="color: #ec167f; text-align:left; padding-bottom:5vh;">registration in event.</h1>
-                        <p>You can subscribe to event according to number of event available in your wallet.<br>
+                        <p>You can subscribe to event and Workshop from Event page. Different types of events and workshop are available. <br>According to number of event available in your wallet you can register in events.<br>
                             There are three button present at each Events.<br>
                             <hr> Rules & regulations <br>
                             Register <br>
