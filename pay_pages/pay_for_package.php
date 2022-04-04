@@ -217,6 +217,7 @@ $json = json_encode($data);
                         <hr class="new1">
                     </div>
                     <h6>All the details will send to your Email.</h6>
+                    <p>If you haven't receive email. Check your spam box</p>
                     <div class="d-flex justify-content-between"> <span class="font-weight-bold">Standard Package</span> <span class="text-muted">₹399.00</span> </div>
 
                     <div class="d-flex justify-content-between mt-3"> <span class="font-weight-bold">Total</span> <span class="font-weight-bold theme-color">₹399.00</span> </div>
