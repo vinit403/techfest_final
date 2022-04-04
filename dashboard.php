@@ -107,6 +107,15 @@ if ($row == 1 || $row2 == 1 || $row3 == 1 || $row4 == 1) {
     $txt = "Stand up + DJ night party Included";
 }
 
+if($row == 1 || $row3 == 1)
+{
+    // standerd package
+}
+if($row2 == 1 || $row4 == 1)
+{
+    // premium package
+}
+
 // Fetching events
 
 $sql = "SELECT * FROM `events`";
@@ -144,6 +153,9 @@ while ($r = mysqli_fetch_assoc($result)) {
         array_push($workshops, $eve2);
         
     }
+
+
+
 }
 $total2 = count($workshops);
 ?>
