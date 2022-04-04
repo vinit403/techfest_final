@@ -76,21 +76,24 @@
                         <h1 style="color: #ec167f; text-align:left; padding-bottom:5vh;">SignUp yourself or Login.</h1>
                         <p>Click on SignUp button on navigation bar or if you account then just login.</p>
                     </div>
-                    
+
                     <div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
                         <div class="de-images">
                             <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/login.png" alt="" />
                         </div>
                     </div>
-                
+
 
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                         <h1 style="color: #ec167f; text-align:left; padding-bottom:5vh;">Go to Package page and purchase any package.</h1>
                         <p style="text-align: justify;">Total 2 Packages are available. For more information checkout package page.<br>
                             click on purchase and new payment page is open. if you want to pay via online, click on Pay now.<br>
-                            If you want to pay with cash then enter Unique code and campaigning team code which you have collect from our campaigning team.
+                            If you want to pay with cash then enter Unique code and campaigning team code which you have collect from our campaigning team. <br><br>
+                            All the details will share with you via Email.<br>
+                            If you purchase any package then on Email you have one QR code. You must carry that QR code on 14th-15th April, 2022 for Entry verification.
+
                         </p>
-                        
+
                     </div>
                     <div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
                         <div class="de-images" style="margin-top: 10vh;">
@@ -98,38 +101,80 @@
                             <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/pkg2.png" alt="" />
                         </div>
                     </div>
+
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
 
-                        <h1 style="color: #ec167f; text-align:left;">Acoording to package events are include in your dashboard.</h1>
+                        <h1 style="color: #ec167f; text-align:left; padding-bottom:5vh;">Acoording to package events are include in your dashboard.</h1>
                         <p>Here at dashboard all the details are visible.<br>
                             As wallet, according to your purchase, number of events and workshop are showed.<br>
+                            Access your dashboard via clicking on you user id name on navigation bar.<br>
+                            <br>
+                            Let's say you purchase standard package then, in your wallet Number of event will be 2.<br>
+                            You can participant in two events.
+
+
                         </p>
                     </div>
                     <div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
                         <div class="de-images" style="margin-top: 10vh;">
-                            <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/pkg.png" alt="" />
+                            <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/dash.png" alt="" />
                         </div>
                     </div>
 
-                    <h1 style="color: #ec167f; text-align:left;">registration in event.</h1>
-                    <p>You can subscribe to event according to number of event available in your wallet.<br>
-                    </p>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
 
+                        <h1 style="color: #ec167f; text-align:left; padding-bottom:5vh;">registration in event.</h1>
+                        <p>You can subscribe to event according to number of event available in your wallet.<br>
+                            There are three button present at each Events.<br>
+                            <hr> Rules & regulations <br>
+                            Register <br>
+                            Contact Us <br>
+                            <hr>
+                            Click on Register, you see one success page. It will automatically redirect to dashboard.
 
-                    <!-- <div class="row g-4">
-                        <div class="col-md-6">
-                            <h3 class="text-uppercase mb-3" style="color: #ec167f;">Since 2017</h3>
-                            <p class="mb-0">PPSU is providing various opportunity to all the students for their talent.</p>
+                        </p>
+                    </div>
+                    <div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
+                        <div class="de-images" style="margin-top: 10vh;">
+                            <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/event.png" alt="" />
+                            <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/reg.png" alt="" style="margin-top: 5vh;" />
+
                         </div>
-                        <div class="col-md-6">
-                            <h3 class="text-uppercase mb-3" style="color: #ec167f;">10000+ Students</h3>
-                            <p class="mb-0">Gain knowledge from PPSU and shows their talent to the world.</p>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+
+                        <h1 style="color: #ec167f; text-align:left; padding-top:10vh;">Same goes for Workshop purchase.</h1>
+                        <p>You can subscribe to workshop according to number of workshop available in your wallet.<br>
+                            Click on Register, you see one success page. It will automatically redirect to dashboard.
+
+                        </p>
+                    </div>
+
+                    <div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
+                        <div class="de-images" style="margin-top: 10vh;">
+                            <!-- <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/dash.png" alt="" /> -->
                         </div>
-                        
-                    </div> -->
+                    </div>
+
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+
+                        <h1 style="color: #ec167f; text-align:left; padding-bottom:5vh;">More Events.</h1>
+                        <p>If you want to participant in more events then purchase add on events.<br>
+                            Click on Purchase, complete payment. In your dashboard number of event is increased by 1.
+
+                        </p>
+                    </div>
+                    <div class="col-lg-6 mb-sm-30 text-center wow fadeInRight">
+                        <div class="de-images" style="margin-top: 10vh;">
+                            <img class="img-fluid wow fadeInRight" data-wow-delay=".25s" src="images/add.png" alt="" />
+
+                        </div>
+                    </div>
+
                 </div>
-
             </div>
+
+    </div>
     </div>
     </section>
 

@@ -12,9 +12,6 @@ if(isset($_SESSION['logged_in']))
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <!-- logo begin -->
-                        
-                    <!-- logo close -->
 
                     <!-- small button begin -->
                     <span id="menu-btn"></span>
@@ -27,6 +24,7 @@ if(isset($_SESSION['logged_in']))
                                 <li><a href="about_us.php">About<span></span></a></li>
                                 <li><a href="Event.php">Events<span></span></a></li>
                                 <li><a href="package.php">Packages<span></span></a></li>
+                                <li><a href="howto.php">How to?<span></span></a></li>
                                 <li><a href="contact-us.php">Contact us<span></span></a></li>
                                 <li><a href="accomodation.php">Accomodation<span></span></a></li>
                                 <li><a href="dashboard.php" style="color:#ec167f";>'.$user_id.'<span></span></a></li>
@@ -74,6 +72,7 @@ if($flag == 1)
                         <li><a href="about_us.php">About<span></span></a></li>
                         <li><a href="Event.php">Events<span></span></a></li>
                         <li><a href="package.php">Packages<span></span></a></li>
+                        <li><a href="howto.php">How to?<span></span></a></li>
                         <li><a href="contact-us.php">Contact us<span></span></a></li>
                         <li><a href="accomodation.php">Accomodation<span></span></a></li>
                         <li><a href="login.php" style="color:#ec167f">LogIn<span></span></a></li>

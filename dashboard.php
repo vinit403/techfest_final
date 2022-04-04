@@ -78,7 +78,8 @@ if (isset($_SESSION['logged_in'])) {
     header("location: login.php");
 }
 
-$txt = "nothing";
+$txt = "None";
+$pkg = "None";
 $event = [];
 
 $workshops = [];
@@ -199,11 +200,11 @@ $total2 = count($workshops);
                                     <p class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600">Wallet</p>
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <p class="m-b-10 f-w-600">Event</p>
+                                            <p class="m-b-10 f-w-600">Number of Event</p>
                                             <p class="text-muted f-w-400"><?php echo $event_count ?></p>
                                         </div>
                                         <div class="col-sm-6">
-                                            <p class="m-b-10 f-w-600">Workshops</p>
+                                            <p class="m-b-10 f-w-600">Number of Workshops</p>
                                             <p class="text-muted f-w-400"><?php echo $workshop_count ?></p>
                                         </div>
                                         <div class="col-sm-6">
@@ -234,7 +235,7 @@ $total2 = count($workshops);
                                     <p class="m-b-20 m-t-40 p-b-5 b-b-default f-w-600">Entertainment</p>
                                     <div class="row">
                                         <div class="col-sm-6">
-                                            <p class="m-b-10 f-w-600">Event</p>
+                                            <!-- <p class="m-b-10 f-w-600">Evening Events</p> -->
                                             <p class="text-muted f-w-400"><?php echo $txt ?></p>
                                         </div>
                                         
