@@ -1,8 +1,8 @@
 <?php
 
-    $usernameSmtp = 'postmaster@techpulse.cf';
+    $usernameSmtp = 'postmaster@techpulse.co.in';
 
-    $passwordSmtp = '6aebe6408c96f1fd5a0906e3d012a0f0-62916a6c-856bd4fb';
+    $passwordSmtp = '0d2c7512b24f0f56a9a5d696b92334e4-38029a9d-55ea6358';
 
     $host = 'smtp.mailgun.org';
     $port = 587;
