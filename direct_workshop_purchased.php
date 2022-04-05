@@ -144,6 +144,7 @@ session_start();
 
                     $sql = "SELECT * FROM `user_entry_pass` WHERE user_id = $user_name";
                     $result = mysqli_query($connect, $sql);
+
                     $row = mysqli_num_rows($result);
                     if($row == 0)
                     {
@@ -151,7 +152,7 @@ session_start();
                         $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`, `unique_number`) VALUES ('$user_name', '$mail', '$uuid')";
                         $result = mysqli_query($connect, $sql);
 
-                    require '/vendor/autoload.php';
+                    require 'vendor/autoload.php';
                     require 'smtp.php';
 
                     $sender = 'hello@techpulse.co.in';
@@ -206,7 +207,7 @@ session_start();
         
                         // Specify the message recipients.
                         $mail->addAddress($recipient);
-                        // You can also add CC, BCC, and additional To recipients here.
+                        // You can also add CC, BCC, and addition..al To recipients here.
         
                         // Specify the content of the message.
                         $mail->isHTML(true);
