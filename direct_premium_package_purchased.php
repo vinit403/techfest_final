@@ -34,9 +34,12 @@ session_start();
                 $sql = "SELECT `$team_code` FROM `unique_codes` WHERE $team_code ='$unique_code'";
                 $result = mysqli_query($connect, $sql);
 
+                $r = mysqli_fetch_assoc($result);
+                $code = $r[$team_code];
+
                 $rows = mysqli_num_rows($result);
 
-                if($rows == 0)
+                if($rows == 0 || $code == 'ReMoVed')
                 {
                     echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
