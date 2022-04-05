@@ -83,13 +83,15 @@ else
             <div class="card card-5">
                 <div class="card-heading"></div>
                 <div class="card-body">
-                <h2 class="title"><?php echo $event ?> Registration</h2>   
+                <h2 class="title"><?php echo $event ?> Registration</h2>
+                <p style="color:#555;font-size: 12px; line-height:15px;">Maximum 3 students. If you are solo then Click on Register. </p>
+
                         <form action="group3_registration_validation.php" method="post" id="form1">
                         <div class="input-group">
-                                <input class="input--style-3" type="text" placeholder="User Id" name="uid_member2" maxlength="20">
+                                <input class="input--style-3" type="text" placeholder="Second User Id" name="uid_member2" maxlength="20">
                             </div>
                             <div class="input-group">
-                                <input class="input--style-3" type="text" placeholder="User Id" name="uid_member3" maxlength="20">
+                                <input class="input--style-3" type="text" placeholder="Third User Id" name="uid_member3" maxlength="20">
                             </div>
                             
                             <div class="p-t-10">

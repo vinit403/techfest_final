@@ -180,9 +180,9 @@ session_start();
                     Price: ₹899<br>
                     Order Total: ₹899<br><br>
                     
-                    Name:<br>
-                    Email:<br>
-                    phone number:<br><br>
+                    Name: $name<br>
+                    Email: $mail<br>
+                    phone number: $phone_number<br><br>
                     
                         
                     Thanks and Regards,<br>

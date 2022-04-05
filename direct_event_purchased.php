@@ -168,8 +168,8 @@ session_start();
                         Order Total: ₹150<br><br>
                         
                         Name: $name<br>
-                        Email:$mailid<br>
-                        phone number:$phone_number<br><br>
+                        Email: $mail<br>
+                        phone number: $phone_number<br><br>
                         
                             
                         Thanks and Regards,<br>

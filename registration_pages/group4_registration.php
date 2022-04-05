@@ -75,16 +75,18 @@ if (isset($_SESSION['logged_in'])) {
                 <div class="card-heading"></div>
                 <div class="card-body">
                 <h2 class="title"><?php echo $event ?> Registration</h2>
+                <p style="color:#555;font-size: 12px; line-height:15px;">Maximum 4 students. If you are solo then Click on Register.</p>
+
                         <form action="group4_registration_validation.php" method="post" id="form1">
                         
                             <div class="input-group">
-                                <input class="input--style-3" type="text" placeholder="User Id" name="uid_member2" maxlength="20">
+                                <input class="input--style-3" type="text" placeholder="Second User Id" name="uid_member2" maxlength="20">
                             </div>
                             <div class="input-group">
-                                <input class="input--style-3" type="text" placeholder="User Id" name="uid_member3" maxlength="20">
+                                <input class="input--style-3" type="text" placeholder="Third User Id" name="uid_member3" maxlength="20">
                             </div>
                             <div class="input-group">
-                                <input class="input--style-3" type="text" placeholder="User Id" name="uid_member4" maxlength="20">
+                                <input class="input--style-3" type="text" placeholder="Fourth User Id" name="uid_member4" maxlength="20">
                             </div>
 
                             <input type="hidden" name="event" value="<?php echo $event ?>">

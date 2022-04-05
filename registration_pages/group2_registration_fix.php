@@ -85,8 +85,9 @@ else
                 <div class="card-heading"></div>
                 <div class="card-body">
                 <h2 class="title"><?php echo $event ?> Registration</h2>
-                    
+                <p style="color:#555;font-size: 12px; line-height:15px;">Enter second participator's user Id.</p>
                         <form action="group2_registration_validation.php" method="post" id="form1">
+
                        
                             <div class="input-group">
                                 <input class="input--style-3" type="text" placeholder="User Id" name="uid_member2" maxlength="20" required>
