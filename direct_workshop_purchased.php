@@ -207,7 +207,7 @@ session_start();
         
                         // Specify the message recipients.
                         $mail->addAddress($recipient);
-                        // You can also add CC, BCC, and additional To recipients here.
+                        // You can also add CC, BCC, and addition..al To recipients here.
         
                         // Specify the content of the message.
                         $mail->isHTML(true);
