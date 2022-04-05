@@ -33,7 +33,10 @@ session_start();
 
                 $rows = mysqli_num_rows($result);
 
-                if($rows == 0)
+                $r = mysqli_fetch_assoc($result);
+                $code = $r[$team_code];
+
+                if($rows == 0 || $code == 'ReMoVeD')
                 {
                     echo '<div id="simpleModal" class="modal" tabindex="-1" role="dialog">
                     <div class="modal-dialog" role="document">
