@@ -188,7 +188,7 @@ session_start();
                                 You have to scan this QR code at our verification desk on event date.<br>
                                 It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.";
 
-                    $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$code&amp;size=200x200' alt='' title='HELLO'/>";
+                    $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$uuid&amp;size=200x200' alt='' title='HELLO'/>";
 
                     $bodyHtml .= "</body></html>";
                     $mail = new PHPMailer(true);
