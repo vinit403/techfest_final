@@ -147,19 +147,19 @@ if(!isset($_SESSION['login']) || $_SESSION['login'] != true){
                 $result3 = mysqli_query($connect, $sql3);
 
                 $row_package = mysqli_num_rows($result3);
-                $amount_package = $row_package*499;
+                $amount_package = $row_package*399;
 
                 $sql4 = "SELECT * FROM `premium_package_purchased_on_cash` WHERE promotion_team_code='$team_code'";
                 $result4 = mysqli_query($connect, $sql4);
 
                 $row_premium = mysqli_num_rows($result4);
-                $amount_premium = $row_premium*999;
+                $amount_premium = $row_premium*899;
 
                 $sql5 = "SELECT * FROM `workshop_purchased_on_cash` WHERE promotion_team_code='$team_code'";
                 $result5 = mysqli_query($connect, $sql5);
 
                 $row_workshop = mysqli_num_rows($result5);
-                $amount_workshop = $row_workshop*599;
+                $amount_workshop = $row_workshop*499;
 
                 echo '<br><h4>'.$team_code.'</h4>';
                 echo '<p>add on events : '.$amount_event.'</p>';
