@@ -58,7 +58,7 @@ Team Techpulse";
 
 $bodyHtml .= "</body></html>";
 
-$recipient = "21se02ml006@ppsu.ac.in";
+$recipient = "";
 $mail = new PHPMailer(true);
 
 try {
