@@ -263,7 +263,7 @@ $json = json_encode($data);
                     <div class="px-4 py-51">
                         <h4 class="mt-5 theme-color mb-5">Only for cash payment</h4>
                         <center>
-                        <form action="../direct_event_purchased.php" method="post">
+                        <form action="../direct_premium_package_purchased.php" method="post">
 
                             <input type="text" name="unique_code" id="uc" placeholder="Enter Unique Code" maxlength="8" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
                             <input type="text" name="team_code" id="tc" placeholder="Enter campaigning Team Code" maxlength="4" style="background-color:white; font-size: 13px; margin-bottom:10px; color:black" required><br>
