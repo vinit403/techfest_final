@@ -262,7 +262,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">In this group event, students have to make a demo model of the bridge. There will be only one round. In this game, based on load absorption capacity, the winner will be declared. The main concept of the game is the design of Truss, checking the strength of the bridge.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1ze-jWuLZIByleaqWjCeLBE2417M-A3L4/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group3_registration.php?event=Constructo">Register</a>
+                                            <!-- <a href="registration_pages/group3_registration.php?event=Constructo">Register</a> -->
                                             <a href="mailto:20se09cv007@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -286,7 +286,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">This is a group event for 3-5 members. In this event, the participants have to prepare a boat by using popsicle sticks, fevicol, and foil paper. There will be only one round in this event. The model which can carry maximum load will be the winner of the contest.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1O0z1LaT_Gn9d9uMBReholUYPCEM_jG0k/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group3_registration.php?event=Float_A_Boat">Register</a>
+                                            <!-- <a href="registration_pages/group3_registration.php?event=Float_A_Boat">Register</a> -->
                                             <a href="mailto:20se09cv001@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -315,7 +315,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">Design a manually controlled ROBOT that can cover maximum distance in the shortest possible time, challenging the hurdles and being one of the best opponents. Think your robot which can overcome any obstacle big or small in the least possible time. If so, get it on the track and let the game begin. Rounds and obstacles will be disclosed on the event day.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1l7Mb3dv_oyF4SbNldR97hmdpN0c8c8p1/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group4_registration.php?event=Gaddi_On_Roll">Register</a>
+                                            <!-- <a href="registration_pages/group4_registration.php?event=Gaddi_On_Roll">Register</a> -->
                                             <a href="mailto:20se09me003@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -338,7 +338,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">In this event, you need to keep your mind sharp to face impromptu challenges about making a machine that works according to the given situation. Show your mechanical skills to make the best model.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1_FwtNcdoipfMtGzQUNiehJqvGm5gfbsg/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group4_registration.php?event=Scrapheap">Register</a>
+                                            <!-- <a href="registration_pages/group4_registration.php?event=Scrapheap">Register</a> -->
                                             <a href="mailto:19se02me003@ppsu.ac.in"> Contact Us </a>
 
                                         </div>
@@ -368,7 +368,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">In this event, the participants will have to use various ‘chemical reactions’ to move a device (vehicle). There will be three rounds in this event. Use your chemical knowledge of reaction to make your car displace as much as possible.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1GduKFG2jqwO22ZTCN9GJsTWTFpHRMyCh/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group3_registration.php?event=Camowheel">Register</a>
+                                            <!-- <a href="registration_pages/group3_registration.php?event=Camowheel">Register</a>  -->
                                             <a href="mailto:19se02ch036@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -391,7 +391,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">Bring your grey cells too far from classroom rote, Chemstar quiz is all about the world of Chemical engineering. We know a quiz is a form of game or mind sport, let us do something exciting in a quiz and get ready for a twist of ludo in the intense world of techno quizzing.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/16CxnXulTu7237GYMUl1U1-_dAU3BCLwK/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group2_registration_fix.php?event=Chemstar">Register</a>
+                                            <!-- <a href="registration_pages/group2_registration_fix.php?event=Chemstar">Register</a> -->
                                             <a href="mailto:19se02ch001@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -420,7 +420,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">If you think that you are capable of beating your competitor’s team just by the technical knowledge and skill, then this is the best platform for your team, where you can be the warrior and acquire the winning position. Here you are evaluated by quiz in the first elimination round. Afterward, you have to beat the opponent’s team by solving a maximum number of technical problems. According to the completion of tasks by a team, points will be calculated. The team which acquires the highest points will be declared as the winner.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/147F2s5QeYLuyR5p5tBGhHsFfD1sKpuek/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group4_registration.php?event=Spartance">Register</a>
+                                            <!-- <a href="registration_pages/group4_registration.php?event=Spartance">Register</a> -->
                                             <a href="mailto:19se02ce030@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -445,7 +445,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">Blind coding is an event where a programmer works on code without looking at the screen. Boosting the concept of Programming we bring forward a unique coding challenge. Blind coding is your opportunity where each one of you has a chance to win.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1GpJ8802kBNbc1qmcsXOd3aAxkbOMEn1A/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/single_registration.php?event=Blind_Coding">Register</a>
+                                            <!-- <a href="registration_pages/single_registration.php?event=Blind_Coding">Register</a> -->
                                             <a href="mailto:19se02ce007@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -473,7 +473,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">It's an event with individual participation. All the participants in this event must complete three rounds. Participants have to perform the task within a time limit. The participants must be familiar with Linux and Ethical Hacking. Evaluation will be based on how a participant will manage to exploit their attacks.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1zsD8FuShMVbaQyeiLkLjzLf6w8jv1fzq/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/single_registration.php?event=Access_Denied">Register</a>
+                                            <!-- <a href="registration_pages/single_registration.php?event=Access_Denied">Register</a> -->
                                             <a href="mailto:19se02ce059@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -496,7 +496,7 @@ require "page_navbar.php";
                                         <p class="par-tech mt-4">This is a group event for two participants. Participants in this event must complete three rounds. The participant must be familiar with the JAVA programming language. Participants are required to perform tasks within a specified time. Participants have to perform code debugging on paper and FIX the BUGS. Participants will be given computer errors/problems which they must fix. Problem statements will be provided, along with their related code. There will be elimination rounds throughout the event.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1dRiRP1wslWXok8KNiRSPm6fIusXYE3wj/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group2_registration_fix.php?event=Debugging_Code">Register</a>
+                                            <!-- <a href="registration_pages/group2_registration_fix.php?event=Debugging_Code">Register</a> -->
                                             <a href="mailto:19se02ce009@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -553,7 +553,7 @@ require "page_navbar.php";
                                         <p class="par-tech mt-4">In this group event, students have to make the demo model of the smart city look. There will be only one round. The best and most creative model will be declared as the winner of the game. The main concept of the game is creativity & design of the team.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1T5LLM2qYqazgVD32QVcLvyT83i282dE5/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group5_registration.php?event=Sthapatya_gta">Register</a>
+                                            <!-- <a href="registration_pages/group5_registration.php?event=Sthapatya_gta">Register</a> -->
                                             <a href="mailto:18se02cv002@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -577,7 +577,7 @@ require "page_navbar.php";
                                         <p class="par-tech mt-4">Participants have to come with the boat according to the given specifications on the event date and win the race. There will be several stages and no elimination round and winners will be decided on the basis of points or time. Rounds will be disclosed on event day only.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1IARBDPQOKU_9WfOii4F9BRfslSGyp-mr/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group4_registration.php?event=Boat_Battle">Register</a>
+                                            <!-- <a href="registration_pages/group4_registration.php?event=Boat_Battle">Register</a> -->
                                             <a href="mailto:19se02me013@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -604,7 +604,7 @@ require "page_navbar.php";
                                         <p class="par-tech mt-4">It's a group event where the maximum number of participants per group should be 03. Participants have to identify the chemistry clues available at various locations on the campus. The teams will have to identify the available clues, solve the problem which would lead to the next clue. Each team is required to find and solve 10 clues. Students reaching the final clue in a minimum amount of time will be declared as the winner.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1SKxJnJ19ZjHxXc9k98NN91Q6khORTXAI/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group3_registration.php?event=Scavenger_Hunt">Register</a>
+                                            <!-- <a href="registration_pages/group3_registration.php?event=Scavenger_Hunt">Register</a> -->
                                             <a href="mailto:20se08ch003@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -630,7 +630,7 @@ require "page_navbar.php";
                                         <p class="tech mt-4">The Hawk Eyes event is a kind of Technical Treasure Hunt which is a semi-technical event. During all three elimination rounds, the event is designed such that players have fun while tackling coding problems. Each team must have at least one person who is familiar with the C programming language. All of the rounds are time-bounded, and teams will be selected to proceed to the next round based on First Come, First Serve.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1RErdFqi6MDqy57bwhB6tjNnejxbiCkmW/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group4_registration.php?event=The_Hawk_Eyes">Register</a>
+                                            <!-- <a href="registration_pages/group4_registration.php?event=The_Hawk_Eyes">Register</a> -->
                                             <a href="mailto:19se02ce044@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -656,7 +656,7 @@ require "page_navbar.php";
                                         <p class="par-tech mt-4">n this event you can win by designing creatively & accurately. Participants will be given minimal requirements to design on the website. The team using the least time with accurate completion that hosts the website on any domain and submit before the deadline will be considered as winners. Fasten up your Imaginations to design it virtually!</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1TYJHxyy9fHNXPn5N82u870hdjgfXvz6z/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group3_registration.php?event=Dot_Your_Imagination">Register</a>
+                                            <!-- <a href="registration_pages/group3_registration.php?event=Dot_Your_Imagination">Register</a> -->
                                             <a href="mailto:20se02ml046@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -713,7 +713,7 @@ require "page_navbar.php";
                                         <p class="gen-tech mt-4">This is a group event in which every group has to solve riddles and puzzles and also some tricky questions with physical and mental activity to break out the final code to go outside the building. This event contains elimination as per increment of a round in order to make tough competition to break out the final code.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1VJuj2VRrLvvy29-yhzPRiwN6luydOj7n/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group4_registration.php?event=Break_Out">Register</a>
+                                            <!-- <a href="registration_pages/group4_registration.php?event=Break_Out">Register</a> -->
                                             <a href="mailto:19se02it026@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -738,7 +738,7 @@ require "page_navbar.php";
                                         <p class="gen-tech mt-4">In this game, you can win by begging, borrowing, or stealing things. Participants will be given a list of things that they have to fetch within a period. Everything is fair in this war. ‘Jugaad’ is the keyword. For once, you won’t be excluded for begging, unappreciated for borrowing, or accused of stealing. The team which earns the maximum points in the least time will be declared winners. It’s time to put on your shoes, fasten your belts, smarten up your imagination and put all your resources to fetch the most radical things. So, get ready to have some real fun.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1IZxkytpLTMItOJqzjlazjtCPgviQkthd/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group5_registration.php?event=Beg_Borrow_Steal">Register</a>
+                                            <!-- <a href="registration_pages/group5_registration.php?event=Beg_Borrow_Steal">Register</a> -->
                                             <a href="mailto:19se02ce025@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -763,7 +763,7 @@ require "page_navbar.php";
                                         <p class="gen-tech mt-4">In this event, we will ask the participants for ideas on how to sell the given product? The best idea will be chosen and will get marks accordingly. The product will be given by coordinators.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1zJJQdiC_wj-SKIc730OT_xROk32jNd5F/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/single_registration.php?event=Sell_This_Product">Register</a>
+                                            <!-- <a href="registration_pages/single_registration.php?event=Sell_This_Product">Register</a> -->
                                             <a href="mailto:20se02ce063@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -788,7 +788,7 @@ require "page_navbar.php";
                                             <p class="gen-tech mt-4">This event is a group event in which the maximum two participants are allowed. In this event, a participant has to pass the laser and point them to a given exit point. Participants have to choose the right path through mirror reflection and fixed objects to point the laser to the given exit point.</p>
                                             <div class="social-team mt-4">
                                                 <a href="https://drive.google.com/file/d/1aQjrMnlbxxtR4BUugpFiDFtd6W9ZL88V/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                                <a href="registration_pages/group2_registration.php?event=Laser_Break">Register</a>
+                                                <!-- <a href="registration_pages/group2_registration.php?event=Laser_Break">Register</a> -->
                                                 <a href="mailto:19se02ce058@ppsu.ac.in"> Contact Us </a>
                                             </div>
                                     </div>
@@ -813,7 +813,7 @@ require "page_navbar.php";
                                         <p class="gen-tech mt-4">In this event, anyone can participate and there is no limit on the number of teams. All the teams will consist of exactly 5 players. The game will be Counter strike: Global Offensive (CS:sGO). First there will be an elimination round in which 2 teams will play Team deathmatch and whoever will win, goes to qualifiers. Then after elimination rounds, 8 teams will qualify to go to the qualifiers. Then there will be competitive matches based on bracket elimination. There will be 1 qualifier round, 1 semi-final round and 1 Final match.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1fMCoBPrXoDGZ5J1DkYscqi-_2LW8GHAv/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group5_registration_fix.php?event=Lan_Strike">Register</a>
+                                            <!-- <a href="registration_pages/group5_registration_fix.php?event=Lan_Strike">Register</a> -->
                                             <a href="mailto:19se02ce076@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -862,7 +862,7 @@ require "page_navbar.php";
                                         <p class="ex-event mt-4">Participants will have to produce an advertisement for a product/service within a given time. The best advertisement chosen will be marked accordingly. The decision of Judges will be final.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1OEKPnxv7En5jC2jraiBejsX5pPVmqOmS/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group5_registration.php?event=mad_about_ads">Register</a>
+                                            <!-- <a href="registration_pages/group5_registration.php?event=mad_about_ads">Register</a> -->
                                             <a href="mailto:19smp7bc039@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -886,7 +886,7 @@ require "page_navbar.php";
                                         <p class="ex-event mt-4">In this event you have to show your creativity based on the theme of the current trends in science. This includes three competitions like poster making, model representation and sci-toon drawing. The winner will be selected based on creativity.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1_ZCOYB4pWvHo4b86AVqlKLB9gjmYR_po/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group2_registration.php?event=sci_fi_exhibits">Register</a>
+                                            <!-- <a href="registration_pages/group2_registration.php?event=sci_fi_exhibits">Register</a> -->
                                             <a href="mailto:20ss02es016@ppsu.ac.in"> Contact Us </a>
                                         </div>
                                     </div>
@@ -910,7 +910,7 @@ require "page_navbar.php";
                                         <p class="ex-event mt-4">The event is based on the aqua water refinement working model. The model which includes the process of removing the suspended particles, bacteria and other undesirable substance from contaminated water to produce safe and clean drinking water. The model must be made from natural products only. The use of harmful substances is strictly prohibited. Descriptive chart (Standard Size-70×56cm) of model must display during demonstration.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/19i4oNdJ8cCctfpvKeMhuOz9hFETTofH-/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/group2_registration.php?event=sustainable_aqua_refinement">Register</a>
+                                            <!-- <a href="registration_pages/group2_registration.php?event=sustainable_aqua_refinement">Register</a> -->
                                             <a href="mailto:19sn02nr056@ppsu.ac.in"> Contact Us </a>
 
                                         </div>
@@ -936,7 +936,7 @@ require "page_navbar.php";
                                         <p class="ex-event mt-4">The Tavdi plates will be provided by the institution. The decorative materials such as colors, paint brushes, glue etc. Should be brought by the students.</p>
                                         <div class="social-team mt-4">
                                             <a href="https://drive.google.com/file/d/1sesFbxA0YcHuHzOQnYxXW35zNhZRMYpJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Rules & Regulations</a>
-                                            <a href="registration_pages/single_registration.php?event=tavdi_painting">Register</a>
+                                            <!-- <a href="registration_pages/single_registration.php?event=tavdi_painting">Register</a> -->
                                             <a href="mailto:20sa02ar009@ppsu.ac.in"> Contact Us </a>
 
                                         </div>
@@ -988,7 +988,7 @@ require "page_navbar.php";
 
                                         <div class="social-team mt-4">
                                             <!-- <a href="">Rules & Regulations</a> -->
-                                            <a href="registration_pages/workshop_registration.php?event=IOT_workshop">Register</a>
+                                            <!-- <a href="registration_pages/workshop_registration.php?event=IOT_workshop">Register</a> -->
                                         </div>
                                     </div>
 
@@ -1009,7 +1009,7 @@ require "page_navbar.php";
                                         <p class="par-tech mt-4">Hands-on WorkShop.</p>
                                         <div class="social-team mt-4">
                                             <!-- <a href="">Rules & Regulations</a> -->
-                                            <a href="registration_pages/workshop_registration.php?event=Flutter_workshop">Register</a>
+                                            <!-- <a href="registration_pages/workshop_registration.php?event=Flutter_workshop">Register</a> -->
                                         </div>
                                     </div>
 
@@ -1030,7 +1030,7 @@ require "page_navbar.php";
                                         <p class="par-tech mt-4">Hands-on WorkShop.</p>
                                         <div class="social-team mt-4">
                                             <!-- <a href="">Rules & Regulations</a> -->
-                                            <a href="registration_pages/workshop_registration.php?event=Unity_workshop">Register</a>
+                                            <!-- <a href="registration_pages/workshop_registration.php?event=Unity_workshop">Register</a> -->
                                         </div>
                                     </div>
 
@@ -1051,7 +1051,7 @@ require "page_navbar.php";
                                         <p class="par-tech mt-4">Hands-on WorkShop.</p>
                                         <div class="social-team mt-4">
                                             <!-- <a href="">Rules & Regulations</a> -->
-                                            <a href="registration_pages/workshop_registration.php?event=AWS_workshop">Register</a>
+                                            <!-- <a href="registration_pages/workshop_registration.php?event=AWS_workshop">Register</a> -->
                                         </div>
                                     </div>
 
@@ -1071,7 +1071,7 @@ require "page_navbar.php";
                                         <p class="workshop mt-4">Artificial intelligence generally refers to processes and algorithms that are able to simulate human intelligence, including mimicking cognitive functions such as perception, learning and problem solving. Machine learning and deep learning (DL) are subsets of AI. Specific practical applications of AI include modern web search engines, personal assistant programs that understand spoken language, self-driving vehicles and recommendation engines, such as those used by Spotify and Netflix.</p>
                                         <div class="social-team mt-4">
                                             <!-- <a href="">Rules & Regulations</a> -->
-                                            <a href="registration_pages/workshop_registration.php?event=AI_ML_workshop">Register</a>
+                                            <!-- <a href="registration_pages/workshop_registration.php?event=AI_ML_workshop">Register</a> -->
                                         </div>
                                     </div>
 

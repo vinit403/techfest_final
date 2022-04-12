@@ -23,7 +23,7 @@ if(isset($_SESSION['logged_in']))
                                 <li><a href="index.php">Home<span></span></a></li>
                                 <li><a href="about_us.php">About<span></span></a></li>
                                 <li><a href="Event.php">Events<span></span></a></li>
-                                <li><a href="package.php">Packages<span></span></a></li>
+                                
                                 <li><a href="howto.php">How to?<span></span></a></li>
                                 <li><a href="contact-us.php">Contact us<span></span></a></li>
                                 <li><a href="accomodation.php">Accomodation<span></span></a></li>
@@ -71,7 +71,7 @@ if($flag == 1)
                         <li><a href="index.php">Home<span></span></a></li>
                         <li><a href="about_us.php">About<span></span></a></li>
                         <li><a href="Event.php">Events<span></span></a></li>
-                        <li><a href="package.php">Packages<span></span></a></li>
+                        
                         <li><a href="howto.php">How to?<span></span></a></li>
                         <li><a href="contact-us.php">Contact us<span></span></a></li>
                         <li><a href="accomodation.php">Accomodation<span></span></a></li>
