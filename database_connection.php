@@ -5,7 +5,7 @@
         // $database = "techfest_website_database";
         // $connect = mysqli_connect($servername, $username, $password, $database); 
 
-        $servername = "techpulse.crqeegwkwobj.ap-south-1.rds.amazonaws.com";
+        $servername = "techpulse.c4vg6z6fzyif.ap-south-1.rds.amazonaws.com";
         $username = "admin";
         $password = "Awsrds##techpulse";
         $database = "techpulse";

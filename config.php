@@ -14,7 +14,7 @@ $displayCurrency = 'INR';
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$servername = "techpulse.crqeegwkwobj.ap-south-1.rds.amazonaws.com";
+$servername = "techpulse.c4vg6z6fzyif.ap-south-1.rds.amazonaws.com";
 $username = "admin";
 $password = "Awsrds##techpulse";
 $database = "techpulse";
