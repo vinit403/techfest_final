@@ -175,7 +175,7 @@
 								</div>
 								<div class="team-desc" > 
 									<h3>IOT (Internet of Things)</h3>
-									<p class="lead" style="font-size:13px">14<sup>th</sup> April-2022 (2:00 PM - 5:00 PM)</p>
+									<!-- <p class="lead" style="font-size:13px">14<sup>th</sup> April-2022 (2:00 PM - 5:00 PM)</p> -->
 									<div class="small-border"></div>
                                     <li><a href="Event.php" ><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 								
@@ -197,7 +197,7 @@
 								</div>
 								<div class="team-desc" >
 									<h3>App development using Flutter Framework</h3>
-									<p class="lead" style="font-size:13px">14<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p>
+									<!-- <p class="lead" style="font-size:13px">14<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p> -->
 									<div class="small-border"></div>
                                     <li><a href="Event.php" "><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 					
@@ -214,7 +214,7 @@
 								</div>
 								<div class="team-desc" >
 									<h3>App development using Unity</h3>
-									<p class="lead" style="font-size:13px">15<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p>
+									<!-- <p class="lead" style="font-size:13px">15<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p> -->
 									<div class="small-border"></div>
                                     <li><a href="Event.php" ><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 						
@@ -231,7 +231,7 @@
 								</div>
 								<div class="team-desc" >
 									<h3>AWS (Amazon Web services)</h3>
-									<p class="lead" style="font-size:13px">15<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p>
+									<!-- <p class="lead" style="font-size:13px">15<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p> -->
 									<div class="small-border"></div>
                                     <li><a href="Event.php" ><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 									
@@ -248,7 +248,7 @@
 								</div>
 								<div class="team-desc" >
 									<h3>AI/ML</h3>
-									<p class="lead" style="font-size:13px">15<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p>
+									<!-- <p class="lead" style="font-size:13px">15<sup>th</sup> April - 2022 (2:00 PM - 5:00 PM)</p> -->
 									<div class="small-border"></div>
                                     <li><a href="Event.php" ><input type="button" value="More Information" style="background-color: #ec167f;color:white;border:none;height:40px;border-radius:50px; padding: 0 20px 0 20px;"><span></span></a></li>
 						
@@ -289,9 +289,10 @@
                                             <div class="col-md-12">
                                                 <div class="schedule-listing">
                                                     <div class="schedule-item">
-                                                       
-
-									                    <img src="images-event/timeline/timeline.png" class="img-responsive" alt="" />
+                                                        <P>
+                                                            Will be declare soon.
+                                                        </P>
+									                    <!-- <img src="images-event/timeline/timeline.png" class="img-responsive" alt="" /> -->
 
                                                         
                                                         <div class="clearfix"></div>
