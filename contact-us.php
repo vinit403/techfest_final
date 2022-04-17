@@ -151,7 +151,7 @@
 								</div>
 							</div>
 							<div class="col-md-6 d-flex align-items-stretch">
-								<div class="info-wrap w-100 p-md-5 p-4 py-5 img">
+								<div class="info-wrap w-100 p-md-5 p-4 py-5 img" style="display: block;">
 									<h3>Contact information</h3>
 									<p class="mb-4">We are open to any suggestions or just to have a chat.</p>
 				        	<div class="dbox w-100 d-flex align-items-start">
@@ -191,7 +191,7 @@
 
 
             <!-- footer begin -->
-            <?php
+        <?php
     require "page_footer.php";
 ?>
         <!-- footer close -->
