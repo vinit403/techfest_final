@@ -208,14 +208,14 @@ jQuery(document).ready(function () {
     // --------------------------------------------------
     function init_de() {
 
-        enquire.register("screen and (max-width: 993px)", {
-            match: function () {
-                $('header').addClass("header-mobile");
-            },
-            unmatch: function () {
-                $('header').removeClass("header-mobile");
-            }
-        });
+        // enquire.register("screen and (max-width: 993px)", {
+        //     match: function () {
+        //         $('header').addClass("header-mobile");
+        //     },
+        //     unmatch: function () {
+        //         $('header').removeClass("header-mobile");
+        //     }
+        // });
 
         var $window = jQuery(window);
         jQuery('section[data-type="background"]').each(function () {

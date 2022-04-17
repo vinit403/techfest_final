@@ -128,6 +128,10 @@ background:url(../images/background/subheader.jpg)top fixed;
 		font-size: 80px !important;
 		margin-top: -100px !important;
 	}
+	#content{
+		position: relative;
+		top: 70px;
+	}
 }
 
 	

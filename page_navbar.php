@@ -7,7 +7,7 @@ if(isset($_SESSION['logged_in']))
     {
         $user_id = $_SESSION['user_id'];
 
-        echo '      <header class="transparent">
+        echo '      <header class="transparent" style="top:0px;">
 
         <div class="container">
             <div class="row">
