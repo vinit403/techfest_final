@@ -66,7 +66,11 @@
 <?php
 require "page_navbar.php";
 ?>
+
 <style>
+    header{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
     .event section {
         padding: 0px;
         overflow: hidden;
