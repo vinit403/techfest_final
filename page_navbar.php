@@ -56,6 +56,11 @@ if($flag == 1)
     <div class="row">
         <div class="col-md-12">
             <!-- logo begin -->
+            <div id="logo" style="background-size: cover;">
+            <a href="index.html">
+                <img class="logo" src="images-event/tp1.png" alt="">
+            </a>
+        </div>
             
             <!-- logo close -->
 

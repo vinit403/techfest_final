@@ -43,12 +43,6 @@
     <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
     <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
 
-    <!-- RS5.0 Stylesheet -->
-    <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
-    <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
-	
 	<!-- custom font -->
 	<link rel="stylesheet" href="css/font-style.css" type="text/css">
 </head>
@@ -211,21 +205,6 @@
     <script src="js/countdown-custom.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>	
 
-    <!-- RS5.0 Core JS Files -->
-    <script src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-    <script src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-
-    <!-- RS5.0 Extensions Files -->
-    <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-
-	
 	<script>
     $(window).on("load", function(){
       $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});

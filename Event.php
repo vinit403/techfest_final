@@ -37,13 +37,6 @@
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
     <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
     <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
-
-    <!-- RS5.0 Stylesheet -->
-    <link rel="stylesheet" href="revolution/css/settings.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/layers.css" type="text/css">
-    <link rel="stylesheet" href="revolution/css/navigation.css" type="text/css">
-    <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
-
     <!-- custom font -->
     <link rel="stylesheet" href="css/font-style.css" type="text/css">
 

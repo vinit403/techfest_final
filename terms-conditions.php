@@ -60,7 +60,7 @@
         <!-- header close -->
 
         <section id="section-about" data-bg="fixed no-repeat">
-        <div class="wm wm-border dark wow fadeInDown " style="padding-top:50px;">T&C</div>
+        <div class="wm wm-border dark wow fadeInDown">T&C</div>
                 <div class="container">
                 <div class="row">
 				<div class="col-md-6 offset-md-3 text-center wow fadeInUp">

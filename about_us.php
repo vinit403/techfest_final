@@ -65,7 +65,7 @@
 			
 			<!-- section begin -->
 			<section id="section-about" data-bg="fixed no-repeat">
-				<div class="wm wm-border dark wow fadeInDown" style="margin-top: 50px;">PPSU</div>
+				<div class="wm wm-border dark wow fadeInDown" >PPSU</div>
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
@@ -253,50 +253,6 @@
     <script src="js/countdown-custom.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>	
 
-    <!-- RS5.0 Core JS Files -->
-    <script src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-    <script src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-
-    <!-- RS5.0 Extensions Files -->
-    <script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-
-    <script>
-        jQuery(document).ready(function() {
-            // revolution slider
-            jQuery("#slider-revolution").revolution({
-                sliderType: "standard",
-                sliderLayout: "fullwidth",
-                delay: 5000,
-                navigation: {
-                    arrows: {
-                        enable: true
-                    },
-                    bullets: {
-                        enable: false,
-                        style: 'hermes'
-                    },
-
-                },
-                parallax: {
-                    type: "mouse",
-                    origo: "slidercenter",
-                    speed: 2000,
-                    levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
-                },
-                spinner: "off",
-                gridwidth: 1140,
-                gridheight: 700,
-                disableProgressBar: "on"
-            });
-        });
-    </script>
 	
 	<script>
     $(window).on("load", function(){
