@@ -125,6 +125,7 @@ background:url(../images/background/subheader.jpg)top fixed;
 	background-position:top !important;
 	}
 	.wm.dark.wm-border{
+		line-height: 80px;
 		font-size: 80px;
 	}
 }
