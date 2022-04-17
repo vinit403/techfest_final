@@ -50,7 +50,6 @@ if ($success === true) {
             $phone_number = $_SESSION['phone_number'];
             $mail = $_SESSION['mail'];
             $college = $_SESSION['college'];
-
             $amount = $_POST['amount'];
 
             $event_count = 2;
@@ -109,7 +108,7 @@ if ($success === true) {
                 Price: $amount<br>
                 Order id: $order_id<br>
                 Payment id: $payment_id<br>
-                Order Total:$amount<br><br>
+                Order Total: $amount<br><br>
                 
                 Name: $name<br>
                 Email: $mail<br>
