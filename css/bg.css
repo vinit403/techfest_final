@@ -123,6 +123,7 @@ background:url(../images/background/subheader.jpg)top fixed;
 	background-attachment:scroll !important;
 	background-position:top !important;
 	position: relative;;
+	top: 80px;
 	}
 	.wm.dark.wm-border{
 		line-height: 80px !important;

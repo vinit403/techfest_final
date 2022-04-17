@@ -440,19 +440,19 @@ jQuery(document).ready(function () {
 
                 }
             }
-            if (ms.matches) {
-                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                    shrinkOn = 100,
-                    header = document.querySelector("header");
-                if (distanceY > shrinkOn) {
-                    classie.add(header, "smaller");
-                } else {
-                    if (classie.has(header, "smaller")) {
-                        classie.remove(header, "smaller");
-                    }
+            // if (ms.matches) {
+            //     var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            //         shrinkOn = 100,
+            //         header = document.querySelector("header");
+            //     if (distanceY > shrinkOn) {
+            //         classie.add(header, "smaller");
+            //     } else {
+            //         if (classie.has(header, "smaller")) {
+            //             classie.remove(header, "smaller");
+            //         }
 
-                }
-            }
+            //     }
+            // }
               // enquire.register("screen and (max-width: 993px)", {
         //     match: function () {
         //         $('header').addClass("header-mobile");
