@@ -2459,6 +2459,8 @@ border:solid 1px #ddd;
 	.text-light,
 	.text-light p{
 	color:#ddd;
+	position: relative;
+	height: 50vh;
 	}
 	
 	.text-dark{
@@ -6779,7 +6781,6 @@ display:table;
 	margin:0;
 	padding:0;
 	margin-top:0;	
-	background:#000000 !important;
 	padding:15px 0 15px 0;
 	}
 	
@@ -7378,7 +7379,7 @@ display:table;
 	custom for 320px & 480px 
 	/* -------------------------------------------------- */
 	@media only screen and (max-width: 767px) {
-	.container{padding-left:30px !important; padding-right:30px !;}
+	.container{padding-left:30px !important; padding-right:30px !important;}
 	.feature-box-image,.pricing-box{margin-bottom:30px;}
 
 	

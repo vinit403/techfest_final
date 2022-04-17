@@ -423,7 +423,7 @@ jQuery(document).ready(function () {
         var screen_height = parseInt(jQuery(window).height(), 10);
         var header_mt = screen_height - header_height;
         var mq = window.matchMedia("(min-width: 993px)");
-        var ms = window.matchMedia("(min-width: 768px)");
+        var ms = window.matchMedia("(max-width: 768px)");
 
         window.addEventListener('scroll', function (e) {
 
@@ -440,6 +440,27 @@ jQuery(document).ready(function () {
 
                 }
             }
+            if (ms.matches) {
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 100,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header, "smaller");
+                } else {
+                    if (classie.has(header, "smaller")) {
+                        classie.remove(header, "smaller");
+                    }
+
+                }
+            }
+              // enquire.register("screen and (max-width: 993px)", {
+        //     match: function () {
+        //         $('header').addClass("header-mobile");
+        //     },
+        //     unmatch: function () {
+        //         $('header').removeClass("header-mobile");
+        //     }
+        // });
 
             if (mq.matches) {
                 jQuery("header").addClass("clone", 1000, "easeOutBounce");
