@@ -198,7 +198,7 @@ overflow:visible;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s; 
-	margin-top: -15px;
+	margin-top: -10px;
 	}
 	header div#logo .logo-2{
 	display:none;
@@ -6897,7 +6897,7 @@ display:table;
 	display: none;
 	}
 	div#logo{
-	margin-top:-30px !important;
+	margin-top:-25px !important;
 	margin-left: -35px !important;
 	}
 	#logo, #logo .inner {

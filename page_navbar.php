@@ -57,8 +57,8 @@ if($flag == 1)
         <div class="col-md-12">
             <!-- logo begin -->
             <div id="logo" style="background-size: cover;">
-            <a href="index.html">
-                <img class="logo" src="images-event/tp1.png" alt="">
+            <a href="index.php">
+                <img class="logo" src="images-event/tp.png" alt="" style="height: 100px;width: 200px;">
             </a>
         </div>
             
