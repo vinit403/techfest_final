@@ -174,8 +174,8 @@ session_start();
                     ORDER SUMMARY:<br><br>
 
                     Product: Standard Package QTY.1<br>
-                    Price: ₹499<br>
-                    Order Total: ₹499<br><br>
+                    Price: INR 499.00<br>
+                    Order Total: INR 499.00<br><br>
                     
                     Name:<br>
                     Email:<br>

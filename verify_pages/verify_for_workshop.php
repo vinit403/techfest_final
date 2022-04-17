@@ -112,10 +112,10 @@ if ($success === true)
             ORDER SUMMARY:<br><br>
 
             Product: Standard Package QTY.1<br>
-            Price: $amount<br>
+            Price: INR $amount.00<br>
             Order id: $order_id<br>
             Payment id: $payment_id<br>
-            Order Total: $amount<br><br>
+            Order Total: INR $amount.00<br><br>
             
             Name: $name<br>
             Email: $mail<br>

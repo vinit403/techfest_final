@@ -4,8 +4,8 @@
 // $keySecret = 'kLYrkQX3b20uSsfP8nAZeZhX';
 // $displayCurrency = 'INR';
 
-$keyId = 'rzp_test_ZNLJDXrC172XHy';
-$keySecret = 'g8eZwzOxvewasSIbwFnDStX5';
+$keyId = 'rzp_test_0owRfSJRFwV8sn';
+$keySecret = 'tFOdGCbDTxfUqoSQ8QLd4MTm';
 $displayCurrency = 'INR';
 
 //These should be commented out in production
