@@ -61,9 +61,15 @@
 
         <section id="section-about" data-bg="fixed no-repeat">
           
-                <h1>
-               <center>Privacy Policy</center> 
-                </h1><br>
+        <div class="wm wm-border dark wow fadeInDown " style="padding-top:50px;font-size:200px;">Privacy Policy</div>
+                <div class="container">
+                <div class="row">
+				<div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                            <h1>Privacy Policy</h1>
+                            <div class="separator"><span><i class="fa fa-square"></i></span></div>
+                            <div class="spacer-single"></div>
+                        </div>
+				</div>
                 <p style="color:white">
                 
                 <p>At techpulse.co.in, accessible from https://www.techpulse.co.in, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by techpulse.co.in and how we use it.</p>

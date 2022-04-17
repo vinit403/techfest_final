@@ -60,18 +60,26 @@
         <!-- header close -->
 
         <section id="section-about" data-bg="fixed no-repeat">
-
-            <h1>
-                <center>Terms & Conditions </center>
-            </h1><br>
-            <p style="color:white">
+        <div class="wm wm-border dark wow fadeInDown " style="padding-top:50px;">T&C</div>
+                <div class="container">
+                <div class="row">
+				<div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                            <h1>Terms & Conditions</h1>
+                            <div class="separator"><span><i class="fa fa-square"></i></span></div>
+                            <div class="spacer-single"></div>
+                        </div>
+				</div>
+           
+            <p style="color:white;">
                 Welcome to techpulse.co.in!
 
                 These terms and conditions outline the rules and regulations for the use of techpulse's Website, located at https://www.techpulse.co.in.
 
-                By accessing this website we assume you accept these terms and conditions. Do not continue to use techpulse.co.in if you do not agree to take all of the terms and conditions stated on this page.<br><br>  
-                
-                <h4>Purchases</h4>
+                By accessing this website we assume you accept these terms and conditions. Do not continue to use techpulse.co.in if you do not agree to take all of the terms and conditions stated on this page.<br><br>
+            </p>
+            
+                <h4 style="color:white;">Purchases</h4>
+                <p style="color:white;">
                 Payment once done is done, it won't be refunded under any circumstances. No refund Policy.<br>
 
                 1. Participant's details will be emailed to them before the event begins. <br>
@@ -102,7 +110,7 @@
 
                 14. In the event that the candidate is found in the violation of point 13 or 14, TechPulse team deserves the right to take appropriate action. <br>
 
-                All Rights Reserved To TechPulse Team. <br>
+                All Rights Reserved To TechPulse Team.
             </p>
 
 
