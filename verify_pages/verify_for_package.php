@@ -116,10 +116,10 @@ if ($success === true) {
 
                 $bodyHtml .= "Here we attached one QR code for you. It is a entry pass for 14th-15th April.<br>
                             You have to scan this QR code at our verification desk on event date.<br>
-                            It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.";
+                            It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.<br><br>";
     
-                $bodyHtml .= "<img src='https://api.qrserver.com/v1/create-qr-code/?data=$uuid&amp;size=200x200' alt='' title='HELLO'/>";
-                $bodyHtml .= "Thanks and Regards,<br>
+                $bodyHtml .= "<br><img src='https://api.qrserver.com/v1/create-qr-code/?data=$uuid&amp;size=200x200' alt='' title='Entry Pass'/>";
+                $bodyHtml .= "<br><br><br>Thanks and Regards,<br>
                 Team Techpulse";
     
                 $bodyHtml .= "</body></html>";
