@@ -151,7 +151,7 @@ session_start();
                         $recipient = $mail;
             
                         // The subject line of the email
-                        $subject = $user_name . ', thank you for your order';
+                        $subject = $name . ', thank you for your order';
             
                         // The plain-text body of the email
                         $bodyText =  "okay you got it.";

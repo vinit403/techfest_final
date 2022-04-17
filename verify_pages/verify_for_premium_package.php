@@ -101,7 +101,7 @@ if ($success === true)
                 
     
                 // The subject line of the email
-                $subject = 'Premium package purchase';
+                $subject =  $name.', thanks for purchasing premium package';
                 
                 // The plain-text body of the email
                 $bodyHtml = "<html><body>";

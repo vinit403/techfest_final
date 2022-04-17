@@ -99,7 +99,7 @@ if ($success === true)
             $recipient = $mail;
             
             // The subject line of the email
-            $subject = 'Workshop order';
+            $subject =  $name.', thanks for purchasing Workshop';
             
             // The plain-text body of the email
             $bodyText =  "okay you got it.";
