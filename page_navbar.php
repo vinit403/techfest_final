@@ -12,7 +12,14 @@ if(isset($_SESSION['logged_in']))
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-
+                <!-- logo begin -->
+                <div id="logo" style="background-size: cover;">
+                <a href="index.php">
+                    <img class="logo" src="images-event/tp.png" alt="" style="height: 100px;width: 200px;">
+                </a>
+            </div>
+                
+                <!-- logo close -->
                     <!-- small button begin -->
                     <span id="menu-btn"></span>
                     <!-- small button close -->
@@ -37,7 +44,8 @@ if(isset($_SESSION['logged_in']))
 
             </div>
         </div>
-        </header>';
+        </header>
+        <script src="js/nav.js"></script>';
     }
     else{
         $flag=1;
