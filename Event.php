@@ -71,6 +71,13 @@ require "page_navbar.php";
     header{
         background-color: rgba(0, 0, 0, 0.5);
     }
+    @media only screen and (max-width: 992px){
+        header{
+            position: relative !important;;
+        }
+    }
+        
+    
     .event section {
         padding: 0px;
         overflow: hidden;
