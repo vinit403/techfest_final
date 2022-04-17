@@ -146,12 +146,7 @@ session_start();
                     $sql = "SELECT * FROM `user_entry_pass` WHERE user_id = $user_name";
                     $result = mysqli_query($connect, $sql);
                     $row = mysqli_num_rows($result);
-                    if($row == 0)
-                    {
-                        
-                    $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`, `unique_number`) VALUES ('$user_name', '$mail', '$uuid')";
-                    $result = mysqli_query($connect, $sql);
-
+                    
                     require 'vendor/autoload.php';
                     require 'smtp.php';
         
@@ -180,12 +175,20 @@ session_start();
                     Name: $name<br>
                     Email: $mail<br>
                     phone number: $phone_number<br><br>";
+
+                    if($row == 0)
+                    {
+                        
+                    $sql = "INSERT INTO `user_entry_pass` (`user_id`, `mail`, `unique_number`) VALUES ('$user_name', '$mail', '$uuid')";
+                    $result = mysqli_query($connect, $sql);
+
                     
                     $bodyHtml .= "Here we attached one QR code for you. It is a entry pass for 14th-15th April.<br>
                                 You have to scan this QR code at our verification desk on event date.<br>
                                 It is one time scanable QR code so <b> DO NOT SHARE </b> with anyone.<br><br>";
         
                     $bodyHtml .= "<br><img src='https://api.qrserver.com/v1/create-qr-code/?data=$uuid&amp;size=200x200' alt='' title='HELLO'/>";
+                    }
                     $bodyHtml .= "<br><br><br>Thanks and Regards,<br>
                                     Team Techpulse";
                     $bodyHtml .= "</body></html>";
@@ -220,7 +223,6 @@ session_start();
                     } catch (Exception $e) {
                         echo "Email not sent. {$mail->ErrorInfo}", PHP_EOL; //Catch errors from Amazon SES.
                     }
-                    }
 
 
                     $sql = "UPDATE `unique_codes` SET `$team_code` = 'ReMoVeD' WHERE $team_code = '$unique_code'";
@@ -248,4 +250,3 @@ session_start();
     {
         header("location: index.php");
     }
-?>

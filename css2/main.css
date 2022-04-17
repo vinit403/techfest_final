@@ -525,7 +525,7 @@
     .card-3 .card-heading {
       display: block;
       width: 100%;
-      padding-top: 400px;
+      padding-top: 200px;
       background-position: center center;
     }
     .card-3 .card-body {
@@ -574,7 +574,7 @@
     .card-2 .card-heading {
       display: block;
       width: 100%;
-      padding-top: 400px;
+      padding-top: 200px;
       background-position: center center;
     }
     .card-2 .card-body {
@@ -640,7 +640,7 @@
   }
   @media (max-width: 360px) {
     .wrapper--w780{
-        max-width: 360px;
+        max-width: 320px;
     }
   }
 /* Signup page */
