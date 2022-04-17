@@ -60,6 +60,7 @@
             .team-desc h3{
                 font-size:17px;
             }
+
         }
 
     
@@ -84,7 +85,7 @@
         <div id="content" class="no-bottom no-top">
 
             <!-- revolution slider begin -->  
-            <section id="section-hero" class="full-height text-light" data-bgimage="url(images/main-page.jpg) fixed top center" data-stellar-background-ratio=".2" style="position: relative;">
+            <section id="section-hero" class="full-height text-light" data-bgimage="url(images/main-page.jpg) fixed top center" data-stellar-background-ratio=".2" style="position: relative;height: 50vh;">
             <div id="particles-js"></div>
 				<div class="center-y text-center">
 					<div class="container">
