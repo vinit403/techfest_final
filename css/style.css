@@ -116,7 +116,7 @@ overflow:visible;
 	-ms-transition: height 0.3s;
 	-o-transition: height 0.3s;
 	transition: height 0.3s;
-	background:#18191b;
+	/* background:#18191b; */
 	border-bottom:solid 1px rgba(0,0,0,0.0);
 	display: block;
 	transition: top 0.5s;
@@ -168,7 +168,7 @@ overflow:visible;
 	}
 	
 	header.transparent{
-	background:#18191b;
+	/* background:#18191b; */
 	}
 	
 	header.autoshow{
@@ -239,7 +239,7 @@ overflow:visible;
 	}
 	header.smaller:not(.header-bottom):not(.side-header){
 	height: 70px;
-	background:#18191b;
+	background:#000;
 	}
 	header.smaller.no-border:not(.header-bottom):not(.side-header){
 	border:none;
@@ -6900,7 +6900,7 @@ display:table;
 	display: none;
 	}
 	div#logo{
-	margin-top:-15px !important;
+	margin-top:-25px !important;
 	margin-left: -35px !important;
 	}
 	#logo, #logo .inner {
@@ -6969,7 +6969,6 @@ display:table;
 	margin:0;
 	width:100%;
 	display:block;
-	letter-spacing:3px;
 	}
 	
 	#mainmenu li a:after{

@@ -88,5 +88,6 @@ if($flag == 1)
 
     </div>
 </div>
-</header>';
+</header>
+<script src="js/nav.js"></script>';
 }
