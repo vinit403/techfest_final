@@ -116,7 +116,6 @@ background:url(../images/background/subheader.jpg)top fixed;
 /* media query */
 @media only screen and (max-width: 767px) {
 	section{
-	padding: 0px;
 	-webkit-background-size: auto 100% !important;
 	-moz-background-size: auto 100% !important;
 	-o-background-size: auto 100% !important;
@@ -127,6 +126,7 @@ background:url(../images/background/subheader.jpg)top fixed;
 	.wm.dark.wm-border{
 		line-height: 80px !important;
 		font-size: 80px !important;
+		margin-top: -100px;
 	}
 }
 
